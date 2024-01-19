@@ -74,6 +74,27 @@ const fs = require('fs');
  * @property {number} controlLight - The amount of control light.
  * @property {number} amplificationLight - The amount of amplification light.
  * @property {number} specialLight - The amount of special light.
+ *
+ *
+ * @typedef {Object} BloomBonus
+ * @property {string} bloomBonusType
+ * @property {string} description
+ * @property {number} phase
+ * @property {number} effectMasterId
+ * @property {string} iconPath
+ *
+ *
+ * @typedef {Object} BloomReward
+ * @property {number} thingId
+ * @property {string} thingType
+ * @property {number} thingQuantity
+ * @property {number} phase
+ *
+ *
+ * @typedef {Object} BloomBonusGroup
+ * @property {number} id
+ * @property {BloomBonus[]} bloomBonuses
+ * @property {BloomReward[]} bloomRewards
  */
 
 
@@ -106,7 +127,7 @@ const starActDate = fs.readFileSync('starAct.json', 'utf-8');
 /** @type {StarAct[]} */
 const starActArray = JSON.parse(starActDate);
 const id2StarAct = {};
-starActArray.forEach((starAct) =>{
+starActArray.forEach((starAct) => {
     id2StarAct[starAct.id] = starAct;
 });
 
@@ -117,7 +138,16 @@ const starActConditionArray = JSON.parse(starActConditionDate);
 const id2StarActCondition = {};
 starActConditionArray.forEach((starActCondition) => {
     id2StarActCondition[starActCondition.id] = starActCondition;
-})
+});
+
+// characterBloomBonusGroups.json 读取
+const characterBloomBonusGroupsDate = fs.readFileSync('characterBloomBonusGroup.json', 'utf-8');
+/** @type {BloomBonusGroup[]} */
+const characterBloomBonusGroupsArray = JSON.parse(characterBloomBonusGroupsDate);
+const id2BloomBonusGroup = {};
+characterBloomBonusGroupsArray.forEach((bloomBonusGroup) => {
+    id2BloomBonusGroup[bloomBonusGroup.id] = bloomBonusGroup;
+});
 
 
 // 角色 id 到 名字
@@ -155,6 +185,12 @@ const type2Wiki = {
     Support: "支援系", Amplification: "增强系", Special: "特殊系", Control: "支配系",
 }
 
+/**
+ * 解释 ISO 日期字符串，然后转化为诸如 2000.1.1 的字符串形式。如果是 2023-1-1 则转化为开服日期。
+ *
+ * @param {string} startDate - ISO 日期字符串
+ * @returns {string} - 返回字符串
+ */
 function displayDateConvert(startDate) {
     if (startDate === "2023-01-01T00:00:00") {
         return "2023.07.26";
@@ -164,7 +200,9 @@ function displayDateConvert(startDate) {
     }
 }
 
+
 /** @param {Character} character */
+
 function wikiTemplate(character) {
     const cardName = character.name; // 卡牌名
     const minLevelStatus = character.minLevelStatus; // 一级属性
@@ -176,16 +214,17 @@ function wikiTemplate(character) {
     const coolDown = sense.coolTime; // 技能 cd
     const type = type2Wiki[sense.type] ?? '无'; // 技能光的颜色
     const description = sense.description; // 技能描述
+    const displayDateString = displayDateConvert(character.displayStartAt); // 转化为 2000.1.1 的日期格式
 
     const starAct = id2StarAct[character.starActMasterId]; // sa
 
     const starActCondition = id2StarActCondition[starAct.starActConditionMasterId]; // sa 光的条件
+    const bloomBonusGroup = id2BloomBonusGroup[character.bloomBonusGroupMasterId]; // 开花 效果
+
     const green = starActCondition.supportLight;
     const red = starActCondition.controlLight;
     const yellow = starActCondition.amplificationLight;
     const blue = starActCondition.specialLight;
-
-    const displayDateString = displayDateConvert(character.displayStartAt);
 
 
     return `{{卡面信息
