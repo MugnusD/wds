@@ -95,17 +95,30 @@ const type2Wiki = {
     Control: "支配系",
 }
 
+function displayDateConvert(startDate) {
+    if (startDate === "2023-01-01T00:00:00") {
+        return "2023.07.26";
+    } else {
+        const date = new Date(startDate);
+        return `${date.getFullYear()}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${(date.getDay() + 1).toString().padStart(2, '0')}`
+    }
+}
+
 /** @param {Character} character */
 function wikiTemplate(character) {
-    const cardName = character.name;
-    const minLevelStatus = character.minLevelStatus;
-    const name = id2Name[character.characterBaseMasterId];
-    const rarity = character.rarity[4];
-    const attribute = attribute2wiki[character.attribute];
-    const sense = id2SenseMap[character.senseMasterId];
-    const coolDown = sense.coolTime;
-    const type = type2Wiki[sense.type];
-    const description = sense.description;
+    const cardName = character.name; // 卡牌名
+    const minLevelStatus = character.minLevelStatus; // 一级属性
+    const name = id2Name[character.characterBaseMasterId]; // 角色名，比如 101 是 kkn
+    const rarity = character.rarity[4]; // 稀有度，Rare4 是 四星
+    const attribute = attribute2wiki[character.attribute]; // 属性，比如彩
+    const sense = id2SenseMap[character.senseMasterId]; // 提取 SenseMaster 的 sense 信息，把 json 的 Array 预处理成了 Map 以优化时间复杂度
+    const coolDown = sense.coolTime; // 技能 cd
+    const type = type2Wiki[sense.type]; // 技能光的颜色
+    const description = sense.description; // 技能描述
+
+    const displayDateString = displayDateConvert(character.displayStartAt);
+
+
 
     return`{{卡面信息
 |图片=
@@ -120,6 +133,10 @@ function wikiTemplate(character) {
 |歌唱力=${minLevelStatus.vocal}
 |表现力=${minLevelStatus.expression}
 |集中力=${minLevelStatus.concentration}
+|演技力
+|四花效果=
+|隶属活动
+|登场时间=${displayDateString}
 }}
 `;
 }
