@@ -97,6 +97,7 @@ const type2Wiki = {
 
 /** @param {Character} character */
 function wikiTemplate(character) {
+<<<<<<< Updated upstream
     const cardName = character.name;
     const minLevelStatus = character.minLevelStatus;
     const name = id2Name[character.characterBaseMasterId];
@@ -106,6 +107,21 @@ function wikiTemplate(character) {
     const coolDown = sense.coolTime;
     const type = type2Wiki[sense.type];
     const description = sense.description;
+=======
+    const cardName = character.name; // 卡牌名
+    const minLevelStatus = character.minLevelStatus; // 一级属性
+    const name = id2Name[character.characterBaseMasterId]; // 角色名，比如 101 是 kkn
+    const rarity = character.rarity[4]; // 稀有度，Rare4 是 四星
+    const attribute = attribute2wiki[character.attribute]; // 属性，比如彩
+    const sense = id2SenseMap[character.senseMasterId]; // 提取 SenseMaster 的 sense 信息，把 json 的 Array 预处理成了 Map 以优化时间复杂度
+    const coolDown = sense.coolTime; // 技能 cd
+    const type = type2Wiki[sense.type] ?? '无'; // 技能光的颜色
+    const description = sense.description; // 技能描述
+
+    const displayDateString = displayDateConvert(character.displayStartAt);
+
+
+>>>>>>> Stashed changes
 
     return`{{卡面信息
 |图片=
