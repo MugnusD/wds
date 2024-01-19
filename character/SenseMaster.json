@@ -1,0 +1,3230 @@
+[
+    {
+        "id": 110010,
+        "name": "一人二役",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110020,
+        "name": "なし",
+        "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+        "type": "Alternative",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 20021
+            }
+        ],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20001
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1100201
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110030,
+        "name": "零の幕間",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110040,
+        "name": "白亜の魂",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110050,
+        "name": "覚",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110060,
+        "name": "幸運の大入袋",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110070,
+        "name": "抑制空間",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110080,
+        "name": "怨みの収穫",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110090,
+        "name": "無垢な足跡",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110100,
+        "name": "無事これ名馬",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110110,
+        "name": "禁断の果実",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110120,
+        "name": "写し鏡の美影",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110130,
+        "name": "堅牢なる心",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110140,
+        "name": "先手必勝",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110150,
+        "name": "蠱惑の視線",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110160,
+        "name": "躍動する太陽",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110170,
+        "name": "なし",
+        "description": "効果無し（所持している「光」は維持される）",
+        "type": "None",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110180,
+        "name": "才色兼備の目覚め",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110190,
+        "name": "風月の創造",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110200,
+        "name": "垣間見る公演の運命",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 110210,
+        "name": "アタシの本気",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 210,
+        "scoreUpPerLevel": 20,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120010,
+        "name": "夢見る少女",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにセンススコア[:param11]％UP効果",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20032
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1200101
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 160,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120020,
+        "name": "なし",
+        "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+        "type": "Alternative",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 20022
+            }
+        ],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20001
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1200201
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120030,
+        "name": "ワールドダイスターの愛娘",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 50,
+        "acquirableScorePercent": 120,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120040,
+        "name": "天使系小学生",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 330,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120050,
+        "name": "腹黒計算ガール",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 40,
+        "acquirableScorePercent": 60,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120060,
+        "name": "シリウスの秘密兵器",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20012
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1200601
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 120,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120070,
+        "name": "覇道の天才",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20042
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1200701
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 160,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120080,
+        "name": "愛憎まみれる乙女",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20012
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1200801
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 150,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120090,
+        "name": "純真無垢な少女",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 50,
+        "acquirableScorePercent": 90,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120100,
+        "name": "下町のアイドル",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 50,
+        "acquirableScorePercent": 120,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120110,
+        "name": "小悪魔系小学生",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 330,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120120,
+        "name": "名家の姉",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにセンススコア[:param11]％UP効果",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20052
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1201201
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 160,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120130,
+        "name": "世話好き優等生",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 40,
+        "acquirableScorePercent": 60,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120140,
+        "name": "勝気な倹約家",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20012
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1201401
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 150,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120150,
+        "name": "白銀の美少女",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 330,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120160,
+        "name": "元気いっぱいダンサー",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20012
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1201601
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 150,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120170,
+        "name": "なし",
+        "description": "効果無し（所持している「光」は維持される）",
+        "type": "None",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120180,
+        "name": "内気な孝行娘",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、劇団電姫のアクターにセンススコア[:param11]％UP効果",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20062
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1201801
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 160,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120190,
+        "name": "悟り系ギャル",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 40,
+        "acquirableScorePercent": 60,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120200,
+        "name": "電姫の占い師",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 260,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 120210,
+        "name": "ぐーたら好きの天才子役",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 330,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130010,
+        "name": "役者としての成長",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにセンススコア[:param11]％UP効果",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20033
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1300101
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130020,
+        "name": "なし",
+        "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+        "type": "Alternative",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 20023
+            }
+        ],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20001
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1300201
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130030,
+        "name": "砕けたガラスは……",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 70,
+        "acquirableScorePercent": 110,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130040,
+        "name": "思い出に花を咲かせて",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 490,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130050,
+        "name": "トレンドは生活風景",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20013
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1300501
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130060,
+        "name": "見てしまった……",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 70,
+        "acquirableScorePercent": 110,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130070,
+        "name": "新たな日常",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20043
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1300701
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130080,
+        "name": "恨みをつづって",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20013
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1300801
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130090,
+        "name": "都会ってすごい！",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 70,
+        "acquirableScorePercent": 110,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130100,
+        "name": "ここいらでひとつ、大勝負",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 360,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130110,
+        "name": "体育なんて滅びちゃえ！",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 410,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130120,
+        "name": "お嬢様のオフタイム",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにセンススコア[:param11]％UP効果",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20053
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1301201
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130130,
+        "name": "世話焼きは果てしなく",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 410,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130140,
+        "name": "あるのは勝ちだけ",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20013
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1301401
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130150,
+        "name": "自然な一日",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 520,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130160,
+        "name": "踊ればなんくるない！",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 80,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130170,
+        "name": "なし",
+        "description": "効果無し（所持している「光」は維持される）",
+        "type": "None",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130180,
+        "name": "まさかのお客様",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、劇団電姫のアクターにセンススコア[:param11]％UP効果",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20063
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1301801
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130190,
+        "name": "新作お菓子レビュー",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20013
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1301901
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130200,
+        "name": "悪鬼退散っ！",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 80,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130210,
+        "name": "先輩の本気",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 360,
+        "scoreUpPerLevel": 30,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130220,
+        "name": "頼れる先輩",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20013
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1302201
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130230,
+        "name": "なし",
+        "description": "効果無し（所持している「光」は維持される）",
+        "type": "None",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130240,
+        "name": "流石の釣り名人",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 80,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130250,
+        "name": "手に入れたいのは……",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 90,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130260,
+        "name": "水晶玉に映る未来",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20013
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1302601
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130270,
+        "name": "負けられない一戦",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 410,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130280,
+        "name": "なし",
+        "description": "効果無し（所持している「光」は維持される）",
+        "type": "None",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130290,
+        "name": "ほら、帰ろ？",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 520,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130300,
+        "name": "ぱんだ with パンダ！",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 520,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130310,
+        "name": "仲間のために",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 80,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130320,
+        "name": "ん～っ！　デリシャス！",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 410,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130330,
+        "name": "いっしょに遊びませんか？",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20013
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1303301
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130340,
+        "name": "その目をよく見せてくれ",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20013
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1303401
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130350,
+        "name": "ファントムの面影を宿す天才",
+        "description": "かり",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 140,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 1,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130360,
+        "name": "ど、どどど、どうしよう！",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 520,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130370,
+        "name": "さあ、どうぞ",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 490,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130380,
+        "name": "なし",
+        "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+        "type": "Alternative",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 20023
+            }
+        ],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130390,
+        "name": "しょうがないわね",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 70,
+        "acquirableScorePercent": 110,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130400,
+        "name": "口いっぱいに広がる海の味",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 70,
+        "acquirableScorePercent": 110,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130420,
+        "name": "かり",
+        "description": "かり",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 70,
+        "acquirableScorePercent": 110,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 1,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 130560,
+        "name": "かり",
+        "description": "かり",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 1,
+        "coolTime": 1,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140010,
+        "name": "悲哀と恋慕の旋律",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復／ライフが多いほどここなのスコア獲得量UP（最大＋100％）",
+        "type": "Support",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 28001
+            }
+        ],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20014
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1400101
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 220,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140020,
+        "name": "大切で大好きな劇団",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 510,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140030,
+        "name": "あなたをお待ちしておりました",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20014
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1400301
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 250,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140040,
+        "name": "君を求めていた",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 90,
+        "acquirableScorePercent": 170,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140050,
+        "name": "純真無垢な笑顔",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20014
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1400501
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 250,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140060,
+        "name": "満たされない心",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 600,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140070,
+        "name": "吸血しちゃうぞっ♪",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 100,
+        "acquirableScorePercent": 180,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140080,
+        "name": "幼き日の情景",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにセンススコア[:param11]％UP効果",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20054
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1400801
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 220,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140090,
+        "name": "かつての友との別れ",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 510,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140100,
+        "name": "オーロラの精霊",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 100,
+        "acquirableScorePercent": 180,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140110,
+        "name": "なし",
+        "description": "効果無し（所持している「光」は維持される）",
+        "type": "None",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140120,
+        "name": "世界が色づくその瞬間",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、劇団電姫のアクターにセンススコア[:param11]％UP効果",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20064
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1401201
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 220,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140130,
+        "name": "月下の神秘",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 670,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140140,
+        "name": "憧れに思いを馳せて",
+        "description": "[:score]倍のスコアを獲得／シリウスのアクターのCTを9秒短縮",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 21001
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1401401
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 260,
+        "scoreUpPerLevel": 70,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140150,
+        "name": "狂気の果ての虚無",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 510,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140160,
+        "name": "悪意に満ちた観察者",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、Edenのアクターにセンススコア[:param11]％UP効果",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20044
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1401601
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 250,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140170,
+        "name": "追想の帰路",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 510,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140180,
+        "name": "茜海に満たされて",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20082
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1401801
+            }
+        ],
+        "acquirableGauge": 90,
+        "acquirableScorePercent": 170,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140190,
+        "name": "お口に合いますように♪",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 120,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 70,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140200,
+        "name": "なし",
+        "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre1]％UP",
+        "type": "Alternative",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 20024
+            }
+        ],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20001
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1402001
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140210,
+        "name": "夜市の王",
+        "description": "[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20082
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1402101
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 600,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140220,
+        "name": "妖艶に誘われて",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 540,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 35,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140230,
+        "name": "静香2",
+        "description": "ここな編成時、ここなが代わりにセンスを発動し、ここなのスコア獲得量[:pre2]％、スターアクトスコア獲得量[:pre3]％UP／ここなのCTを15秒短縮",
+        "type": "Alternative",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 29001
+            },
+            {
+                "order": 2,
+                "effectMasterId": 29002
+            },
+            {
+                "order": 3,
+                "effectMasterId": 29003
+            }
+        ],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20001
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1402301
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140240,
+        "name": "光さす世界に",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20014
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1402401
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 250,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140250,
+        "name": "なし",
+        "description": "効果無し（所持している「光」は維持される）",
+        "type": "None",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140260,
+        "name": "アオハル応援団長",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 120,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 70,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140270,
+        "name": "Pretty Cheer Girl",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 600,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140280,
+        "name": "月光が映し出す罪と後悔",
+        "description": "[:score]倍のスコアを獲得／銀河座のアクターのCTを8秒短縮",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 21007
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1402801
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 35,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140290,
+        "name": "甘美なる悪逆へ誘おう",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Support",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 28004
+            }
+        ],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 600,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140300,
+        "name": "綾錦の月影",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 510,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140310,
+        "name": "妖刀の一薙ぎ",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20082
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1403101
+            }
+        ],
+        "acquirableGauge": 90,
+        "acquirableScorePercent": 170,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140320,
+        "name": "南十字を目指して",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 1170,
+        "scoreUpPerLevel": 100,
+        "lightCount": 1,
+        "coolTime": 80,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140330,
+        "name": "コル・スコルピイ",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにセンススコア[:param11]％UP効果",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20055
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1403301
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 320,
+        "scoreUpPerLevel": 70,
+        "lightCount": 1,
+        "coolTime": 65,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140340,
+        "name": "ステキな物語はいかがですか？",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 670,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140350,
+        "name": "おとぎの国の食事会",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20014
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1403501
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 250,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140360,
+        "name": "なし",
+        "description": "効果無し（所持している「光」は維持される）",
+        "type": "None",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140370,
+        "name": "戦い続ける魔法少女",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 120,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 70,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140380,
+        "name": "名探偵の悲哀",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20014
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1403801
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 250,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140390,
+        "name": "本当のギムレット",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 600,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140400,
+        "name": "夕暮れ時には甘えてみて",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 510,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140410,
+        "name": "巡り合わせの落葉",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 600,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140420,
+        "name": "囚われてなお渇望するもの",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20082
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1404201
+            }
+        ],
+        "acquirableGauge": 90,
+        "acquirableScorePercent": 170,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140430,
+        "name": "縛めを解いてくれた人と共に",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 670,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140440,
+        "name": "その手を取り、翼並べて",
+        "description": "かり",
+        "type": "Alternative",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 20024
+            }
+        ],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140450,
+        "name": "片割れを見つけた鳥",
+        "description": "かり",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 220,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 1,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140460,
+        "name": "遠い遠い雪催い",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 740,
+        "scoreUpPerLevel": 70,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140470,
+        "name": "銀世界に冴ゆる心友",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 600,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140480,
+        "name": "CEOからの特別な……♡",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20014
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1404801
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 250,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140490,
+        "name": "あなたにだけのプレゼント",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 120,
+        "acquirableScorePercent": 190,
+        "scoreUpPerLevel": 70,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140500,
+        "name": "瑞祥新春の舞",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、シリウスのアクターにスターアクトスコア[:param11]％UP効果",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20102
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1405001
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 220,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 45,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140510,
+        "name": "人里の宴も悪くない",
+        "description": "[:score]倍のスコアを獲得／[:sec]秒間、銀河座のアクターにスターアクトスコア[:param11]％UP効果",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20302
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1405101
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 220,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 45,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140520,
+        "name": "Electoric Wonderland",
+        "description": "[:score]倍のスコアを獲得／センス発動後、追加で[:param11]のプリンシパルゲージを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20083
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1405201
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 610,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 45,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140530,
+        "name": "なし",
+        "description": "効果無し（所持している「光」は維持される）",
+        "type": "None",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 0,
+        "coolTime": 0,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140540,
+        "name": "悩める迷宮での出会い",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]回復",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20014
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1405401
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 250,
+        "scoreUpPerLevel": 60,
+        "lightCount": 1,
+        "coolTime": 50,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140550,
+        "name": "導きの燐光",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Control",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 510,
+        "scoreUpPerLevel": 40,
+        "lightCount": 1,
+        "coolTime": 30,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140560,
+        "name": "ナイト・オブ・ビビッド",
+        "description": "[:score]倍のスコアを獲得",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 740,
+        "scoreUpPerLevel": 70,
+        "lightCount": 1,
+        "coolTime": 60,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140570,
+        "name": "マジカルポップウィッチ",
+        "description": "[:score]倍のスコアを獲得／[:gauge]のプリンシパルゲージを獲得",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 90,
+        "acquirableScorePercent": 170,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 40,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140600,
+        "name": "かり",
+        "description": "[:score]倍のスコアを獲得／ライフが少ないほど初魅のスコア獲得量UP（最大＋100％）",
+        "type": "Support",
+        "preEffects": [
+            {
+                "order": 1,
+                "effectMasterId": 28002
+            }
+        ],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 600,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 1,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140610,
+        "name": "かり",
+        "description": "[:score]倍のスコアを獲得／ライフを[:param11]",
+        "type": "Special",
+        "preEffects": [],
+        "branches": [
+            {
+                "order": 1,
+                "branchEffects": [
+                    {
+                        "order": 1,
+                        "effectMasterId": 20072
+                    }
+                ],
+                "judgeType1": null,
+                "parameter1": null,
+                "judgeType2": null,
+                "parameter2": null,
+                "id": 1406101
+            }
+        ],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 600,
+        "scoreUpPerLevel": 50,
+        "lightCount": 1,
+        "coolTime": 1,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140880,
+        "name": "かり",
+        "description": "かり",
+        "type": "Support",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 1,
+        "coolTime": 1,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    },
+    {
+        "id": 140890,
+        "name": "かり",
+        "description": "かり",
+        "type": "Amplification",
+        "preEffects": [],
+        "branches": [],
+        "acquirableGauge": 0,
+        "acquirableScorePercent": 0,
+        "scoreUpPerLevel": 0,
+        "lightCount": 1,
+        "coolTime": 1,
+        "branchCondition1": "None",
+        "conditionValue1": null,
+        "branchCondition2": "None",
+        "conditionValue2": null
+    }
+]
