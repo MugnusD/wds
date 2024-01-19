@@ -1,52 +1,77 @@
 [
- {
-        "id": 120010,
-        "characterBaseMasterId": 101,
-        "name": "夢見る少女",
-        "description": "",
-        "assetId": null,
-        "rarity": "Rare2",
-        "attribute": "Cool",
-        "minLevelStatus": {
-            "vocal": 67,
-            "expression": 78,
-            "concentration": 80
-        },
-        "starActMasterId": 120011,
-        "awakenStarActMasterId": null,
-        "senseMasterId": 120010,
-        "forbidGenericItemBloom": false,
-        "bloomBonusGroupMasterId": 20200,
-        "senseEnhanceItemGroupMasterId": 2,
-        "firstEpisodeReleaseItemGroupId": 221,
-        "secondEpisodeReleaseItemGroupId": 222,
-        "characterAwakeningItemGroupMasterId": null,
-        "displayStartAt": "2023-01-01T00:00:00",
-        "displayEndAt": "2100-01-01T00:00:00"
+  {
+    "id": 120010,
+    "characterBaseMasterId": 101,
+    "name": "夢見る少女",
+    "description": "",
+    "assetId": null,
+    "rarity": "Rare2",
+    "attribute": "Cool",
+    "minLevelStatus": {
+      "vocal": 67,
+      "expression": 78,
+      "concentration": 80
     },
-    {
-        "id": 120020,
-        "characterBaseMasterId": 102,
-        "name": "シリウスのツッコミ",
-        "description": "",
-        "assetId": null,
-        "rarity": "Rare2",
-        "attribute": "Colorful",
-        "minLevelStatus": {
-            "vocal": 85,
-            "expression": 78,
-            "concentration": 62
-        },
-        "starActMasterId": 120021,
-        "awakenStarActMasterId": null,
-        "senseMasterId": 120020,
-        "forbidGenericItemBloom": false,
-        "bloomBonusGroupMasterId": 20800,
-        "senseEnhanceItemGroupMasterId": 2,
-        "firstEpisodeReleaseItemGroupId": 231,
-        "secondEpisodeReleaseItemGroupId": 232,
-        "characterAwakeningItemGroupMasterId": null,
-        "displayStartAt": "2023-01-01T00:00:00",
-        "displayEndAt": "2100-01-01T00:00:00"
-    }
+    "starActMasterId": 120011,
+    "awakenStarActMasterId": null,
+    "senseMasterId": 120010,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 20200,
+    "senseEnhanceItemGroupMasterId": 2,
+    "firstEpisodeReleaseItemGroupId": 221,
+    "secondEpisodeReleaseItemGroupId": 222,
+    "characterAwakeningItemGroupMasterId": null,
+    "displayStartAt": "2023-01-01T00:00:00",
+    "displayEndAt": "2100-01-01T00:00:00"
+  },
+  {
+    "id": 120020,
+    "characterBaseMasterId": 102,
+    "name": "シリウスのツッコミ",
+    "description": "",
+    "assetId": null,
+    "rarity": "Rare2",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 85,
+      "expression": 78,
+      "concentration": 62
+    },
+    "starActMasterId": 120021,
+    "awakenStarActMasterId": null,
+    "senseMasterId": 120020,
+    "forbidGenericItemBloom": false,
+    "bloomBonusGroupMasterId": 20800,
+    "senseEnhanceItemGroupMasterId": 2,
+    "firstEpisodeReleaseItemGroupId": 231,
+    "secondEpisodeReleaseItemGroupId": 232,
+    "characterAwakeningItemGroupMasterId": null,
+    "displayStartAt": "2023-01-01T00:00:00",
+    "displayEndAt": "2100-01-01T00:00:00"
+  },
+  {
+    "id": 140010,
+    "characterBaseMasterId": 101,
+    "name": "悲哀と恋慕の旋律",
+    "description": "",
+    "assetId": null,
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "minLevelStatus": {
+      "vocal": 107,
+      "expression": 118,
+      "concentration": 120
+    },
+    "starActMasterId": 140011,
+    "awakenStarActMasterId": 140011,
+    "senseMasterId": 140010,
+    "forbidGenericItemBloom": true,
+    "bloomBonusGroupMasterId": 40001,
+    "senseEnhanceItemGroupMasterId": 101,
+    "firstEpisodeReleaseItemGroupId": 431,
+    "secondEpisodeReleaseItemGroupId": 432,
+    "characterAwakeningItemGroupMasterId": 43,
+    "displayStartAt": "2023-01-01T00:00:00",
+    "displayEndAt": "2100-01-01T00:00:00"
+  }
 ]
