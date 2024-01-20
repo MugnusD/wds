@@ -184,7 +184,6 @@ const attribute2wiki = {
 const type2Wiki = {
     Support: "支援系", Amplification: "增强系", Special: "特殊系", Control: "支配系",
 }
-
 /**
  * 解释 ISO 日期字符串，然后转化为诸如 2000.1.1 的字符串形式。如果是 2023-1-1 则转化为开服日期。
  *
