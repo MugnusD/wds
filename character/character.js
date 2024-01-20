@@ -39,20 +39,116 @@ const fs = require('fs');
  * @property {null|any} conditionValue1
  * @property {string} branchCondition2
  * @property {null|any} conditionValue2
+ *
+ *
+ *
+ * @typedef {Object} Effect
+ * @property {number} id
+ * @property {string} type
+ * @property {string} range
+ * @property {string} calculationType
+ * @property {Array<{ level: number, value: number }>} details
+ * @property {Array} conditions
+ * @property {number} durationSecond
+ * @property {Array} triggers
+ * @property {string} fireTimingType
+ *
+ *
+ * @typedef {Object} StarAct
+ * @property {number} id
+ * @property {string} name
+ * @property {string} description
+ * @property {number} starActConditionMasterId
+ * @property {number} acquirableScorePercent
+ * @property {number} scoreUpPerLevel
+ * @property {Array} preEffects
+ * @property {Array} branches
+ * @property {string} branchCondition1
+ * @property {string} branchCondition2
+ *
+ *
+ * @typedef {Object} StarActCondition
+ * @property {number} id - The identifier for the light configuration.
+ * @property {number} freeLight - The amount of free light.
+ * @property {number} supportLight - The amount of support light.
+ * @property {number} controlLight - The amount of control light.
+ * @property {number} amplificationLight - The amount of amplification light.
+ * @property {number} specialLight - The amount of special light.
+ *
+ *
+ * @typedef {Object} BloomBonus
+ * @property {string} bloomBonusType
+ * @property {string} description
+ * @property {number} phase
+ * @property {number} effectMasterId
+ * @property {string} iconPath
+ *
+ *
+ * @typedef {Object} BloomReward
+ * @property {number} thingId
+ * @property {string} thingType
+ * @property {number} thingQuantity
+ * @property {number} phase
+ *
+ *
+ * @typedef {Object} BloomBonusGroup
+ * @property {number} id
+ * @property {BloomBonus[]} bloomBonuses
+ * @property {BloomReward[]} bloomRewards
  */
 
+
+// CharacterMaster.json 读取
 const charaData = fs.readFileSync('master.json', 'utf-8');
 /** @type {Character[]} */
 const characterArray = JSON.parse(charaData);
 
+// SenseMaster.json 读取
 const senseData = fs.readFileSync('SenseMaster.json', 'utf-8');
 /** @type {Sense[]} */
 const senseArray = JSON.parse(senseData);
-
+// 优化 Array 成 Map
 const id2SenseMap = {};
 senseArray.forEach((sense) => {
     id2SenseMap[sense.id] = sense;
-})
+});
+
+// EffectMaster.json 读取
+const effectDate = fs.readFileSync('EffectMaster.json', 'utf-8');
+/** @type {Effect[]} */
+const effectArray = JSON.parse(effectDate);
+const id2EffectMap = {};
+effectArray.forEach((effect) => {
+    id2EffectMap[effect.id] = effect;
+});
+
+// starAct.json 读取
+const starActDate = fs.readFileSync('starAct.json', 'utf-8');
+/** @type {StarAct[]} */
+const starActArray = JSON.parse(starActDate);
+const id2StarAct = {};
+starActArray.forEach((starAct) => {
+    id2StarAct[starAct.id] = starAct;
+});
+
+// starActCondition 读取
+const starActConditionDate = fs.readFileSync('starActCondition.json', 'utf-8');
+/** @type {StarActCondition[]} */
+const starActConditionArray = JSON.parse(starActConditionDate);
+const id2StarActCondition = {};
+starActConditionArray.forEach((starActCondition) => {
+    id2StarActCondition[starActCondition.id] = starActCondition;
+});
+
+// characterBloomBonusGroups.json 读取
+const characterBloomBonusGroupsDate = fs.readFileSync('characterBloomBonusGroup.json', 'utf-8');
+/** @type {BloomBonusGroup[]} */
+const characterBloomBonusGroupsArray = JSON.parse(characterBloomBonusGroupsDate);
+const id2BloomBonusGroup = {};
+characterBloomBonusGroupsArray.forEach((bloomBonusGroup) => {
+    id2BloomBonusGroup[bloomBonusGroup.id] = bloomBonusGroup;
+});
+
 
 // 角色 id 到 名字
 const id2Name = {
@@ -81,20 +177,19 @@ const id2Name = {
 
 // 角色属性
 const attribute2wiki = {
-    Cute: 1,
-    Cool: 2,
-    Colorful: 3,
-    Cheerful: 4,
+    Cute: 1, Cool: 2, Colorful: 3, Cheerful: 4,
 }
 
 // 光
 const type2Wiki = {
-    Support: "支援系",
-    Amplification: "增强系",
-    Special: "特殊系",
-    Control: "支配系",
+    Support: "支援系", Amplification: "增强系", Special: "特殊系", Control: "支配系",
 }
-
+/**
+ * 解释 ISO 日期字符串，然后转化为诸如 2000.1.1 的字符串形式。如果是 2023-1-1 则转化为开服日期。
+ *
+ * @param {string} startDate - ISO 日期字符串
+ * @returns {string} - 返回字符串
+ */
 function displayDateConvert(startDate) {
     if (startDate === "2023-01-01T00:00:00") {
         return "2023.07.26";
@@ -104,23 +199,34 @@ function displayDateConvert(startDate) {
     }
 }
 
+
 /** @param {Character} character */
+
 function wikiTemplate(character) {
     const cardName = character.name; // 卡牌名
     const minLevelStatus = character.minLevelStatus; // 一级属性
     const name = id2Name[character.characterBaseMasterId]; // 角色名，比如 101 是 kkn
     const rarity = character.rarity[4]; // 稀有度，Rare4 是 四星
     const attribute = attribute2wiki[character.attribute]; // 属性，比如彩
+
     const sense = id2SenseMap[character.senseMasterId]; // 提取 SenseMaster 的 sense 信息，把 json 的 Array 预处理成了 Map 以优化时间复杂度
     const coolDown = sense.coolTime; // 技能 cd
-    const type = type2Wiki[sense.type]; // 技能光的颜色
+    const type = type2Wiki[sense.type] ?? '无'; // 技能光的颜色
     const description = sense.description; // 技能描述
+    const displayDateString = displayDateConvert(character.displayStartAt); // 转化为 2000.1.1 的日期格式
 
-    const displayDateString = displayDateConvert(character.displayStartAt);
+    const starAct = id2StarAct[character.starActMasterId]; // sa
+
+    const starActCondition = id2StarActCondition[starAct.starActConditionMasterId]; // sa 光的条件
+    const bloomBonusGroup = id2BloomBonusGroup[character.bloomBonusGroupMasterId]; // 开花 效果
+
+    const green = starActCondition.supportLight;
+    const red = starActCondition.controlLight;
+    const yellow = starActCondition.amplificationLight;
+    const blue = starActCondition.specialLight;
 
 
-
-    return`{{卡面信息
+    return `{{卡面信息
 |图片=
 |觉醒后图片=
 |演员名称=${cardName}
@@ -130,10 +236,11 @@ function wikiTemplate(character) {
 |技能效果=${description}
 |光=${type}
 |CT=${coolDown}
+|绿=${green}|红=${red}|黄=${yellow}|蓝=${blue}
 |歌唱力=${minLevelStatus.vocal}
 |表现力=${minLevelStatus.expression}
 |集中力=${minLevelStatus.concentration}
-|演技力
+|演技力=${minLevelStatus.vocal + minLevelStatus.expression + minLevelStatus.concentration}
 |四花效果=
 |隶属活动
 |登场时间=${displayDateString}
