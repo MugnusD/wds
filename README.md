@@ -4,7 +4,7 @@
 - API 工作
 
 ## 仓库内容
-`/calculator-test/character-wiki.js` 生成 wiki 可用的模板
+`/calculator-test/character-wiki.js` 生成 wiki 可用的文本（[目录](./calculator-test/out)）。
 
 ## 外部连接
 第三方模组 [sirius-calculator](https://github.com/xfl03/sirius-calculator)
