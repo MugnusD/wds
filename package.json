@@ -12,7 +12,8 @@
   "dependencies": {
     "csv-parser": "^3.0.0",
     "https-proxy-agent": "^7.0.2",
-    "sirius-calculator": "^0.0.1",
+    "node-fetch": "^3.3.2",
+    "sirius-calculator": "^0.0.3",
     "socks": "^2.7.1"
   }
 }

@@ -1,0 +1,124 @@
+{
+  "id": 120010,
+  "name": "夢見る少女",
+  "rarity": "Rare2",
+  "attribute": "Cool",
+  "status": [
+    {
+      "preset": {
+        "level": 1,
+        "awakening": false,
+        "episode": "None",
+        "bloom": 0
+      },
+      "status": {
+        "vocal": 16,
+        "expression": 19,
+        "concentration": 20
+      }
+    },
+    {
+      "preset": {
+        "level": 120,
+        "awakening": true,
+        "episode": "Second",
+        "bloom": 5
+      },
+      "status": {
+        "vocal": 5429,
+        "expression": 6259,
+        "concentration": 6410
+      }
+    }
+  ],
+  "characterBase": "鳳ここな",
+  "starAct": {
+    "description": "総演技力の2.2~3.2倍のスコアを獲得",
+    "descriptionChinese": "获得总演技力2.2~3.2倍的分数",
+    "conditions": [
+      {
+        "type": "Alternative",
+        "typeChinese": "任意系",
+        "origin": 0,
+        "bloom": 0
+      },
+      {
+        "type": "Support",
+        "typeChinese": "支援系",
+        "origin": 0,
+        "bloom": 0
+      },
+      {
+        "type": "Control",
+        "typeChinese": "支配系",
+        "origin": 1,
+        "bloom": 1
+      },
+      {
+        "type": "Amplification",
+        "typeChinese": "增幅系",
+        "origin": 1,
+        "bloom": 1
+      },
+      {
+        "type": "Special",
+        "typeChinese": "特殊系",
+        "origin": 1,
+        "bloom": 1
+      }
+    ]
+  },
+  "sense": {
+    "descriptions": [
+      "1.6~3.1倍のスコアを獲得",
+      "25秒間、シリウスのアクターにセンススコア15~24％UP効果"
+    ],
+    "descriptionsChinese": [
+      "获得自身演技力1.6~3.1倍的分数",
+      "25秒内，天狼星的演员Star Act中获得的分数提升15~24"
+    ],
+    "type": "Special",
+    "lightCount": 1,
+    "coolTime": {
+      "origin": 50,
+      "bloom": 48
+    }
+  },
+  "bloomBonuses": [
+    {
+      "phase": 1,
+      "descriptions": [
+        "演技力3％UP"
+      ]
+    },
+    {
+      "phase": 2,
+      "descriptions": [
+        "演技力3％UP",
+        "センスのCTが2秒減少"
+      ]
+    },
+    {
+      "phase": 3,
+      "descriptions": [
+        "演技力3％UP"
+      ]
+    },
+    {
+      "phase": 4,
+      "descriptions": [
+        "演技力3％UP",
+        "初期ライフが40上昇"
+      ]
+    },
+    {
+      "phase": 5,
+      "descriptions": [
+        "演技力3％UP"
+      ]
+    }
+  ],
+  "displayStartAt": "2022-12-31T15:00:00.000Z",
+  "event": "无",
+  "gacha": "リリース記念ガチャ"
+}
