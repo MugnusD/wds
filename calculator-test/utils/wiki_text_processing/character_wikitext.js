@@ -231,9 +231,9 @@ function displayDateConvert(startDate) {
 }
 
 /**
- * 服务于最后角色信息期约的 then 处理程序
+ * 将 Character 转化为 wiki 文本形式
  *
- * @param {CharacterDetail} character 接受期约的 result/value
+ * @param {CharacterDetail} character
  */
 module.exports.characterToWikiText = (character) => {
     const name = character.name;
