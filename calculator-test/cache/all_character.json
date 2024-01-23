@@ -134,7 +134,7 @@
           "episode": "None",
           "bloom": 0
         },
-        "status": {
+        "status": {+
           "vocal": 17,
           "expression": 15,
           "concentration": 12
