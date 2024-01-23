@@ -1,7 +1,7 @@
 const cal = require('sirius-calculator');
 const fs = require('fs');
 const path = require('path');
-const {characterToWikiText} = require('./utils/wiki_text_processing/character_wikitext');
+const {characterToWikiText} = require('./utils/wiki_text_processing/character_wikitext.js');
 
 // CharacterMaster.json 读取
 // const charaData = fs.readFileSync('CharacterMaster.json', 'utf-8');

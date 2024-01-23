@@ -235,7 +235,7 @@ function displayDateConvert(startDate) {
  *
  * @param {CharacterDetail} character 接受期约的 result/value
  */
-function characterToWikiText(character) {
+module.exports.characterToWikiText = (character) => {
     const name = character.name;
     // const charaName = character.characterBase;
     const charaName = characterInfoArray
