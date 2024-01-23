@@ -61,7 +61,7 @@ const attribute2wiki = {
 
 // 光
 const type2Wiki = {
-    Support: "支援系", Amplification: "增强系", Special: "特殊系", Control: "支配系",
+    Support: "支援系", Amplification: "增幅系", Special: "特殊系", Control: "支配系",
 }
 
 // 颜色
@@ -265,11 +265,11 @@ module.exports.characterToWikiText = (character) => {
     const concentrationBloom = statusBloom.status.concentration;
     const performanceBloom = vocalBloom + expressionBloom + concentrationBloom;
 
-    const [phase1, phase2, phase3, phase4, phase5] = character.bloomBonuses
+    const [phase1, phase2, phase3, phase4, _phase5] = character.bloomBonuses
         .map(it => {
             return it.descriptionsChinese.join("<br/>");
         })
-
+    const phase5 = _phase5 + (rarity === '4' ? `<br/>SP摄影胶卷【${charaName}】` : '');
     const event = character.event;
     const displayTime = displayDateConvert(character.displayStartAt);
 
