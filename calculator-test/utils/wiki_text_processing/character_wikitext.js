@@ -190,7 +190,7 @@ const characterInfoArray = [
  * 将 sa 条件转化为 wiki 的模板
  *
  * 检测 sa 开花前 和 开花后的需求，如果两个光相等则值表示一个数字，否则表示为 {开花前需求}-{开花后需求} 的格式。
- * 比如 1 1 4 1 和 1 1 3 1 的条件，那么显示为 |绿=1|红=1|黄=4-3|蓝=1
+ * 比如 1 1 4 1 和 1 1 3 1 的条件，那么显示为 |绿=1|红=1|黄=4/3|蓝=1
  *
  * @param character
  * @returns {string}
@@ -208,7 +208,7 @@ function saCondition(character) {
             if (origin === bloom) {
                 return colorPre + origin.toString();
             } else {
-                return colorPre + origin.toString() + "-" + bloom.toString();
+                return colorPre + origin.toString() + '/' + bloom.toString();
             }
         })
         .join('');
@@ -238,16 +238,18 @@ function displayDateConvert(startDate) {
  * @param {CharacterDetail} character
  */
 module.exports.characterToWikiText = (character) => {
+    const fileName = `Card ${character.id} 0.png`;
     const name = character.name;
     // const charaName = character.characterBase;
     const charaName = characterInfoArray
         .find(characterInfo => characterInfo.name === character.characterBase)
         .chineseName;
     const rarity = character.rarity[4];
+    const fileNameAwaken = rarity === '4'? `Card ${character.id} 1.png` : '';
     const attribute = attribute2wiki[character.attribute];
     const starAct = character.starAct.descriptionChinese;
     const lightType = type2Wiki[character.sense.type];
-    const coolTime = character.sense.coolTime.origin.toString() + "-" + character.sense.coolTime.bloom.toString();
+    const coolTime = character.sense.coolTime.origin.toString() + "/" + character.sense.coolTime.bloom.toString();
     const condition = saCondition(character);
     const saDescription = character.starAct.descriptionChinese;
 
@@ -273,8 +275,8 @@ module.exports.characterToWikiText = (character) => {
 
 
     return `{{卡面信息
-|图片=
-|觉醒后图片=
+|图片=${fileName}
+|觉醒后图片=${fileNameAwaken}
 |演员名称=${name}
 |角色名=${charaName}
 |星级=${rarity}
