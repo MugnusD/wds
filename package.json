@@ -13,7 +13,7 @@
     "csv-parser": "^3.0.0",
     "https-proxy-agent": "^7.0.2",
     "node-fetch": "^3.3.2",
-    "sirius-calculator": "^0.0.3",
+    "sirius-calculator": "^0.0.x",
     "socks": "^2.7.1"
   }
 }

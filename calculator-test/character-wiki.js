@@ -3,10 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const {characterToWikiText} = require('./utils/wiki_text_processing/character_wikitext.js');
 
-// CharacterMaster.json 读取
-// const charaData = fs.readFileSync('CharacterMaster.json', 'utf-8');
-// const characterArray = JSON.parse(charaData);
-
 const currentTime = Date.now();
 const characterService = new cal.CharacterService();
 const scriptDirectory = __dirname;
@@ -30,18 +26,5 @@ characterService.getAllCharacterDetails()
             })
     });
 
-// characterArray
-//     .filter(it => {
-//         const displayTime = new Date(it.displayStartAt).getTime();
-//         return it.id > 120000 && displayTime < currentTime;
-//     })
-//     .forEach(it => {
-//         const filePath = path.join(scriptDirectory, 'out', `${it.id}-${it.name}.txt`);
-//         characterService.getCharacterDetail(it.id)
-//             .then(result => {
-//                 const wikiText = characterToWikiText(result);
-//                 fs.writeFile(filePath, wikiText,'utf-8', err => {});
-//             })
-//     });
 
 

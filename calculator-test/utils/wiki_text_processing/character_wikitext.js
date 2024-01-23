@@ -265,7 +265,7 @@ module.exports.characterToWikiText = (character) => {
 
     const [phase1, phase2, phase3, phase4, phase5] = character.bloomBonuses
         .map(it => {
-            return it.descriptions.join("<br/>");
+            return it.descriptionsChinese.join("<br/>");
         })
 
     const event = character.event;
