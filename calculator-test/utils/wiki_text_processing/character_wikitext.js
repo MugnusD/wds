@@ -225,8 +225,10 @@ function displayDateConvert(startDate) {
     if (startDate.getTime() === initialTime) {
         return "2023.07.26";
     } else {
-        const date = new Date(startDate);
-        return `${date.getFullYear()}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${(date.getDay() + 1).toString().padStart(2, '0')}`
+        const year = startDate.getFullYear().toString();
+        const month = (startDate.getMonth() + 1).toString().padStart(2, '0');
+        const day = (startDate.getDate() + 1).toString().padStart(2, '0');
+        return `${year}.${month}.${day}`;
     }
 }
 
@@ -298,4 +300,9 @@ ${condition}
 |隶属活动=${event}
 |登场时间=${displayTime}
 }}`
+}
+
+if (require.main === module) {
+    const date = new Date("2024-01-20T08:00:00.000Z");
+    console.log(displayDateConvert(date));
 }
