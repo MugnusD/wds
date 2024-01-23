@@ -249,7 +249,12 @@ module.exports.characterToWikiText = (character) => {
     const attribute = attribute2wiki[character.attribute];
     const starAct = character.starAct.descriptionChinese;
     const lightType = type2Wiki[character.sense.type];
-    const coolTime = character.sense.coolTime.origin.toString() + "/" + character.sense.coolTime.bloom.toString();
+
+    const coolTimeInfo = character.sense.coolTime;
+    const coolTimeOrigin = coolTimeInfo.origin;
+    const coolTimeBloomString = coolTimeOrigin !== coolTimeInfo.bloom ? '/' + coolTimeInfo.bloom.toString() : '';
+    const coolTime = coolTimeOrigin.toString() + coolTimeBloomString;
+    // const coolTime = character.sense.coolTime.origin.toString() + "/" + character.sense.coolTime.bloom.toString();
     const condition = saCondition(character);
     const saDescription = character.starAct.descriptionChinese;
 
