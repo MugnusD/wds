@@ -248,7 +248,7 @@ module.exports.characterToWikiText = (character) => {
     const fileNameAwaken = rarity === '4'? `Card ${character.id} 1.png` : '';
     const attribute = attribute2wiki[character.attribute];
     const starAct = character.starAct.descriptionChinese;
-    const lightType = type2Wiki[character.sense.type];
+    const lightType = type2Wiki[character.sense.type] ?? '无';
 
     const coolTimeInfo = character.sense.coolTime;
     const coolTimeOrigin = coolTimeInfo.origin;
