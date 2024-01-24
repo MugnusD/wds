@@ -191,7 +191,7 @@ const characterInfoArray = [
  *
  * 检测 sa 开花前 和 开花后的需求，如果两个光相等则值表示一个数字，否则表示为 {开花前需求}-{开花后需求} 的格式。
  * 比如 1 1 4 1 和 1 1 3 1 的条件，那么显示为 |绿=1|红=1|黄=4/3|蓝=1
- * 对于 0 0 0 2 这种则只写 |蓝=2
+ * 对于 0 0 0 2 这种则只写 |绿=|红=|黄=|蓝=2
  *
  * @param character
  * @returns {string}
@@ -206,11 +206,11 @@ function saCondition(character) {
             const origin = lightCondition.origin;
             const bloom = lightCondition.bloom;
 
-            if (origin === 0) {
-                return undefined;
-            }
-
             const colorPre = "|" + type2Color[lightType] + "=";
+
+            if (origin === 0) {
+                return colorPre;
+            }
 
             if (origin === bloom) {
                 return colorPre + origin.toString();
