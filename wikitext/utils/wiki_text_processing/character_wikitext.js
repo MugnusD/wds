@@ -284,7 +284,23 @@ module.exports.characterToWikiText = (character) => {
         .map(it => {
             return it.descriptionsChinese.join("<br/>");
         })
-    const phase5 = _phase5 + (rarity === '4' ? `<br/>SP摄影胶卷【${charaName}】` : '');
+    let film = '';
+    switch (rarity) {
+        case '1':
+            film = '<br/>摄影胶卷【月】';
+            break;
+        case '2':
+            film = '<br/>摄影胶卷【风】';
+            break;
+        case '3':
+            film = '<br/>摄影胶卷【花】';
+            break;
+        case '4':
+            film = `<br/>SP摄影胶卷【${charaName}】`;
+            break;
+    }
+    const phase5 = _phase5 + film;
+    // const phase5 = _phase5 + (rarity === '4' ? `<br/>SP摄影胶卷【${charaName}】` : '');
     const event = character.event;
     const displayTime = displayDateConvert(character.displayStartAt);
 
@@ -319,7 +335,3 @@ ${condition}
 }}`
 }
 
-if (require.main === module) {
-    const date = new Date("2024-01-20T08:00:00.000Z");
-    console.log(displayDateConvert(date));
-}
