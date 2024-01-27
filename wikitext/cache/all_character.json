@@ -21,14 +21,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4198,
-          "expression": 5140,
-          "concentration": 4778
+          "vocal": 3849,
+          "expression": 4711,
+          "concentration": 4379
         }
       }
     ],
@@ -71,10 +71,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -136,7 +136,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110011,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110012,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110020,
@@ -160,14 +170,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5446,
-          "expression": 4784,
-          "concentration": 4121
+          "vocal": 5000,
+          "expression": 4392,
+          "concentration": 3783
         }
       }
     ],
@@ -271,7 +281,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110021,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110022,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110030,
@@ -295,14 +315,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4995,
-          "expression": 4705,
-          "concentration": 4416
+          "vocal": 4579,
+          "expression": 4313,
+          "concentration": 4048
         }
       }
     ],
@@ -345,10 +365,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -410,7 +430,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110031,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110032,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110040,
@@ -434,14 +464,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4488,
-          "expression": 4778,
-          "concentration": 4850
+          "vocal": 4114,
+          "expression": 4379,
+          "concentration": 4446
         }
       }
     ],
@@ -484,10 +514,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -549,7 +579,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110041,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110042,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110050,
@@ -573,14 +613,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4560,
-          "expression": 4778,
-          "concentration": 4778
+          "vocal": 4180,
+          "expression": 4379,
+          "concentration": 4379
         }
       }
     ],
@@ -623,10 +663,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -688,7 +728,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110051,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110052,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110060,
@@ -712,14 +762,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4778,
-          "expression": 4488,
-          "concentration": 4850
+          "vocal": 4379,
+          "expression": 4114,
+          "concentration": 4446
         }
       }
     ],
@@ -762,10 +812,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -827,7 +877,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110061,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110062,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110070,
@@ -851,14 +911,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4416,
-          "expression": 4271,
-          "concentration": 5429
+          "vocal": 4048,
+          "expression": 3915,
+          "concentration": 4977
         }
       }
     ],
@@ -901,10 +961,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -966,7 +1026,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110071,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110072,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110080,
@@ -990,14 +1060,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4633,
-          "expression": 5864,
-          "concentration": 3619
+          "vocal": 4247,
+          "expression": 5375,
+          "concentration": 3318
         }
       }
     ],
@@ -1040,10 +1110,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -1105,7 +1175,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110081,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110082,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110090,
@@ -1129,14 +1209,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 3909,
-          "expression": 4922,
-          "concentration": 5284
+          "vocal": 3583,
+          "expression": 4512,
+          "concentration": 4844
         }
       }
     ],
@@ -1179,10 +1259,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -1244,7 +1324,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110091,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110092,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110100,
@@ -1268,14 +1358,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4850,
-          "expression": 4850,
-          "concentration": 4416
+          "vocal": 4446,
+          "expression": 4446,
+          "concentration": 4048
         }
       }
     ],
@@ -1318,10 +1408,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -1383,7 +1473,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110101,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110102,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110110,
@@ -1407,14 +1507,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4778,
-          "expression": 4198,
-          "concentration": 5140
+          "vocal": 4379,
+          "expression": 3849,
+          "concentration": 4711
         }
       }
     ],
@@ -1457,10 +1557,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -1522,7 +1622,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110111,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110112,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110120,
@@ -1546,14 +1656,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4126,
-          "expression": 5140,
-          "concentration": 4850
+          "vocal": 3782,
+          "expression": 4711,
+          "concentration": 4446
         }
       }
     ],
@@ -1596,10 +1706,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -1661,7 +1771,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110121,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110122,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110130,
@@ -1685,14 +1805,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5067,
-          "expression": 4126,
-          "concentration": 4922
+          "vocal": 4645,
+          "expression": 3782,
+          "concentration": 4512
         }
       }
     ],
@@ -1735,10 +1855,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -1800,7 +1920,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110131,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110132,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110140,
@@ -1824,14 +1954,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5646,
-          "expression": 4705,
-          "concentration": 3764
+          "vocal": 5176,
+          "expression": 4313,
+          "concentration": 3450
         }
       }
     ],
@@ -1874,10 +2004,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -1939,7 +2069,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110141,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110142,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110150,
@@ -1963,14 +2103,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4054,
-          "expression": 4705,
-          "concentration": 5357
+          "vocal": 3716,
+          "expression": 4313,
+          "concentration": 4910
         }
       }
     ],
@@ -2013,10 +2153,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -2078,7 +2218,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110151,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110152,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110160,
@@ -2102,14 +2252,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5212,
-          "expression": 4271,
-          "concentration": 4633
+          "vocal": 4778,
+          "expression": 3915,
+          "concentration": 4247
         }
       }
     ],
@@ -2152,10 +2302,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -2217,7 +2367,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110161,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110162,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110170,
@@ -2241,14 +2401,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 6696,
-          "expression": 5972,
-          "concentration": 4977
+          "vocal": 6250,
+          "expression": 5574,
+          "concentration": 4645
         }
       }
     ],
@@ -2352,7 +2512,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110171,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110172,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110180,
@@ -2376,14 +2546,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4633,
-          "expression": 4560,
-          "concentration": 4922
+          "vocal": 4247,
+          "expression": 4180,
+          "concentration": 4512
         }
       }
     ],
@@ -2426,10 +2596,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -2491,7 +2661,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110181,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110182,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110190,
@@ -2515,14 +2695,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4054,
-          "expression": 4922,
-          "concentration": 5140
+          "vocal": 3716,
+          "expression": 4512,
+          "concentration": 4711
         }
       }
     ],
@@ -2565,10 +2745,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -2630,7 +2810,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110191,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110192,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110200,
@@ -2654,14 +2844,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 4778,
-          "expression": 5429,
-          "concentration": 3909
+          "vocal": 4379,
+          "expression": 4977,
+          "concentration": 3583
         }
       }
     ],
@@ -2704,10 +2894,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -2769,7 +2959,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110201,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110202,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 110210,
@@ -2793,14 +2993,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5284,
-          "expression": 3475,
-          "concentration": 5357
+          "vocal": 4844,
+          "expression": 3185,
+          "concentration": 4910
         }
       }
     ],
@@ -2843,10 +3043,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.1~3.1倍のスコアを獲得"
+        "2.1~2.9倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.1~3.1倍的分数"
+        "获得自身演技力2.1~2.9倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -2908,7 +3108,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 110211,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 110212,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120010,
@@ -2932,14 +3142,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5429,
-          "expression": 6259,
-          "concentration": 6410
+          "vocal": 4995,
+          "expression": 5758,
+          "concentration": 5897
         }
       }
     ],
@@ -2982,12 +3192,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.6~3.1倍のスコアを獲得",
+        "1.6~2.8倍のスコアを獲得",
         "25秒間、シリウスのアクターにセンススコア15~24％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.6~3.1倍的分数",
-        "25秒内，天狼星的演员Star Act中获得的分数提升15~24"
+        "获得自身演技力1.6~2.8倍的分数",
+        "25秒内，天狼星的演员Sense中获得的分数提升15~24%"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -3049,7 +3259,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120011,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120012,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120020,
@@ -3073,14 +3293,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 6950,
-          "expression": 6409,
-          "concentration": 5173
+          "vocal": 6407,
+          "expression": 5908,
+          "concentration": 4769
         }
       }
     ],
@@ -3184,7 +3404,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120021,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120022,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120030,
@@ -3208,14 +3438,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 6862,
-          "expression": 5882,
-          "concentration": 5354
+          "vocal": 6313,
+          "expression": 5411,
+          "concentration": 4925
         }
       }
     ],
@@ -3258,11 +3488,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.2~2.7倍のスコアを獲得",
+        "1.2~2.4倍のスコアを獲得",
         "50のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.2~2.7倍的分数",
+        "获得自身演技力1.2~2.4倍的分数",
         "获得50点Principle Gauge"
       ],
       "type": "Amplification",
@@ -3325,7 +3555,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120031,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120032,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120040,
@@ -3349,14 +3589,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5580,
-          "expression": 5806,
-          "concentration": 6711
+          "vocal": 5134,
+          "expression": 5342,
+          "concentration": 6174
         }
       }
     ],
@@ -3399,10 +3639,10 @@
     },
     "sense": {
       "descriptions": [
-        "3.3~4.8倍のスコアを獲得"
+        "3.3~4.5倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力3.3~4.8倍的分数"
+        "获得自身演技力3.3~4.5倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -3464,7 +3704,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120041,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120042,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120050,
@@ -3488,14 +3738,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 6410,
-          "expression": 5957,
-          "concentration": 5731
+          "vocal": 5897,
+          "expression": 5480,
+          "concentration": 5272
         }
       }
     ],
@@ -3538,11 +3788,11 @@
     },
     "sense": {
       "descriptions": [
-        "0.6~2.1倍のスコアを獲得",
+        "0.6~1.8倍のスコアを獲得",
         "40のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力0.6~2.1倍的分数",
+        "获得自身演技力0.6~1.8倍的分数",
         "获得40点Principle Gauge"
       ],
       "type": "Amplification",
@@ -3605,7 +3855,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120051,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120052,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120060,
@@ -3629,14 +3889,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5806,
-          "expression": 6259,
-          "concentration": 6033
+          "vocal": 5342,
+          "expression": 5758,
+          "concentration": 5550
         }
       }
     ],
@@ -3679,11 +3939,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.2~2.7倍のスコアを獲得",
+        "1.2~2.4倍のスコアを獲得",
         "ライフを150~230回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.2~2.7倍的分数",
+        "获得自身演技力1.2~2.4倍的分数",
         "回复150~230点血量"
       ],
       "type": "Special",
@@ -3746,7 +4006,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120061,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120062,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120070,
@@ -3770,14 +4040,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5806,
-          "expression": 5806,
-          "concentration": 6485
+          "vocal": 5342,
+          "expression": 5342,
+          "concentration": 5966
         }
       }
     ],
@@ -3820,12 +4090,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.6~3.1倍のスコアを獲得",
+        "1.6~2.8倍のスコアを獲得",
         "25秒間、Edenのアクターにセンススコア15~24％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.6~3.1倍的分数",
-        "25秒内，Eden的演员Star Act中获得的分数提升15~24"
+        "获得自身演技力1.6~2.8倍的分数",
+        "25秒内，Eden的演员Sense中获得的分数提升15~24%"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -3887,7 +4157,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120071,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120072,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120080,
@@ -3911,14 +4191,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5731,
-          "expression": 6937,
-          "concentration": 5429
+          "vocal": 5272,
+          "expression": 6382,
+          "concentration": 4995
         }
       }
     ],
@@ -3961,11 +4241,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.5~3.5倍のスコアを獲得",
+        "1.5~3.1倍のスコアを獲得",
         "ライフを150~230回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.5~3.5倍的分数",
+        "获得自身演技力1.5~3.1倍的分数",
         "回复150~230点血量"
       ],
       "type": "Amplification",
@@ -4028,7 +4308,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120081,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120082,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120090,
@@ -4052,14 +4342,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5731,
-          "expression": 6108,
-          "concentration": 6259
+          "vocal": 5272,
+          "expression": 5619,
+          "concentration": 5758
         }
       }
     ],
@@ -4102,11 +4392,11 @@
     },
     "sense": {
       "descriptions": [
-        "0.9~2.4倍のスコアを獲得",
+        "0.9~2.1倍のスコアを獲得",
         "50のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力0.9~2.4倍的分数",
+        "获得自身演技力0.9~2.1倍的分数",
         "获得50点Principle Gauge"
       ],
       "type": "Control",
@@ -4169,7 +4459,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120091,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120092,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120100,
@@ -4193,14 +4493,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 6711,
-          "expression": 6033,
-          "concentration": 5354
+          "vocal": 6174,
+          "expression": 5550,
+          "concentration": 4925
         }
       }
     ],
@@ -4243,11 +4543,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.2~2.7倍のスコアを獲得",
+        "1.2~2.4倍のスコアを獲得",
         "50のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.2~2.7倍的分数",
+        "获得自身演技力1.2~2.4倍的分数",
         "获得50点Principle Gauge"
       ],
       "type": "Special",
@@ -4310,7 +4610,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120101,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120102,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120110,
@@ -4334,14 +4644,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5731,
-          "expression": 5731,
-          "concentration": 6636
+          "vocal": 5272,
+          "expression": 5272,
+          "concentration": 6105
         }
       }
     ],
@@ -4384,10 +4694,10 @@
     },
     "sense": {
       "descriptions": [
-        "3.3~4.8倍のスコアを獲得"
+        "3.3~4.5倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力3.3~4.8倍的分数"
+        "获得自身演技力3.3~4.5倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -4449,7 +4759,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120111,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120112,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120120,
@@ -4473,14 +4793,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5505,
-          "expression": 6711,
-          "concentration": 5882
+          "vocal": 5064,
+          "expression": 6174,
+          "concentration": 5411
         }
       }
     ],
@@ -4523,12 +4843,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.6~3.1倍のスコアを獲得",
+        "1.6~2.8倍のスコアを獲得",
         "25秒間、銀河座のアクターにセンススコア15~24％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.6~3.1倍的分数",
-        "25秒内，银河座的演员Star Act中获得的分数提升15~24"
+        "获得自身演技力1.6~2.8倍的分数",
+        "25秒内，银河座的演员Sense中获得的分数提升15~24%"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -4590,7 +4910,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120121,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120122,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120130,
@@ -4614,14 +4944,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 6485,
-          "expression": 5655,
-          "concentration": 5957
+          "vocal": 5966,
+          "expression": 5203,
+          "concentration": 5480
         }
       }
     ],
@@ -4664,11 +4994,11 @@
     },
     "sense": {
       "descriptions": [
-        "0.6~2.1倍のスコアを獲得",
+        "0.6~1.8倍のスコアを獲得",
         "40のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力0.6~2.1倍的分数",
+        "获得自身演技力0.6~1.8倍的分数",
         "获得40点Principle Gauge"
       ],
       "type": "Support",
@@ -4731,7 +5061,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120131,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120132,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120140,
@@ -4755,14 +5095,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 6636,
-          "expression": 6259,
-          "concentration": 5203
+          "vocal": 6105,
+          "expression": 5758,
+          "concentration": 4787
         }
       }
     ],
@@ -4805,11 +5145,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.5~3.5倍のスコアを獲得",
+        "1.5~3.1倍のスコアを獲得",
         "ライフを150~230回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.5~3.5倍的分数",
+        "获得自身演技力1.5~3.1倍的分数",
         "回复150~230点血量"
       ],
       "type": "Amplification",
@@ -4872,7 +5212,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120141,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120142,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120150,
@@ -4896,14 +5246,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5128,
-          "expression": 5731,
-          "concentration": 7239
+          "vocal": 4717,
+          "expression": 5272,
+          "concentration": 6660
         }
       }
     ],
@@ -4946,10 +5296,10 @@
     },
     "sense": {
       "descriptions": [
-        "3.3~4.8倍のスコアを獲得"
+        "3.3~4.5倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力3.3~4.8倍的分数"
+        "获得自身演技力3.3~4.5倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -5011,7 +5361,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120151,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120152,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120160,
@@ -5035,14 +5395,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 7088,
-          "expression": 5429,
-          "concentration": 5580
+          "vocal": 6521,
+          "expression": 4995,
+          "concentration": 5134
         }
       }
     ],
@@ -5085,11 +5445,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.5~3.5倍のスコアを獲得",
+        "1.5~3.1倍のスコアを獲得",
         "ライフを150~230回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.5~3.5倍的分数",
+        "获得自身演技力1.5~3.1倍的分数",
         "回复150~230点血量"
       ],
       "type": "Amplification",
@@ -5152,7 +5512,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120161,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120162,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120170,
@@ -5176,14 +5546,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 8615,
-          "expression": 8615,
-          "concentration": 7384
+          "vocal": 8108,
+          "expression": 8108,
+          "concentration": 6950
         }
       }
     ],
@@ -5287,7 +5657,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120171,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120172,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120180,
@@ -5311,14 +5691,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5731,
-          "expression": 5580,
-          "concentration": 6787
+          "vocal": 5272,
+          "expression": 5134,
+          "concentration": 6244
         }
       }
     ],
@@ -5361,12 +5741,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.6~3.1倍のスコアを獲得",
+        "1.6~2.8倍のスコアを獲得",
         "25秒間、劇団電姫のアクターにセンススコア15~24％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.6~3.1倍的分数",
-        "25秒内，剧团电姬的演员Star Act中获得的分数提升15~24"
+        "获得自身演技力1.6~2.8倍的分数",
+        "25秒内，剧团电姬的演员Sense中获得的分数提升15~24%"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -5428,7 +5808,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120181,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120182,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120190,
@@ -5452,14 +5842,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 5882,
-          "expression": 6108,
-          "concentration": 6108
+          "vocal": 5411,
+          "expression": 5619,
+          "concentration": 5619
         }
       }
     ],
@@ -5502,11 +5892,11 @@
     },
     "sense": {
       "descriptions": [
-        "0.6~2.1倍のスコアを獲得",
+        "0.6~1.8倍のスコアを獲得",
         "40のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力0.6~2.1倍的分数",
+        "获得自身演技力0.6~1.8倍的分数",
         "获得40点Principle Gauge"
       ],
       "type": "Support",
@@ -5569,7 +5959,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120191,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120192,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120200,
@@ -5593,14 +5993,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 6183,
-          "expression": 7013,
-          "concentration": 4901
+          "vocal": 5689,
+          "expression": 6452,
+          "concentration": 4509
         }
       }
     ],
@@ -5643,10 +6043,10 @@
     },
     "sense": {
       "descriptions": [
-        "2.6~4.1倍のスコアを獲得"
+        "2.6~3.8倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.6~4.1倍的分数"
+        "获得自身演技力2.6~3.8倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -5708,7 +6108,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120201,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120202,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 120210,
@@ -5732,14 +6142,14 @@
       {
         "preset": {
           "level": 120,
-          "awakening": true,
+          "awakening": false,
           "episode": "Second",
           "bloom": 5
         },
         "status": {
-          "vocal": 6259,
-          "expression": 4977,
-          "concentration": 6862
+          "vocal": 5758,
+          "expression": 4579,
+          "concentration": 6313
         }
       }
     ],
@@ -5782,10 +6192,10 @@
     },
     "sense": {
       "descriptions": [
-        "3.3~4.8倍のスコアを獲得"
+        "3.3~4.5倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力3.3~4.8倍的分数"
+        "获得自身演技力3.3~4.5倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -5847,7 +6257,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 120211,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 120212,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130010,
@@ -5921,12 +6341,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "25秒間、シリウスのアクターにセンススコア21~33％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
-        "25秒内，天狼星的演员Star Act中获得的分数提升21~33"
+        "获得自身演技力1.4~3倍的分数",
+        "25秒内，天狼星的演员Sense中获得的分数提升21~33%"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -5990,7 +6410,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130011,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130012,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130020,
@@ -6127,7 +6557,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130021,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130022,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130030,
@@ -6201,11 +6641,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.1~3.1倍のスコアを獲得",
+        "1.1~2.7倍のスコアを獲得",
         "70のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.1~3.1倍的分数",
+        "获得自身演技力1.1~2.7倍的分数",
         "获得70点Principle Gauge"
       ],
       "type": "Amplification",
@@ -6270,7 +6710,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130031,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130032,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130040,
@@ -6344,10 +6794,10 @@
     },
     "sense": {
       "descriptions": [
-        "4.9~6.9倍のスコアを獲得"
+        "4.9~6.5倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力4.9~6.9倍的分数"
+        "获得自身演技力4.9~6.5倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -6411,7 +6861,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130041,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130042,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130050,
@@ -6485,11 +6945,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~3.9倍のスコアを獲得",
+        "1.9~3.5倍のスコアを獲得",
         "ライフを200~320回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~3.9倍的分数",
+        "获得自身演技力1.9~3.5倍的分数",
         "回复200~320点血量"
       ],
       "type": "Amplification",
@@ -6554,7 +7014,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130051,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130052,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130060,
@@ -6628,11 +7098,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.1~3.1倍のスコアを獲得",
+        "1.1~2.7倍のスコアを獲得",
         "70のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.1~3.1倍的分数",
+        "获得自身演技力1.1~2.7倍的分数",
         "获得70点Principle Gauge"
       ],
       "type": "Special",
@@ -6697,7 +7167,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130061,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130062,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130070,
@@ -6771,12 +7251,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~3.9倍のスコアを獲得",
+        "1.9~3.5倍のスコアを獲得",
         "25秒間、Edenのアクターにセンススコア21~33％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~3.9倍的分数",
-        "25秒内，Eden的演员Star Act中获得的分数提升21~33"
+        "获得自身演技力1.9~3.5倍的分数",
+        "25秒内，Eden的演员Sense中获得的分数提升21~33%"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -6840,7 +7320,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130071,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130072,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130080,
@@ -6914,11 +7404,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~3.9倍のスコアを獲得",
+        "1.9~3.5倍のスコアを獲得",
         "ライフを200~320回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~3.9倍的分数",
+        "获得自身演技力1.9~3.5倍的分数",
         "回复200~320点血量"
       ],
       "type": "Amplification",
@@ -6983,7 +7473,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130081,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130082,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130090,
@@ -7057,11 +7557,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.1~3.1倍のスコアを獲得",
+        "1.1~2.7倍のスコアを獲得",
         "70のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.1~3.1倍的分数",
+        "获得自身演技力1.1~2.7倍的分数",
         "获得70点Principle Gauge"
       ],
       "type": "Control",
@@ -7126,7 +7626,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130091,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130092,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130100,
@@ -7200,10 +7710,10 @@
     },
     "sense": {
       "descriptions": [
-        "3.6~5.1倍のスコアを獲得"
+        "3.6~4.8倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力3.6~5.1倍的分数"
+        "获得自身演技力3.6~4.8倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -7267,7 +7777,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130101,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130102,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130110,
@@ -7341,10 +7861,10 @@
     },
     "sense": {
       "descriptions": [
-        "4.1~6.1倍のスコアを獲得"
+        "4.1~5.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力4.1~6.1倍的分数"
+        "获得自身演技力4.1~5.7倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -7408,7 +7928,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130111,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130112,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130120,
@@ -7482,12 +8012,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "25秒間、銀河座のアクターにセンススコア21~33％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
-        "25秒内，银河座的演员Star Act中获得的分数提升21~33"
+        "获得自身演技力1.4~3倍的分数",
+        "25秒内，银河座的演员Sense中获得的分数提升21~33%"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -7551,7 +8081,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130121,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130122,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130130,
@@ -7625,10 +8165,10 @@
     },
     "sense": {
       "descriptions": [
-        "4.1~6.1倍のスコアを獲得"
+        "4.1~5.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力4.1~6.1倍的分数"
+        "获得自身演技力4.1~5.7倍的分数"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -7692,7 +8232,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130131,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130132,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130140,
@@ -7766,11 +8316,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~2.9倍のスコアを獲得",
+        "1.4~2.6倍のスコアを獲得",
         "ライフを200~320回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~2.9倍的分数",
+        "获得自身演技力1.4~2.6倍的分数",
         "回复200~320点血量"
       ],
       "type": "Amplification",
@@ -7835,7 +8385,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130141,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130142,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130150,
@@ -7909,10 +8469,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.2~7.7倍のスコアを獲得"
+        "5.2~7.2倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.2~7.7倍的分数"
+        "获得自身演技力5.2~7.2倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -7976,7 +8536,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130151,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130152,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130160,
@@ -8050,11 +8620,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "80のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
+        "获得自身演技力1.4~3倍的分数",
         "获得80点Principle Gauge"
       ],
       "type": "Amplification",
@@ -8119,7 +8689,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130161,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130162,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130170,
@@ -8256,7 +8836,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130171,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130172,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130180,
@@ -8330,12 +8920,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "25秒間、劇団電姫のアクターにセンススコア21~33％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
-        "25秒内，剧团电姬的演员Star Act中获得的分数提升21~33"
+        "获得自身演技力1.4~3倍的分数",
+        "25秒内，剧团电姬的演员Sense中获得的分数提升21~33%"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -8399,7 +8989,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130181,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130182,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130190,
@@ -8473,11 +9073,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "ライフを200~320回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
+        "获得自身演技力1.4~3倍的分数",
         "回复200~320点血量"
       ],
       "type": "Support",
@@ -8542,7 +9142,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130191,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130192,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130200,
@@ -8616,11 +9226,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "80のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
+        "获得自身演技力1.4~3倍的分数",
         "获得80点Principle Gauge"
       ],
       "type": "Special",
@@ -8685,7 +9295,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130201,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130202,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130210,
@@ -8759,10 +9379,10 @@
     },
     "sense": {
       "descriptions": [
-        "3.6~5.1倍のスコアを獲得"
+        "3.6~4.8倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力3.6~5.1倍的分数"
+        "获得自身演技力3.6~4.8倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -8826,7 +9446,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 130211,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130212,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130220,
@@ -8900,11 +9530,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~3.9倍のスコアを獲得",
+        "1.9~3.5倍のスコアを獲得",
         "ライフを200~320回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~3.9倍的分数",
+        "获得自身演技力1.9~3.5倍的分数",
         "回复200~320点血量"
       ],
       "type": "Special",
@@ -8965,7 +9595,17 @@
     ],
     "displayStartAt": "2023-07-31T08:00:00.000Z",
     "event": "god is no /w/ here",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130221,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130222,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130230,
@@ -9102,7 +9742,17 @@
     ],
     "displayStartAt": "2023-08-10T08:00:00.000Z",
     "event": "エレクトリック・サマー・バカンス",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130231,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130232,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130240,
@@ -9176,11 +9826,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "80のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
+        "获得自身演技力1.4~3倍的分数",
         "获得80点Principle Gauge"
       ],
       "type": "Special",
@@ -9241,7 +9891,17 @@
     ],
     "displayStartAt": "2023-08-20T08:00:00.000Z",
     "event": "隠し味はひとさじのユーモア",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130241,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130242,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130250,
@@ -9315,11 +9975,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.9倍のスコアを獲得",
+        "1.4~3.4倍のスコアを獲得",
         "90のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.9倍的分数",
+        "获得自身演技力1.4~3.4倍的分数",
         "获得90点Principle Gauge"
       ],
       "type": "Support",
@@ -9380,7 +10040,17 @@
     ],
     "displayStartAt": "2023-08-31T08:00:00.000Z",
     "event": "泡沫烟花",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130251,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130252,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130260,
@@ -9454,11 +10124,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "ライフを200~320回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
+        "获得自身演技力1.4~3倍的分数",
         "回复200~320点血量"
       ],
       "type": "Special",
@@ -9519,7 +10189,17 @@
     ],
     "displayStartAt": "2023-09-10T08:00:00.000Z",
     "event": "脚光が照らすこれから",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130261,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130262,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130270,
@@ -9593,10 +10273,10 @@
     },
     "sense": {
       "descriptions": [
-        "4.1~6.1倍のスコアを獲得"
+        "4.1~5.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力4.1~6.1倍的分数"
+        "获得自身演技力4.1~5.7倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -9656,7 +10336,17 @@
     ],
     "displayStartAt": "2023-09-20T08:00:00.000Z",
     "event": "歌川高校体育祭！　～応援団長の一日～",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130271,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130272,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130280,
@@ -9793,7 +10483,17 @@
     ],
     "displayStartAt": "2023-09-30T08:00:00.000Z",
     "event": "FAIR IS FOUL, AND FOUL IS FAIR",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130281,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130282,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130290,
@@ -9867,10 +10567,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.2~7.7倍のスコアを獲得"
+        "5.2~7.2倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.2~7.7倍的分数"
+        "获得自身演技力5.2~7.2倍的分数"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -9930,7 +10630,17 @@
     ],
     "displayStartAt": "2023-10-10T08:00:00.000Z",
     "event": "北天のアルビレオ",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130291,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130292,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130300,
@@ -10004,10 +10714,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.2~7.7倍のスコアを獲得"
+        "5.2~7.2倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.2~7.7倍的分数"
+        "获得自身演技力5.2~7.2倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -10067,7 +10777,17 @@
     ],
     "displayStartAt": "2023-10-31T08:00:00.000Z",
     "event": "シリウスは日々是好日で",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130301,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130302,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130310,
@@ -10141,11 +10861,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "80のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
+        "获得自身演技力1.4~3倍的分数",
         "获得80点Principle Gauge"
       ],
       "type": "Control",
@@ -10206,7 +10926,17 @@
     ],
     "displayStartAt": "2023-10-20T08:00:00.000Z",
     "event": "マジカルガール☆ハロウィン",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130311,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130312,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130320,
@@ -10280,10 +11010,10 @@
     },
     "sense": {
       "descriptions": [
-        "4.1~6.1倍のスコアを獲得"
+        "4.1~5.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力4.1~6.1倍的分数"
+        "获得自身演技力4.1~5.7倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -10343,7 +11073,17 @@
     ],
     "displayStartAt": "2023-11-20T08:00:00.000Z",
     "event": "ギムレットにお別れを",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130321,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130322,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130330,
@@ -10417,11 +11157,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~4.4倍のスコアを獲得",
+        "1.9~3.9倍のスコアを獲得",
         "ライフを200~320回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~4.4倍的分数",
+        "获得自身演技力1.9~3.9倍的分数",
         "回复200~320点血量"
       ],
       "type": "Control",
@@ -10482,7 +11222,17 @@
     ],
     "displayStartAt": "2023-11-10T08:00:00.000Z",
     "event": "人には言えないアタシの叫び",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130331,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130332,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130340,
@@ -10556,11 +11306,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.4~3.4倍のスコアを獲得",
+        "1.4~3倍のスコアを獲得",
         "ライフを200~320回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.4~3.4倍的分数",
+        "获得自身演技力1.4~3倍的分数",
         "回复200~320点血量"
       ],
       "type": "Support",
@@ -10621,7 +11371,17 @@
     ],
     "displayStartAt": "2023-11-30T08:00:00.000Z",
     "event": "bet on faith？",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130341,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130342,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130360,
@@ -10695,10 +11455,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.2~7.7倍のスコアを獲得"
+        "5.2~7.2倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.2~7.7倍的分数"
+        "获得自身演技力5.2~7.2倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -10758,7 +11518,17 @@
     ],
     "displayStartAt": "2023-12-10T08:00:00.000Z",
     "event": "泡雪でありますように",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130361,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130362,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130370,
@@ -10832,10 +11602,10 @@
     },
     "sense": {
       "descriptions": [
-        "4.9~6.9倍のスコアを獲得"
+        "4.9~6.5倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力4.9~6.9倍的分数"
+        "获得自身演技力4.9~6.5倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -10895,7 +11665,17 @@
     ],
     "displayStartAt": "2023-12-20T08:00:00.000Z",
     "event": "星明かりのおくりもの",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130371,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130372,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130380,
@@ -11032,7 +11812,17 @@
     ],
     "displayStartAt": "2023-12-31T06:00:00.000Z",
     "event": "新年はあなたの手を取って",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130381,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130382,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130390,
@@ -11106,11 +11896,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.1~3.1倍のスコアを獲得",
+        "1.1~2.7倍のスコアを獲得",
         "70のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.1~3.1倍的分数",
+        "获得自身演技力1.1~2.7倍的分数",
         "获得70点Principle Gauge"
       ],
       "type": "Amplification",
@@ -11171,7 +11961,17 @@
     ],
     "displayStartAt": "2024-01-10T08:00:00.000Z",
     "event": "秒針の安息",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130391,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130392,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 130400,
@@ -11245,11 +12045,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.1~3.1倍のスコアを獲得",
+        "1.1~2.7倍のスコアを獲得",
         "70のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.1~3.1倍的分数",
+        "获得自身演技力1.1~2.7倍的分数",
         "获得70点Principle Gauge"
       ],
       "type": "Control",
@@ -11310,7 +12110,17 @@
     ],
     "displayStartAt": "2024-01-20T08:00:00.000Z",
     "event": "14光年はなれた隣で",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 130401,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130402,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140010,
@@ -11384,12 +12194,12 @@
     },
     "sense": {
       "descriptions": [
-        "2.2~4.7倍のスコアを獲得",
+        "2.2~4.2倍のスコアを獲得",
         "ライフを320~510回復",
         "ライフが多いほどここなのスコア獲得量UP（最大＋100％）"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.2~4.7倍的分数",
+        "获得自身演技力2.2~4.2倍的分数",
         "回复320~510点血量",
         "血量越多，凤心菜的分数获得量越高（最大+100％）"
       ],
@@ -11455,7 +12265,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "无"
+    "gacha": "无",
+    "episodes": [
+      {
+        "id": 140011,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140012,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140020,
@@ -11529,10 +12349,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.1~7.1倍のスコアを獲得"
+        "5.1~6.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.1~7.1倍的分数"
+        "获得自身演技力5.1~6.7倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -11596,7 +12416,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140021,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140022,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140030,
@@ -11670,11 +12500,11 @@
     },
     "sense": {
       "descriptions": [
-        "2.5~5.5倍のスコアを獲得",
+        "2.5~4.9倍のスコアを獲得",
         "ライフを320~510回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.5~5.5倍的分数",
+        "获得自身演技力2.5~4.9倍的分数",
         "回复320~510点血量"
       ],
       "type": "Amplification",
@@ -11739,7 +12569,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140031,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140032,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140040,
@@ -11813,11 +12653,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.7~4.2倍のスコアを獲得",
+        "1.7~3.7倍のスコアを獲得",
         "90のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.7~4.2倍的分数",
+        "获得自身演技力1.7~3.7倍的分数",
         "获得90点Principle Gauge"
       ],
       "type": "Special",
@@ -11882,7 +12722,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140041,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140042,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140050,
@@ -11956,11 +12806,11 @@
     },
     "sense": {
       "descriptions": [
-        "2.5~5.5倍のスコアを獲得",
+        "2.5~4.9倍のスコアを獲得",
         "ライフを320~510回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.5~5.5倍的分数",
+        "获得自身演技力2.5~4.9倍的分数",
         "回复320~510点血量"
       ],
       "type": "Control",
@@ -12025,7 +12875,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140051,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140052,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140060,
@@ -12099,10 +12959,10 @@
     },
     "sense": {
       "descriptions": [
-        "6~8.5倍のスコアを獲得"
+        "6~8倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6~8.5倍的分数"
+        "获得自身演技力6~8倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -12166,7 +13026,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140061,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140062,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140070,
@@ -12240,11 +13110,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.8~4.8倍のスコアを獲得",
+        "1.8~4.2倍のスコアを獲得",
         "100のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.8~4.8倍的分数",
+        "获得自身演技力1.8~4.2倍的分数",
         "获得100点Principle Gauge"
       ],
       "type": "Control",
@@ -12309,7 +13179,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140071,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140072,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140080,
@@ -12383,12 +13263,12 @@
     },
     "sense": {
       "descriptions": [
-        "2.2~4.7倍のスコアを獲得",
+        "2.2~4.2倍のスコアを獲得",
         "25秒間、銀河座のアクターにセンススコア33~52％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.2~4.7倍的分数",
-        "25秒内，银河座的演员Star Act中获得的分数提升33~52"
+        "获得自身演技力2.2~4.2倍的分数",
+        "25秒内，银河座的演员Sense中获得的分数提升33~52%"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -12452,7 +13332,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140081,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140082,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140090,
@@ -12526,10 +13416,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.1~7.1倍のスコアを獲得"
+        "5.1~6.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.1~7.1倍的分数"
+        "获得自身演技力5.1~6.7倍的分数"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -12593,7 +13483,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140091,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140092,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140100,
@@ -12667,11 +13567,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.8~4.8倍のスコアを獲得",
+        "1.8~4.2倍のスコアを獲得",
         "100のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.8~4.8倍的分数",
+        "获得自身演技力1.8~4.2倍的分数",
         "获得100点Principle Gauge"
       ],
       "type": "Control",
@@ -12736,7 +13636,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140101,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140102,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140110,
@@ -12877,7 +13787,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140111,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140112,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140120,
@@ -12951,12 +13871,12 @@
     },
     "sense": {
       "descriptions": [
-        "2.2~4.7倍のスコアを獲得",
+        "2.2~4.2倍のスコアを獲得",
         "25秒間、劇団電姫のアクターにセンススコア33~52％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.2~4.7倍的分数",
-        "25秒内，剧团电姬的演员Star Act中获得的分数提升33~52"
+        "获得自身演技力2.2~4.2倍的分数",
+        "25秒内，剧团电姬的演员Sense中获得的分数提升33~52%"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -13020,7 +13940,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140121,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140122,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140130,
@@ -13094,10 +14024,10 @@
     },
     "sense": {
       "descriptions": [
-        "6.7~9.7倍のスコアを獲得"
+        "6.7~9.1倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6.7~9.7倍的分数"
+        "获得自身演技力6.7~9.1倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -13161,7 +14091,17 @@
     ],
     "displayStartAt": "2022-12-31T15:00:00.000Z",
     "event": "无",
-    "gacha": "リリース記念ガチャ"
+    "gacha": "リリース記念ガチャ",
+    "episodes": [
+      {
+        "id": 140131,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140132,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140140,
@@ -13235,11 +14175,11 @@
     },
     "sense": {
       "descriptions": [
-        "2.6~6.1倍のスコアを獲得",
+        "2.6~5.4倍のスコアを獲得",
         "シリウスのアクターのCTを9秒短縮"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.6~6.1倍的分数",
+        "获得自身演技力2.6~5.4倍的分数",
         "天狼星的演员CT缩短9秒"
       ],
       "type": "Amplification",
@@ -13304,7 +14244,17 @@
     ],
     "displayStartAt": "2023-07-29T08:00:00.000Z",
     "event": "无",
-    "gacha": "シリウス第2章ガチャ"
+    "gacha": "シリウス第2章ガチャ",
+    "episodes": [
+      {
+        "id": 140141,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140142,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140150,
@@ -13378,10 +14328,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.1~7.1倍のスコアを獲得"
+        "5.1~6.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.1~7.1倍的分数"
+        "获得自身演技力5.1~6.7倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -13445,7 +14395,17 @@
     ],
     "displayStartAt": "2023-07-31T08:00:00.000Z",
     "event": "god is no /w/ here",
-    "gacha": "god is no /w/ hereガチャ"
+    "gacha": "god is no /w/ hereガチャ",
+    "episodes": [
+      {
+        "id": 140151,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140152,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140160,
@@ -13519,12 +14479,12 @@
     },
     "sense": {
       "descriptions": [
-        "2.5~5.5倍のスコアを獲得",
+        "2.5~4.9倍のスコアを獲得",
         "25秒間、Edenのアクターにセンススコア33~52％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.5~5.5倍的分数",
-        "25秒内，Eden的演员Star Act中获得的分数提升33~52"
+        "获得自身演技力2.5~4.9倍的分数",
+        "25秒内，Eden的演员Sense中获得的分数提升33~52%"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -13588,7 +14548,17 @@
     ],
     "displayStartAt": "2023-07-31T08:00:00.000Z",
     "event": "god is no /w/ here",
-    "gacha": "god is no /w/ hereガチャ"
+    "gacha": "god is no /w/ hereガチャ",
+    "episodes": [
+      {
+        "id": 140161,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140162,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140170,
@@ -13662,10 +14632,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.1~7.1倍のスコアを獲得"
+        "5.1~6.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.1~7.1倍的分数"
+        "获得自身演技力5.1~6.7倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -13729,7 +14699,17 @@
     ],
     "displayStartAt": "2023-08-10T08:00:00.000Z",
     "event": "エレクトリック・サマー・バカンス",
-    "gacha": "エレクトリック・サマー・バカンスガチャ"
+    "gacha": "エレクトリック・サマー・バカンスガチャ",
+    "episodes": [
+      {
+        "id": 140171,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140172,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140180,
@@ -13803,12 +14783,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.7~4.2倍のスコアを獲得",
+        "1.7~3.7倍のスコアを獲得",
         "90のプリンシパルゲージを獲得",
         "センス発動後、追加で30~50のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.7~4.2倍的分数",
+        "获得自身演技力1.7~3.7倍的分数",
         "获得90点Principle Gauge",
         "Sense发动后，追加获得30~50点P.计量槽"
       ],
@@ -13874,7 +14854,17 @@
     ],
     "displayStartAt": "2023-08-10T08:00:00.000Z",
     "event": "エレクトリック・サマー・バカンス",
-    "gacha": "エレクトリック・サマー・バカンスガチャ"
+    "gacha": "エレクトリック・サマー・バカンスガチャ",
+    "episodes": [
+      {
+        "id": 140181,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140182,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140190,
@@ -13948,11 +14938,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~5.4倍のスコアを獲得",
+        "1.9~4.7倍のスコアを獲得",
         "120のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~5.4倍的分数",
+        "获得自身演技力1.9~4.7倍的分数",
         "获得120点Principle Gauge"
       ],
       "type": "Control",
@@ -14017,7 +15007,17 @@
     ],
     "displayStartAt": "2023-08-20T08:00:00.000Z",
     "event": "隠し味はひとさじのユーモア",
-    "gacha": "隠し味はひとさじのユーモアガチャ"
+    "gacha": "隠し味はひとさじのユーモアガチャ",
+    "episodes": [
+      {
+        "id": 140191,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140192,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140200,
@@ -14158,7 +15158,17 @@
     ],
     "displayStartAt": "2023-08-20T08:00:00.000Z",
     "event": "隠し味はひとさじのユーモア",
-    "gacha": "隠し味はひとさじのユーモアガチャ"
+    "gacha": "隠し味はひとさじのユーモアガチャ",
+    "episodes": [
+      {
+        "id": 140201,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140202,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140210,
@@ -14232,11 +15242,11 @@
     },
     "sense": {
       "descriptions": [
-        "6~8.5倍のスコアを獲得",
+        "6~8倍のスコアを獲得",
         "センス発動後、追加で30~50のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6~8.5倍的分数",
+        "获得自身演技力6~8倍的分数",
         "Sense发动后，追加获得30~50点P.计量槽"
       ],
       "type": "Amplification",
@@ -14301,7 +15311,17 @@
     ],
     "displayStartAt": "2023-08-31T08:00:00.000Z",
     "event": "泡沫烟花",
-    "gacha": "泡沫烟花ガチャ"
+    "gacha": "泡沫烟花ガチャ",
+    "episodes": [
+      {
+        "id": 140211,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140212,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140220,
@@ -14375,10 +15395,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.4~7.9倍のスコアを獲得"
+        "5.4~7.4倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.4~7.9倍的分数"
+        "获得自身演技力5.4~7.4倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -14442,7 +15462,17 @@
     ],
     "displayStartAt": "2023-08-31T08:00:00.000Z",
     "event": "泡沫烟花",
-    "gacha": "泡沫烟花ガチャ"
+    "gacha": "泡沫烟花ガチャ",
+    "episodes": [
+      {
+        "id": 140221,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140222,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140240,
@@ -14516,11 +15546,11 @@
     },
     "sense": {
       "descriptions": [
-        "2.5~5.5倍のスコアを獲得",
+        "2.5~4.9倍のスコアを獲得",
         "ライフを320~510回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.5~5.5倍的分数",
+        "获得自身演技力2.5~4.9倍的分数",
         "回复320~510点血量"
       ],
       "type": "Amplification",
@@ -14585,7 +15615,17 @@
     ],
     "displayStartAt": "2023-09-10T08:00:00.000Z",
     "event": "脚光が照らすこれから",
-    "gacha": "脚光が照らすこれからガチャ"
+    "gacha": "脚光が照らすこれからガチャ",
+    "episodes": [
+      {
+        "id": 140241,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140242,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140250,
@@ -14726,7 +15766,17 @@
     ],
     "displayStartAt": "2023-09-10T08:00:00.000Z",
     "event": "脚光が照らすこれから",
-    "gacha": "脚光が照らすこれからガチャ"
+    "gacha": "脚光が照らすこれからガチャ",
+    "episodes": [
+      {
+        "id": 140251,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140252,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140260,
@@ -14800,11 +15850,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~5.4倍のスコアを獲得",
+        "1.9~4.7倍のスコアを獲得",
         "120のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~5.4倍的分数",
+        "获得自身演技力1.9~4.7倍的分数",
         "获得120点Principle Gauge"
       ],
       "type": "Control",
@@ -14869,7 +15919,17 @@
     ],
     "displayStartAt": "2023-09-20T08:00:00.000Z",
     "event": "歌川高校体育祭！　～応援団長の一日～",
-    "gacha": "歌川高校体育祭！～応援団長の一日～ガチャ"
+    "gacha": "歌川高校体育祭！～応援団長の一日～ガチャ",
+    "episodes": [
+      {
+        "id": 140261,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140262,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140270,
@@ -14943,10 +16003,10 @@
     },
     "sense": {
       "descriptions": [
-        "6~8.5倍のスコアを獲得"
+        "6~8倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6~8.5倍的分数"
+        "获得自身演技力6~8倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -15010,7 +16070,17 @@
     ],
     "displayStartAt": "2023-09-20T08:00:00.000Z",
     "event": "歌川高校体育祭！　～応援団長の一日～",
-    "gacha": "歌川高校体育祭！～応援団長の一日～ガチャ"
+    "gacha": "歌川高校体育祭！～応援団長の一日～ガチャ",
+    "episodes": [
+      {
+        "id": 140271,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140272,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140280,
@@ -15084,11 +16154,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~4.4倍のスコアを獲得",
+        "1.9~3.9倍のスコアを獲得",
         "銀河座のアクターのCTを8秒短縮"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~4.4倍的分数",
+        "获得自身演技力1.9~3.9倍的分数",
         "银河座的演员CT缩短8秒"
       ],
       "type": "Special",
@@ -15153,7 +16223,17 @@
     ],
     "displayStartAt": "2023-09-30T08:00:00.000Z",
     "event": "FAIR IS FOUL, AND FOUL IS FAIR",
-    "gacha": "FAIR IS FOUL, AND FOUL IS FAIRガチャ"
+    "gacha": "FAIR IS FOUL, AND FOUL IS FAIRガチャ",
+    "episodes": [
+      {
+        "id": 140281,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140282,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140290,
@@ -15227,10 +16307,10 @@
     },
     "sense": {
       "descriptions": [
-        "6~8.5倍のスコアを獲得"
+        "6~8倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6~8.5倍的分数"
+        "获得自身演技力6~8倍的分数"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -15294,7 +16374,17 @@
     ],
     "displayStartAt": "2023-09-30T08:00:00.000Z",
     "event": "FAIR IS FOUL, AND FOUL IS FAIR",
-    "gacha": "FAIR IS FOUL, AND FOUL IS FAIRガチャ"
+    "gacha": "FAIR IS FOUL, AND FOUL IS FAIRガチャ",
+    "episodes": [
+      {
+        "id": 140291,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140292,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140300,
@@ -15368,10 +16458,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.1~7.1倍のスコアを獲得"
+        "5.1~6.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.1~7.1倍的分数"
+        "获得自身演技力5.1~6.7倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -15435,7 +16525,17 @@
     ],
     "displayStartAt": "2023-10-10T08:00:00.000Z",
     "event": "北天のアルビレオ",
-    "gacha": "北天のアルビレオガチャ"
+    "gacha": "北天のアルビレオガチャ",
+    "episodes": [
+      {
+        "id": 140301,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140302,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140310,
@@ -15509,12 +16609,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.7~4.2倍のスコアを獲得",
+        "1.7~3.7倍のスコアを獲得",
         "90のプリンシパルゲージを獲得",
         "センス発動後、追加で30~50のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.7~4.2倍的分数",
+        "获得自身演技力1.7~3.7倍的分数",
         "获得90点Principle Gauge",
         "Sense发动后，追加获得30~50点P.计量槽"
       ],
@@ -15580,7 +16680,17 @@
     ],
     "displayStartAt": "2023-10-10T08:00:00.000Z",
     "event": "北天のアルビレオ",
-    "gacha": "北天のアルビレオガチャ"
+    "gacha": "北天のアルビレオガチャ",
+    "episodes": [
+      {
+        "id": 140311,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140312,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140320,
@@ -15654,10 +16764,10 @@
     },
     "sense": {
       "descriptions": [
-        "11.7~16.7倍のスコアを獲得"
+        "11.7~15.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力11.7~16.7倍的分数"
+        "获得自身演技力11.7~15.7倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -15721,7 +16831,17 @@
     ],
     "displayStartAt": "2023-10-25T08:00:00.000Z",
     "event": "マジカルガール☆ハロウィン",
-    "gacha": "ユメフェスガチャ"
+    "gacha": "ユメフェスガチャ",
+    "episodes": [
+      {
+        "id": 140321,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140322,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140330,
@@ -15795,12 +16915,12 @@
     },
     "sense": {
       "descriptions": [
-        "3.2~6.7倍のスコアを獲得",
+        "3.2~6倍のスコアを獲得",
         "35秒間、銀河座のアクターにセンススコア71~114％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力3.2~6.7倍的分数",
-        "35秒内，银河座的演员Star Act中获得的分数提升71~114"
+        "获得自身演技力3.2~6倍的分数",
+        "35秒内，银河座的演员Sense中获得的分数提升71~114%"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -15864,7 +16984,17 @@
     ],
     "displayStartAt": "2023-10-25T08:00:00.000Z",
     "event": "マジカルガール☆ハロウィン",
-    "gacha": "ユメフェスガチャ"
+    "gacha": "ユメフェスガチャ",
+    "episodes": [
+      {
+        "id": 140331,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140332,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140340,
@@ -15938,10 +17068,10 @@
     },
     "sense": {
       "descriptions": [
-        "6.7~9.7倍のスコアを獲得"
+        "6.7~9.1倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6.7~9.7倍的分数"
+        "获得自身演技力6.7~9.1倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -16005,7 +17135,17 @@
     ],
     "displayStartAt": "2023-10-31T08:00:00.000Z",
     "event": "シリウスは日々是好日で",
-    "gacha": "シリウスは日々是好日でガチャ"
+    "gacha": "シリウスは日々是好日でガチャ",
+    "episodes": [
+      {
+        "id": 140341,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140342,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140350,
@@ -16079,11 +17219,11 @@
     },
     "sense": {
       "descriptions": [
-        "2.5~5.5倍のスコアを獲得",
+        "2.5~4.9倍のスコアを獲得",
         "ライフを320~510回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.5~5.5倍的分数",
+        "获得自身演技力2.5~4.9倍的分数",
         "回复320~510点血量"
       ],
       "type": "Special",
@@ -16148,7 +17288,17 @@
     ],
     "displayStartAt": "2023-10-31T08:00:00.000Z",
     "event": "シリウスは日々是好日で",
-    "gacha": "シリウスは日々是好日でガチャ"
+    "gacha": "シリウスは日々是好日でガチャ",
+    "episodes": [
+      {
+        "id": 140351,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140352,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140360,
@@ -16289,7 +17439,17 @@
     ],
     "displayStartAt": "2023-10-20T08:00:00.000Z",
     "event": "マジカルガール☆ハロウィン",
-    "gacha": "マジカルガール☆ハロウィンガチャ"
+    "gacha": "マジカルガール☆ハロウィンガチャ",
+    "episodes": [
+      {
+        "id": 140361,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140362,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140370,
@@ -16363,11 +17523,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~5.4倍のスコアを獲得",
+        "1.9~4.7倍のスコアを獲得",
         "120のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~5.4倍的分数",
+        "获得自身演技力1.9~4.7倍的分数",
         "获得120点Principle Gauge"
       ],
       "type": "Special",
@@ -16432,7 +17592,17 @@
     ],
     "displayStartAt": "2023-10-20T08:00:00.000Z",
     "event": "マジカルガール☆ハロウィン",
-    "gacha": "マジカルガール☆ハロウィンガチャ"
+    "gacha": "マジカルガール☆ハロウィンガチャ",
+    "episodes": [
+      {
+        "id": 140371,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140372,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140380,
@@ -16506,11 +17676,11 @@
     },
     "sense": {
       "descriptions": [
-        "2.5~5.5倍のスコアを獲得",
+        "2.5~4.9倍のスコアを獲得",
         "ライフを320~510回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.5~5.5倍的分数",
+        "获得自身演技力2.5~4.9倍的分数",
         "回复320~510点血量"
       ],
       "type": "Support",
@@ -16575,7 +17745,17 @@
     ],
     "displayStartAt": "2023-11-20T08:00:00.000Z",
     "event": "ギムレットにお別れを",
-    "gacha": "ギムレットにお別れをガチャ"
+    "gacha": "ギムレットにお別れをガチャ",
+    "episodes": [
+      {
+        "id": 140381,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140382,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140390,
@@ -16649,10 +17829,10 @@
     },
     "sense": {
       "descriptions": [
-        "6~8.5倍のスコアを獲得"
+        "6~8倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6~8.5倍的分数"
+        "获得自身演技力6~8倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -16716,7 +17896,17 @@
     ],
     "displayStartAt": "2023-11-20T08:00:00.000Z",
     "event": "ギムレットにお別れを",
-    "gacha": "ギムレットにお別れをガチャ"
+    "gacha": "ギムレットにお別れをガチャ",
+    "episodes": [
+      {
+        "id": 140391,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140392,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140400,
@@ -16790,10 +17980,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.1~7.1倍のスコアを獲得"
+        "5.1~6.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.1~7.1倍的分数"
+        "获得自身演技力5.1~6.7倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -16857,7 +18047,17 @@
     ],
     "displayStartAt": "2023-11-10T08:00:00.000Z",
     "event": "人には言えないアタシの叫び",
-    "gacha": "人には言えないアタシの叫びガチャ"
+    "gacha": "人には言えないアタシの叫びガチャ",
+    "episodes": [
+      {
+        "id": 140401,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140402,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140410,
@@ -16931,10 +18131,10 @@
     },
     "sense": {
       "descriptions": [
-        "6~8.5倍のスコアを獲得"
+        "6~8倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6~8.5倍的分数"
+        "获得自身演技力6~8倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -16998,7 +18198,17 @@
     ],
     "displayStartAt": "2023-11-10T08:00:00.000Z",
     "event": "人には言えないアタシの叫び",
-    "gacha": "人には言えないアタシの叫びガチャ"
+    "gacha": "人には言えないアタシの叫びガチャ",
+    "episodes": [
+      {
+        "id": 140411,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140412,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140420,
@@ -17072,12 +18282,12 @@
     },
     "sense": {
       "descriptions": [
-        "1.7~4.2倍のスコアを獲得",
+        "1.7~3.7倍のスコアを獲得",
         "90のプリンシパルゲージを獲得",
         "センス発動後、追加で30~50のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.7~4.2倍的分数",
+        "获得自身演技力1.7~3.7倍的分数",
         "获得90点Principle Gauge",
         "Sense发动后，追加获得30~50点P.计量槽"
       ],
@@ -17143,7 +18353,17 @@
     ],
     "displayStartAt": "2023-11-30T08:00:00.000Z",
     "event": "bet on faith？",
-    "gacha": "bet on faith？ガチャ"
+    "gacha": "bet on faith？ガチャ",
+    "episodes": [
+      {
+        "id": 140421,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140422,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140430,
@@ -17217,10 +18437,10 @@
     },
     "sense": {
       "descriptions": [
-        "6.7~9.7倍のスコアを獲得"
+        "6.7~9.1倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6.7~9.7倍的分数"
+        "获得自身演技力6.7~9.1倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -17284,7 +18504,17 @@
     ],
     "displayStartAt": "2023-11-30T08:00:00.000Z",
     "event": "bet on faith？",
-    "gacha": "bet on faith？ガチャ"
+    "gacha": "bet on faith？ガチャ",
+    "episodes": [
+      {
+        "id": 140431,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140432,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140460,
@@ -17358,10 +18588,10 @@
     },
     "sense": {
       "descriptions": [
-        "7.4~10.9倍のスコアを獲得"
+        "7.4~10.2倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力7.4~10.9倍的分数"
+        "获得自身演技力7.4~10.2倍的分数"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -17425,7 +18655,17 @@
     ],
     "displayStartAt": "2023-12-10T08:00:00.000Z",
     "event": "泡雪でありますように",
-    "gacha": "泡雪でありますようにガチャ"
+    "gacha": "泡雪でありますようにガチャ",
+    "episodes": [
+      {
+        "id": 140461,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140462,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140470,
@@ -17499,10 +18739,10 @@
     },
     "sense": {
       "descriptions": [
-        "6~8.5倍のスコアを獲得"
+        "6~8倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力6~8.5倍的分数"
+        "获得自身演技力6~8倍的分数"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -17566,7 +18806,17 @@
     ],
     "displayStartAt": "2023-12-10T08:00:00.000Z",
     "event": "泡雪でありますように",
-    "gacha": "泡雪でありますようにガチャ"
+    "gacha": "泡雪でありますようにガチャ",
+    "episodes": [
+      {
+        "id": 140471,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140472,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140480,
@@ -17640,11 +18890,11 @@
     },
     "sense": {
       "descriptions": [
-        "2.5~5.5倍のスコアを獲得",
+        "2.5~4.9倍のスコアを獲得",
         "ライフを320~510回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.5~5.5倍的分数",
+        "获得自身演技力2.5~4.9倍的分数",
         "回复320~510点血量"
       ],
       "type": "Control",
@@ -17709,7 +18959,17 @@
     ],
     "displayStartAt": "2023-12-20T08:00:00.000Z",
     "event": "星明かりのおくりもの",
-    "gacha": "星明かりのおくりものガチャ"
+    "gacha": "星明かりのおくりものガチャ",
+    "episodes": [
+      {
+        "id": 140481,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140482,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140490,
@@ -17783,11 +19043,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.9~5.4倍のスコアを獲得",
+        "1.9~4.7倍のスコアを獲得",
         "120のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.9~5.4倍的分数",
+        "获得自身演技力1.9~4.7倍的分数",
         "获得120点Principle Gauge"
       ],
       "type": "Amplification",
@@ -17852,7 +19112,17 @@
     ],
     "displayStartAt": "2023-12-20T08:00:00.000Z",
     "event": "星明かりのおくりもの",
-    "gacha": "星明かりのおくりものガチャ"
+    "gacha": "星明かりのおくりものガチャ",
+    "episodes": [
+      {
+        "id": 140491,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140492,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140500,
@@ -17926,12 +19196,12 @@
     },
     "sense": {
       "descriptions": [
-        "2.2~5.2倍のスコアを獲得",
+        "2.2~4.6倍のスコアを獲得",
         "20秒間、シリウスのアクターにスターアクトスコア18~30％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.2~5.2倍的分数",
-        "20秒内，天狼星的演员Sense中获得的分数提升18~30"
+        "获得自身演技力2.2~4.6倍的分数",
+        "20秒内，天狼星的演员Star Act中获得的分数提升18~30%"
       ],
       "type": "Amplification",
       "lightCount": 1,
@@ -17995,7 +19265,17 @@
     ],
     "displayStartAt": "2023-12-31T06:00:00.000Z",
     "event": "新年はあなたの手を取って",
-    "gacha": "新年はあなたの手を取ってガチャ"
+    "gacha": "新年はあなたの手を取ってガチャ",
+    "episodes": [
+      {
+        "id": 140501,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140502,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140510,
@@ -18069,12 +19349,12 @@
     },
     "sense": {
       "descriptions": [
-        "2.2~5.2倍のスコアを獲得",
+        "2.2~4.6倍のスコアを獲得",
         "20秒間、銀河座のアクターにスターアクトスコア18~30％UP効果"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.2~5.2倍的分数",
-        "20秒内，银河座的演员Sense中获得的分数提升18~30"
+        "获得自身演技力2.2~4.6倍的分数",
+        "20秒内，银河座的演员Star Act中获得的分数提升18~30%"
       ],
       "type": "Support",
       "lightCount": 1,
@@ -18138,7 +19418,321 @@
     ],
     "displayStartAt": "2023-12-31T06:00:00.000Z",
     "event": "新年はあなたの手を取って",
-    "gacha": "新年はあなたの手を取ってガチャ"
+    "gacha": "新年はあなたの手を取ってガチャ",
+    "episodes": [
+      {
+        "id": 140511,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140512,
+        "episodeOrder": "Second"
+      }
+    ]
+  },
+  {
+    "id": 140520,
+    "name": "Electric Wonderland",
+    "rarity": "Rare4",
+    "attribute": "Colorful",
+    "status": [
+      {
+        "preset": {
+          "level": 1,
+          "awakening": false,
+          "episode": "None",
+          "bloom": 0
+        },
+        "status": {
+          "vocal": 20,
+          "expression": 39,
+          "concentration": 24
+        }
+      },
+      {
+        "preset": {
+          "level": 120,
+          "awakening": true,
+          "episode": "Second",
+          "bloom": 5
+        },
+        "status": {
+          "vocal": 7432,
+          "expression": 13598,
+          "concentration": 8699
+        }
+      }
+    ],
+    "characterBase": "本巣叶羽",
+    "starAct": {
+      "description": "総演技力の11.4~17.4倍のスコアを獲得",
+      "descriptionChinese": "获得总演技力11.4~17.4倍的分数",
+      "conditions": [
+        {
+          "type": "Alternative",
+          "typeChinese": "任意系",
+          "origin": 0,
+          "bloom": 0
+        },
+        {
+          "type": "Support",
+          "typeChinese": "支援系",
+          "origin": 2,
+          "bloom": 2
+        },
+        {
+          "type": "Control",
+          "typeChinese": "支配系",
+          "origin": 3,
+          "bloom": 2
+        },
+        {
+          "type": "Amplification",
+          "typeChinese": "增幅系",
+          "origin": 1,
+          "bloom": 1
+        },
+        {
+          "type": "Special",
+          "typeChinese": "特殊系",
+          "origin": 2,
+          "bloom": 2
+        }
+      ]
+    },
+    "sense": {
+      "descriptions": [
+        "6.1~8.5倍のスコアを獲得",
+        "センス発動後、追加で70~110のプリンシパルゲージを獲得"
+      ],
+      "descriptionsChinese": [
+        "获得自身演技力6.1~8.5倍的分数",
+        "Sense发动后，追加获得70~110点P.计量槽"
+      ],
+      "type": "Control",
+      "lightCount": 1,
+      "coolTime": {
+        "origin": 45,
+        "bloom": 40
+      }
+    },
+    "bloomBonuses": [
+      {
+        "phase": 1,
+        "descriptions": [
+          "演技力6％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%"
+        ]
+      },
+      {
+        "phase": 2,
+        "descriptions": [
+          "演技力6％UP",
+          "センスのCTが5秒減少"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%",
+          "Sense的CT缩短5秒"
+        ]
+      },
+      {
+        "phase": 3,
+        "descriptions": [
+          "演技力6％UP",
+          "スターアクト発動に必要な支配の光の個数が1個減少"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%",
+          "Star Act发动所需要的支配系光个数减1"
+        ]
+      },
+      {
+        "phase": 4,
+        "descriptions": [
+          "演技力6％UP",
+          "基礎スコアが5％上昇"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%",
+          "基础分数提升5%"
+        ]
+      },
+      {
+        "phase": 5,
+        "descriptions": [
+          "演技力6％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%"
+        ]
+      }
+    ],
+    "displayStartAt": "2024-01-26T08:00:00.000Z",
+    "event": "14光年はなれた隣で",
+    "gacha": "ユメフェスガチャ",
+    "episodes": [
+      {
+        "id": 140521,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140522,
+        "episodeOrder": "Second"
+      }
+    ]
+  },
+  {
+    "id": 140530,
+    "name": "Electric Tea Party",
+    "rarity": "Rare4",
+    "attribute": "Cool",
+    "status": [
+      {
+        "preset": {
+          "level": 1,
+          "awakening": false,
+          "episode": "None",
+          "bloom": 0
+        },
+        "status": {
+          "vocal": 44,
+          "expression": 23,
+          "concentration": 18
+        }
+      },
+      {
+        "preset": {
+          "level": 120,
+          "awakening": true,
+          "episode": "Second",
+          "bloom": 5
+        },
+        "status": {
+          "vocal": 21535,
+          "expression": 11704,
+          "concentration": 9363
+        }
+      }
+    ],
+    "characterBase": "千寿いろは",
+    "starAct": {
+      "description": "総演技力の11.4~17.4倍のスコアを獲得",
+      "descriptionChinese": "获得总演技力11.4~17.4倍的分数",
+      "conditions": [
+        {
+          "type": "Alternative",
+          "typeChinese": "任意系",
+          "origin": 0,
+          "bloom": 0
+        },
+        {
+          "type": "Support",
+          "typeChinese": "支援系",
+          "origin": 2,
+          "bloom": 2
+        },
+        {
+          "type": "Control",
+          "typeChinese": "支配系",
+          "origin": 2,
+          "bloom": 1
+        },
+        {
+          "type": "Amplification",
+          "typeChinese": "增幅系",
+          "origin": 2,
+          "bloom": 2
+        },
+        {
+          "type": "Special",
+          "typeChinese": "特殊系",
+          "origin": 2,
+          "bloom": 2
+        }
+      ]
+    },
+    "sense": {
+      "descriptions": [
+        "効果無し（所持している「光」は維持される）"
+      ],
+      "descriptionsChinese": [
+        "无效果（维持目前所拥有的光）"
+      ],
+      "type": "None",
+      "lightCount": 0,
+      "coolTime": {
+        "origin": 0,
+        "bloom": 0
+      }
+    },
+    "bloomBonuses": [
+      {
+        "phase": 1,
+        "descriptions": [
+          "演技力12％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升12%"
+        ]
+      },
+      {
+        "phase": 2,
+        "descriptions": [
+          "演技力24％UP",
+          "基礎スコアが10％上昇"
+        ],
+        "descriptionsChinese": [
+          "演技力上升24%",
+          "基础分数提升10%"
+        ]
+      },
+      {
+        "phase": 3,
+        "descriptions": [
+          "演技力12％UP",
+          "スターアクト発動に必要な支配の光の個数が1個減少"
+        ],
+        "descriptionsChinese": [
+          "演技力上升12%",
+          "Star Act发动所需要的支配系光个数减1"
+        ]
+      },
+      {
+        "phase": 4,
+        "descriptions": [
+          "演技力24％UP",
+          "公演での報酬量が10％上昇"
+        ],
+        "descriptionsChinese": [
+          "演技力上升24%",
+          "公演的报酬量上升10%"
+        ]
+      },
+      {
+        "phase": 5,
+        "descriptions": [
+          "演技力12％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升12%"
+        ]
+      }
+    ],
+    "displayStartAt": "2024-01-26T08:00:00.000Z",
+    "event": "14光年はなれた隣で",
+    "gacha": "ユメフェスガチャ",
+    "episodes": [
+      {
+        "id": 140531,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140532,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140540,
@@ -18212,11 +19806,11 @@
     },
     "sense": {
       "descriptions": [
-        "2.5~5.5倍のスコアを獲得",
+        "2.5~4.9倍のスコアを獲得",
         "ライフを320~510回復"
       ],
       "descriptionsChinese": [
-        "获得自身演技力2.5~5.5倍的分数",
+        "获得自身演技力2.5~4.9倍的分数",
         "回复320~510点血量"
       ],
       "type": "Control",
@@ -18281,7 +19875,17 @@
     ],
     "displayStartAt": "2024-01-10T08:00:00.000Z",
     "event": "秒針の安息",
-    "gacha": "秒針の安息ガチャ"
+    "gacha": "秒針の安息ガチャ",
+    "episodes": [
+      {
+        "id": 140541,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140542,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140550,
@@ -18355,10 +19959,10 @@
     },
     "sense": {
       "descriptions": [
-        "5.1~7.1倍のスコアを獲得"
+        "5.1~6.7倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力5.1~7.1倍的分数"
+        "获得自身演技力5.1~6.7倍的分数"
       ],
       "type": "Control",
       "lightCount": 1,
@@ -18422,7 +20026,17 @@
     ],
     "displayStartAt": "2024-01-10T08:00:00.000Z",
     "event": "秒針の安息",
-    "gacha": "秒針の安息ガチャ"
+    "gacha": "秒針の安息ガチャ",
+    "episodes": [
+      {
+        "id": 140551,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140552,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140560,
@@ -18496,10 +20110,10 @@
     },
     "sense": {
       "descriptions": [
-        "7.4~10.9倍のスコアを獲得"
+        "7.4~10.2倍のスコアを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力7.4~10.9倍的分数"
+        "获得自身演技力7.4~10.2倍的分数"
       ],
       "type": "Special",
       "lightCount": 1,
@@ -18563,7 +20177,17 @@
     ],
     "displayStartAt": "2024-01-20T08:00:00.000Z",
     "event": "14光年はなれた隣で",
-    "gacha": "14光年はなれた隣でガチャ"
+    "gacha": "14光年はなれた隣でガチャ",
+    "episodes": [
+      {
+        "id": 140561,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140562,
+        "episodeOrder": "Second"
+      }
+    ]
   },
   {
     "id": 140570,
@@ -18637,11 +20261,11 @@
     },
     "sense": {
       "descriptions": [
-        "1.7~4.2倍のスコアを獲得",
+        "1.7~3.7倍のスコアを獲得",
         "90のプリンシパルゲージを獲得"
       ],
       "descriptionsChinese": [
-        "获得自身演技力1.7~4.2倍的分数",
+        "获得自身演技力1.7~3.7倍的分数",
         "获得90点Principle Gauge"
       ],
       "type": "Amplification",
@@ -18706,6 +20330,16 @@
     ],
     "displayStartAt": "2024-01-20T08:00:00.000Z",
     "event": "14光年はなれた隣で",
-    "gacha": "14光年はなれた隣でガチャ"
+    "gacha": "14光年はなれた隣でガチャ",
+    "episodes": [
+      {
+        "id": 140571,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140572,
+        "episodeOrder": "Second"
+      }
+    ]
   }
 ]

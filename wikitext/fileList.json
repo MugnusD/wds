@@ -1,0 +1,754 @@
+[
+  {
+    "uploadFileName": "Card 110010 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110010_0\\110010_0.png"
+  },
+  {
+    "uploadFileName": "Card 110020 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110020_0\\110020_0.png"
+  },
+  {
+    "uploadFileName": "Card 110030 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110030_0\\110030_0.png"
+  },
+  {
+    "uploadFileName": "Card 110040 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110040_0\\110040_0.png"
+  },
+  {
+    "uploadFileName": "Card 110050 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110050_0\\110050_0.png"
+  },
+  {
+    "uploadFileName": "Card 110060 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110060_0\\110060_0.png"
+  },
+  {
+    "uploadFileName": "Card 110070 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110070_0\\110070_0.png"
+  },
+  {
+    "uploadFileName": "Card 110080 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110080_0\\110080_0.png"
+  },
+  {
+    "uploadFileName": "Card 110090 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110090_0\\110090_0.png"
+  },
+  {
+    "uploadFileName": "Card 110100 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110100_0\\110100_0.png"
+  },
+  {
+    "uploadFileName": "Card 110110 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110110_0\\110110_0.png"
+  },
+  {
+    "uploadFileName": "Card 110120 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110120_0\\110120_0.png"
+  },
+  {
+    "uploadFileName": "Card 110130 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110130_0\\110130_0.png"
+  },
+  {
+    "uploadFileName": "Card 110140 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110140_0\\110140_0.png"
+  },
+  {
+    "uploadFileName": "Card 110150 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110150_0\\110150_0.png"
+  },
+  {
+    "uploadFileName": "Card 110160 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110160_0\\110160_0.png"
+  },
+  {
+    "uploadFileName": "Card 110170 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110170_0\\110170_0.png"
+  },
+  {
+    "uploadFileName": "Card 110180 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110180_0\\110180_0.png"
+  },
+  {
+    "uploadFileName": "Card 110190 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110190_0\\110190_0.png"
+  },
+  {
+    "uploadFileName": "Card 110200 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110200_0\\110200_0.png"
+  },
+  {
+    "uploadFileName": "Card 110210 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\110210_0\\110210_0.png"
+  },
+  {
+    "uploadFileName": "Card 120010 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120010_0\\120010_0.png"
+  },
+  {
+    "uploadFileName": "Card 120020 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120020_0\\120020_0.png"
+  },
+  {
+    "uploadFileName": "Card 120030 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120030_0\\120030_0.png"
+  },
+  {
+    "uploadFileName": "Card 120040 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120040_0\\120040_0.png"
+  },
+  {
+    "uploadFileName": "Card 120050 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120050_0\\120050_0.png"
+  },
+  {
+    "uploadFileName": "Card 120060 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120060_0\\120060_0.png"
+  },
+  {
+    "uploadFileName": "Card 120070 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120070_0\\120070_0.png"
+  },
+  {
+    "uploadFileName": "Card 120080 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120080_0\\120080_0.png"
+  },
+  {
+    "uploadFileName": "Card 120090 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120090_0\\120090_0.png"
+  },
+  {
+    "uploadFileName": "Card 120100 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120100_0\\120100_0.png"
+  },
+  {
+    "uploadFileName": "Card 120110 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120110_0\\120110_0.png"
+  },
+  {
+    "uploadFileName": "Card 120120 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120120_0\\120120_0.png"
+  },
+  {
+    "uploadFileName": "Card 120130 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120130_0\\120130_0.png"
+  },
+  {
+    "uploadFileName": "Card 120140 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120140_0\\120140_0.png"
+  },
+  {
+    "uploadFileName": "Card 120150 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120150_0\\120150_0.png"
+  },
+  {
+    "uploadFileName": "Card 120160 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120160_0\\120160_0.png"
+  },
+  {
+    "uploadFileName": "Card 120170 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120170_0\\120170_0.png"
+  },
+  {
+    "uploadFileName": "Card 120180 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120180_0\\120180_0.png"
+  },
+  {
+    "uploadFileName": "Card 120190 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120190_0\\120190_0.png"
+  },
+  {
+    "uploadFileName": "Card 120200 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120200_0\\120200_0.png"
+  },
+  {
+    "uploadFileName": "Card 120210 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\120210_0\\120210_0.png"
+  },
+  {
+    "uploadFileName": "Card 130010 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130010_0\\130010_0.png"
+  },
+  {
+    "uploadFileName": "Card 130020 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130020_0\\130020_0.png"
+  },
+  {
+    "uploadFileName": "Card 130030 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130030_0\\130030_0.png"
+  },
+  {
+    "uploadFileName": "Card 130040 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130040_0\\130040_0.png"
+  },
+  {
+    "uploadFileName": "Card 130050 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130050_0\\130050_0.png"
+  },
+  {
+    "uploadFileName": "Card 130060 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130060_0\\130060_0.png"
+  },
+  {
+    "uploadFileName": "Card 130070 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130070_0\\130070_0.png"
+  },
+  {
+    "uploadFileName": "Card 130080 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130080_0\\130080_0.png"
+  },
+  {
+    "uploadFileName": "Card 130090 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130090_0\\130090_0.png"
+  },
+  {
+    "uploadFileName": "Card 130100 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130100_0\\130100_0.png"
+  },
+  {
+    "uploadFileName": "Card 130110 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130110_0\\130110_0.png"
+  },
+  {
+    "uploadFileName": "Card 130120 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130120_0\\130120_0.png"
+  },
+  {
+    "uploadFileName": "Card 130130 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130130_0\\130130_0.png"
+  },
+  {
+    "uploadFileName": "Card 130140 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130140_0\\130140_0.png"
+  },
+  {
+    "uploadFileName": "Card 130150 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130150_0\\130150_0.png"
+  },
+  {
+    "uploadFileName": "Card 130160 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130160_0\\130160_0.png"
+  },
+  {
+    "uploadFileName": "Card 130170 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130170_0\\130170_0.png"
+  },
+  {
+    "uploadFileName": "Card 130180 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130180_0\\130180_0.png"
+  },
+  {
+    "uploadFileName": "Card 130190 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130190_0\\130190_0.png"
+  },
+  {
+    "uploadFileName": "Card 130200 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130200_0\\130200_0.png"
+  },
+  {
+    "uploadFileName": "Card 130210 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130210_0\\130210_0.png"
+  },
+  {
+    "uploadFileName": "Card 130220 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130220_0\\130220_0.png"
+  },
+  {
+    "uploadFileName": "Card 130230 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130230_0\\130230_0.png"
+  },
+  {
+    "uploadFileName": "Card 130240 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130240_0\\130240_0.png"
+  },
+  {
+    "uploadFileName": "Card 130250 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130250_0\\130250_0.png"
+  },
+  {
+    "uploadFileName": "Card 130260 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130260_0\\130260_0.png"
+  },
+  {
+    "uploadFileName": "Card 130270 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130270_0\\130270_0.png"
+  },
+  {
+    "uploadFileName": "Card 130280 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130280_0\\130280_0.png"
+  },
+  {
+    "uploadFileName": "Card 130290 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130290_0\\130290_0.png"
+  },
+  {
+    "uploadFileName": "Card 130300 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130300_0\\130300_0.png"
+  },
+  {
+    "uploadFileName": "Card 130310 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130310_0\\130310_0.png"
+  },
+  {
+    "uploadFileName": "Card 130320 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130320_0\\130320_0.png"
+  },
+  {
+    "uploadFileName": "Card 130330 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130330_0\\130330_0.png"
+  },
+  {
+    "uploadFileName": "Card 130340 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130340_0\\130340_0.png"
+  },
+  {
+    "uploadFileName": "Card 130360 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130360_0\\130360_0.png"
+  },
+  {
+    "uploadFileName": "Card 130370 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130370_0\\130370_0.png"
+  },
+  {
+    "uploadFileName": "Card 130380 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130380_0\\130380_0.png"
+  },
+  {
+    "uploadFileName": "Card 130390 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130390_0\\130390_0.png"
+  },
+  {
+    "uploadFileName": "Card 130400 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\130400_0\\130400_0.png"
+  },
+  {
+    "uploadFileName": "Card 140010 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140010_0\\140010_0.png"
+  },
+  {
+    "uploadFileName": "Card 140010 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140010_1\\140010_1.png"
+  },
+  {
+    "uploadFileName": "Card 140020 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140020_0\\140020_0.png"
+  },
+  {
+    "uploadFileName": "Card 140020 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140020_1\\140020_1.png"
+  },
+  {
+    "uploadFileName": "Card 140030 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140030_0\\140030_0.png"
+  },
+  {
+    "uploadFileName": "Card 140030 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140030_1\\140030_1.png"
+  },
+  {
+    "uploadFileName": "Card 140040 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140040_0\\140040_0.png"
+  },
+  {
+    "uploadFileName": "Card 140040 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140040_1\\140040_1.png"
+  },
+  {
+    "uploadFileName": "Card 140050 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140050_0\\140050_0.png"
+  },
+  {
+    "uploadFileName": "Card 140050 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140050_1\\140050_1.png"
+  },
+  {
+    "uploadFileName": "Card 140060 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140060_0\\140060_0.png"
+  },
+  {
+    "uploadFileName": "Card 140060 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140060_1\\140060_1.png"
+  },
+  {
+    "uploadFileName": "Card 140070 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140070_0\\140070_0.png"
+  },
+  {
+    "uploadFileName": "Card 140070 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140070_1\\140070_1.png"
+  },
+  {
+    "uploadFileName": "Card 140080 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140080_0\\140080_0.png"
+  },
+  {
+    "uploadFileName": "Card 140080 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140080_1\\140080_1.png"
+  },
+  {
+    "uploadFileName": "Card 140090 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140090_0\\140090_0.png"
+  },
+  {
+    "uploadFileName": "Card 140090 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140090_1\\140090_1.png"
+  },
+  {
+    "uploadFileName": "Card 140100 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140100_0\\140100_0.png"
+  },
+  {
+    "uploadFileName": "Card 140100 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140100_1\\140100_1.png"
+  },
+  {
+    "uploadFileName": "Card 140110 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140110_0\\140110_0.png"
+  },
+  {
+    "uploadFileName": "Card 140110 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140110_1\\140110_1.png"
+  },
+  {
+    "uploadFileName": "Card 140120 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140120_0\\140120_0.png"
+  },
+  {
+    "uploadFileName": "Card 140120 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140120_1\\140120_1.png"
+  },
+  {
+    "uploadFileName": "Card 140130 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140130_0\\140130_0.png"
+  },
+  {
+    "uploadFileName": "Card 140130 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140130_1\\140130_1.png"
+  },
+  {
+    "uploadFileName": "Card 140140 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140140_0\\140140_0.png"
+  },
+  {
+    "uploadFileName": "Card 140140 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140140_1\\140140_1.png"
+  },
+  {
+    "uploadFileName": "Card 140150 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140150_0\\140150_0.png"
+  },
+  {
+    "uploadFileName": "Card 140150 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140150_1\\140150_1.png"
+  },
+  {
+    "uploadFileName": "Card 140160 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140160_0\\140160_0.png"
+  },
+  {
+    "uploadFileName": "Card 140160 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140160_1\\140160_1.png"
+  },
+  {
+    "uploadFileName": "Card 140170 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140170_0\\140170_0.png"
+  },
+  {
+    "uploadFileName": "Card 140170 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140170_1\\140170_1.png"
+  },
+  {
+    "uploadFileName": "Card 140180 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140180_0\\140180_0.png"
+  },
+  {
+    "uploadFileName": "Card 140180 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140180_1\\140180_1.png"
+  },
+  {
+    "uploadFileName": "Card 140190 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140190_0\\140190_0.png"
+  },
+  {
+    "uploadFileName": "Card 140190 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140190_1\\140190_1.png"
+  },
+  {
+    "uploadFileName": "Card 140200 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140200_0\\140200_0.png"
+  },
+  {
+    "uploadFileName": "Card 140200 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140200_1\\140200_1.png"
+  },
+  {
+    "uploadFileName": "Card 140210 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140210_0\\140210_0.png"
+  },
+  {
+    "uploadFileName": "Card 140210 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140210_1\\140210_1.png"
+  },
+  {
+    "uploadFileName": "Card 140220 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140220_0\\140220_0.png"
+  },
+  {
+    "uploadFileName": "Card 140220 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140220_1\\140220_1.png"
+  },
+  {
+    "uploadFileName": "Card 140230 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140230_0\\140230_0.png"
+  },
+  {
+    "uploadFileName": "Card 140230 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140230_1\\140230_1.png"
+  },
+  {
+    "uploadFileName": "Card 140240 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140240_0\\140240_0.png"
+  },
+  {
+    "uploadFileName": "Card 140240 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140240_1\\140240_1.png"
+  },
+  {
+    "uploadFileName": "Card 140250 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140250_0\\140250_0.png"
+  },
+  {
+    "uploadFileName": "Card 140250 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140250_1\\140250_1.png"
+  },
+  {
+    "uploadFileName": "Card 140260 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140260_0\\140260_0.png"
+  },
+  {
+    "uploadFileName": "Card 140260 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140260_1\\140260_1.png"
+  },
+  {
+    "uploadFileName": "Card 140270 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140270_0\\140270_0.png"
+  },
+  {
+    "uploadFileName": "Card 140270 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140270_1\\140270_1.png"
+  },
+  {
+    "uploadFileName": "Card 140280 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140280_0\\140280_0.png"
+  },
+  {
+    "uploadFileName": "Card 140280 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140280_1\\140280_1.png"
+  },
+  {
+    "uploadFileName": "Card 140290 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140290_0\\140290_0.png"
+  },
+  {
+    "uploadFileName": "Card 140290 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140290_1\\140290_1.png"
+  },
+  {
+    "uploadFileName": "Card 140300 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140300_0\\140300_0.png"
+  },
+  {
+    "uploadFileName": "Card 140300 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140300_1\\140300_1.png"
+  },
+  {
+    "uploadFileName": "Card 140310 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140310_0\\140310_0.png"
+  },
+  {
+    "uploadFileName": "Card 140310 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140310_1\\140310_1.png"
+  },
+  {
+    "uploadFileName": "Card 140320 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140320_0\\140320_0.png"
+  },
+  {
+    "uploadFileName": "Card 140320 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140320_1\\140320_1.png"
+  },
+  {
+    "uploadFileName": "Card 140330 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140330_0\\140330_0.png"
+  },
+  {
+    "uploadFileName": "Card 140330 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140330_1\\140330_1.png"
+  },
+  {
+    "uploadFileName": "Card 140340 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140340_0\\140340_0.png"
+  },
+  {
+    "uploadFileName": "Card 140340 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140340_1\\140340_1.png"
+  },
+  {
+    "uploadFileName": "Card 140350 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140350_0\\140350_0.png"
+  },
+  {
+    "uploadFileName": "Card 140350 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140350_1\\140350_1.png"
+  },
+  {
+    "uploadFileName": "Card 140360 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140360_0\\140360_0.png"
+  },
+  {
+    "uploadFileName": "Card 140360 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140360_1\\140360_1.png"
+  },
+  {
+    "uploadFileName": "Card 140370 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140370_0\\140370_0.png"
+  },
+  {
+    "uploadFileName": "Card 140370 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140370_1\\140370_1.png"
+  },
+  {
+    "uploadFileName": "Card 140380 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140380_0\\140380_0.png"
+  },
+  {
+    "uploadFileName": "Card 140380 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140380_1\\140380_1.png"
+  },
+  {
+    "uploadFileName": "Card 140390 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140390_0\\140390_0.png"
+  },
+  {
+    "uploadFileName": "Card 140390 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140390_1\\140390_1.png"
+  },
+  {
+    "uploadFileName": "Card 140400 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140400_0\\140400_0.png"
+  },
+  {
+    "uploadFileName": "Card 140400 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140400_1\\140400_1.png"
+  },
+  {
+    "uploadFileName": "Card 140410 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140410_0\\140410_0.png"
+  },
+  {
+    "uploadFileName": "Card 140410 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140410_1\\140410_1.png"
+  },
+  {
+    "uploadFileName": "Card 140420 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140420_0\\140420_0.png"
+  },
+  {
+    "uploadFileName": "Card 140420 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140420_1\\140420_1.png"
+  },
+  {
+    "uploadFileName": "Card 140430 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140430_0\\140430_0.png"
+  },
+  {
+    "uploadFileName": "Card 140430 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140430_1\\140430_1.png"
+  },
+  {
+    "uploadFileName": "Card 140440 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140440_1\\140440_1.png"
+  },
+  {
+    "uploadFileName": "Card 140450 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140450_1\\140450_1.png"
+  },
+  {
+    "uploadFileName": "Card 140460 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140460_0\\140460_0.png"
+  },
+  {
+    "uploadFileName": "Card 140460 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140460_1\\140460_1.png"
+  },
+  {
+    "uploadFileName": "Card 140470 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140470_0\\140470_0.png"
+  },
+  {
+    "uploadFileName": "Card 140470 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140470_1\\140470_1.png"
+  },
+  {
+    "uploadFileName": "Card 140480 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140480_0\\140480_0.png"
+  },
+  {
+    "uploadFileName": "Card 140480 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140480_1\\140480_1.png"
+  },
+  {
+    "uploadFileName": "Card 140490 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140490_0\\140490_0.png"
+  },
+  {
+    "uploadFileName": "Card 140490 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140490_1\\140490_1.png"
+  },
+  {
+    "uploadFileName": "Card 140500 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140500_0\\140500_0.png"
+  },
+  {
+    "uploadFileName": "Card 140500 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140500_1\\140500_1.png"
+  },
+  {
+    "uploadFileName": "Card 140510 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140510_0\\140510_0.png"
+  },
+  {
+    "uploadFileName": "Card 140510 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140510_1\\140510_1.png"
+  },
+  {
+    "uploadFileName": "Card 140520 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140520_1\\140520_1.png"
+  },
+  {
+    "uploadFileName": "Card 140530 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140530_1\\140530_1.png"
+  },
+  {
+    "uploadFileName": "Card 140540 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140540_0\\140540_0.png"
+  },
+  {
+    "uploadFileName": "Card 140550 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140550_0\\140550_0.png"
+  },
+  {
+    "uploadFileName": "Card 140560 0.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140560_0\\140560_0.png"
+  },
+  {
+    "uploadFileName": "Card 140560 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140560_1\\140560_1.png"
+  },
+  {
+    "uploadFileName": "Card 140570 1.png",
+    "localPath": "E:\\html_code\\src\\charactercardtextures_assets_charactercardtextures\\140570_1\\140570_1.png"
+  }
+]

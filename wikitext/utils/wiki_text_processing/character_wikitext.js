@@ -218,11 +218,11 @@ function saCondition(character) {
                 return colorPre + origin.toString() + '/' + bloom.toString();
             }
         })
-        .filter(_ => _ !== undefined)
         .join('');
 }
 
 const initialTime = new Date('2022-12-31T15:00:00.000Z').getTime();
+
 /**
  * 解释 ISO 日期字符串，然后转化为诸如 2000.1.1 的字符串形式。如果是 2022-12-31T15:00:00.000Z 则转化为开服日期。
  *
@@ -234,8 +234,8 @@ function displayDateConvert(startDate) {
         return "2023.07.26";
     } else {
         const year = startDate.getFullYear().toString();
-        const month = (startDate.getMonth() + 1).toString().padStart(2, '0');
-        const day = (startDate.getDate() + 1).toString().padStart(2, '0');
+        const month = (startDate.getMonth() + 1).toString().padStart(2, '0'); // getMonth 从 0 开始
+        const day = (startDate.getDate()).toString().padStart(2, '0'); // getDate 从 1 开始
         return `${year}.${month}.${day}`;
     }
 }
@@ -253,17 +253,18 @@ module.exports.characterToWikiText = (character) => {
         .find(characterInfo => characterInfo.name === character.characterBase)
         .chineseName;
     const rarity = character.rarity[4];
-    const fileNameAwaken = rarity === '4'? `Card ${character.id} 1.png` : '';
+    const fileNameAwaken = rarity === '4' ? `Card ${character.id} 1.png` : '';
     const attribute = attribute2wiki[character.attribute];
-    const starAct = character.starAct.descriptionChinese;
+    const sense = character.sense.descriptionsChinese.join('<br/>');
     const lightType = type2Wiki[character.sense.type] ?? '无';
 
     const coolTimeInfo = character.sense.coolTime;
     const coolTimeOrigin = coolTimeInfo.origin;
     const coolTimeBloom = coolTimeInfo.bloom;
-    const coolTime = coolTimeOrigin === coolTimeBloom ?
-        coolTimeOrigin.toString() :
-        coolTimeOrigin.toString() + '/' + coolTimeBloom.toString();
+    const coolTime = coolTimeOrigin === 0 ? '-' :
+        coolTimeOrigin === coolTimeBloom ?
+            coolTimeOrigin.toString() :
+            coolTimeOrigin.toString() + '/' + coolTimeBloom.toString();
     // const coolTime = character.sense.coolTime.origin.toString() + "/" + character.sense.coolTime.bloom.toString();
     const condition = saCondition(character);
     const saDescription = character.starAct.descriptionChinese;
@@ -312,7 +313,7 @@ module.exports.characterToWikiText = (character) => {
 |角色名=${charaName}
 |星级=${rarity}
 |属性=${attribute}
-|技能效果=${starAct}
+|技能效果=${sense}
 |光=${lightType}
 |CT=${coolTime}
 |Star Act=${saDescription}
@@ -332,6 +333,14 @@ ${condition}
 |五花效果=${phase5}
 |隶属活动=${event}
 |登场时间=${displayTime}
-}}`
+}}
+==卡面信息==
+===卡面相关===
+===卡面简评===
+===卡面故事===
+====前篇====
+====后篇====
+{{角色索引}}
+`
 }
 
