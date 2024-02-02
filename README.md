@@ -1,10 +1,10 @@
 # wds
 ## To-do List
-- 角色 wiki text 生成收尾
-- API 工作
+- 海报模板预备进行工作
+- 歌曲模板预备进行工作
 
 ## 仓库内容
-`/wikitext/generate_chara_wikitext.js` 生成 wiki 可用的文本（[目录](wikitext/out)）。
+暂时可以生成角色页面，上传故事（角色可以自动填充部分已然完成）。
 
 ## 外部连接
 第三方模组 [sirius-calculator](https://github.com/xfl03/sirius-calculator)
