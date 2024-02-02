@@ -2,7 +2,6 @@ const cf = require('./clientFactory.js');
 const fs = require('fs');
 const FormData = require('form-data');
 
-
 class WikiClient {
     constructor(sessData, url = 'https://wiki.biligame.com/worlddaistar/api.php') {
         if (!sessData) {
@@ -42,12 +41,19 @@ class WikiClient {
      *
      * @param {string} pageTitle 标题
      * @param {string} text 正文文本
-     * @param {number} section 段落
-     * @param {boolean} nocreate
-     * @param {string} summary
+     * @param {Object} options 选项对象
+     * @param {number} [options.section=0] 编辑段落，默认整篇文章
+     * @param {boolean} [options.nocreate=false] 是否不创建，是则不会编辑空页面
+     * @param {string} [options.summary='自动生成']
      * @returns {Promise<string>}
      */
-    async editPage(pageTitle, text, section = 0, nocreate = false,summary = '自动生成') {
+    async editPage(pageTitle, text, options = {}) {
+        const {
+            section = 0,
+            nocreate = false,
+            summary = '自动生成'
+        } = options;
+
         try {
             const token = await this.tokenPromise;
             const params = new URLSearchParams();
@@ -68,19 +74,16 @@ class WikiClient {
             }
 
             const response = await this.client.post(this.url, params, {
-                    headers: {
-                        'Cookie': `SESSDATA=${this.sessData}`,
-                    },
-                });
-            if (response.data.edit.result === 'Success') {
-                return `${pageTitle} 编辑成功`;
-            } else {
-                return `${pageTitle} 编辑失败`;
-            }
+                headers: {
+                    'Cookie': `SESSDATA=${this.sessData}`,
+                },
+            });
+            return `${pageTitle} 编辑成功`;
         } catch (e) {
             console.log(e);
         }
     }
+
 
     async uploadFile(fileName, localFilePath, ignoreWarning) {
         try {
