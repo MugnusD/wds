@@ -1,10 +1,9 @@
 # wds
 ## To-do List
-- 海报模板预备进行工作
-- 歌曲模板预备进行工作
+- 饰品、歌曲等页面
 
 ## 仓库内容
-暂时可以生成角色页面，上传故事（角色可以自动填充部分已然完成）。
+角色和海报页面上传已实现。
 
 ## 外部连接
 第三方模组 [sirius-calculator](https://github.com/xfl03/sirius-calculator)
