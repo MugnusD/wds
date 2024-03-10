@@ -1,3 +1,3 @@
 # sirius-calculator
-World Dai Star Calculator.
+World Dai Star Calculator.  
 W.I.P.

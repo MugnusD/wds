@@ -1,6 +1,6 @@
-import {characterBaseInfoArray} from "../../definitions/character_base_info";
+import {characterBaseInfoArray} from "../../domain/characterBaseInfo";
 import fs from 'fs';
-import {CharacterDetail} from "../../definitions/CharacterDetails";
+import {CharacterDetail} from "../../domain/characterDetails";
 
 // 角色属性
 const attribute2wiki = {
@@ -17,6 +17,10 @@ const type2Color = {
     Support: "绿", Control: "红", Amplification: "黄", Special: "蓝",
 }
 
+interface SenseType {
+    type: string,
+    extraType: string,
+}
 
 
 /**
@@ -51,6 +55,80 @@ function saCondition(character: CharacterDetail): string {
         .join('');
 }
 
+function getSenseType(characterDetail: CharacterDetail): SenseType {
+    const senseTypesArray: string[] = characterDetail.sense.effectTypes;
+    const typeMap = {
+        // 如果存在 P 条获取，则为 P Gauge 类
+        'Principal': characterDetail.sense.acquirableGauge !== 0,
+        // 如果存在生命获取，则为生命恢复类
+        'Life': senseTypesArray.includes('LifeHealing'),
+        // 如果不存在分支效果（仅分数）、且不是 いろは 的无效果，或者如果仅存在一个分支效果、且为额外 P 条，则为分数类
+        'Score': (senseTypesArray.length === 0 && characterDetail.sense.type !== 'None')
+            || (senseTypesArray.length === 1 && senseTypesArray.includes('PrincipalGaugeGain')),
+        // 如果存在 SA Up
+        'SAAmplification': senseTypesArray.includes('StarActScoreUp'),
+        // 如果存在 SS Up，且不是 静香 的替代技能的 preEffect
+        'SSAmplification': senseTypesArray.includes('SenseScoreUp') && !senseTypesArray.includes('SenseAlternative'),
+        // 其他
+        'Special': true,
+    };
+
+    let type = '',
+        extraType = '';
+
+    for(const [typeName, condition] of Object.entries(typeMap)) {
+        if (condition) {
+            type = typeName;
+            break;
+        }
+    }
+
+    if(senseTypesArray.includes('PrincipalGaugeGain')) {
+        extraType = 'Principal';
+    } else if (senseTypesArray.includes('ScoreUpByHighLife') || senseTypesArray.includes('ScoreUpByLowLife')) {
+        extraType = 'LifeScore';
+    } else {
+        extraType = 'None';
+    }
+
+    return {type, extraType};
+
+    // let type = '',
+    //     extraType = '';
+    // const senseTypesArray: string[] = characterDetail.sense.effectTypes;
+    // // P 卡
+    // if(characterDetail.sense.acquirableGauge !== 0) {
+    //     type = 'Principle';
+    // } else if(senseTypesArray.includes('LifeHealing')) {
+    //     // 奶卡
+    //     type = 'Life';
+    // } else if(senseTypesArray.length === 0 && characterDetail.sense.type !== 'None') {
+    //     // 分卡
+    //     type = 'Score';
+    // } else if(senseTypesArray.includes('StarActScoreUp')) {
+    //     // SA 增幅
+    //     type = 'SAAmplification';
+    // } else if(senseTypesArray.includes('SenseScoreUp') && !senseTypesArray.includes('SenseAlternative')) {
+    //     // SS 增幅
+    //     type = 'SSAmplification';
+    // } else {
+    //     type = 'Special';
+    // }
+    //
+    // if(senseTypesArray.includes('PrincipalGaugeGain')) {
+    //     extraType = 'Principle';
+    // } else if (senseTypesArray.includes('ScoreUpByHighLife') || senseTypesArray.includes('ScoreUpByLowLife')) {
+    //     extraType = 'LifeScore';
+    // } else {
+    //     extraType = 'None';
+    // }
+    //
+    // return {
+    //     type: type,
+    //     extraType: extraType,
+    // };
+}
+
 // const initialTime = new Date('2022-12-31T15:00:00.000Z').getTime();
 //
 // /**
@@ -70,7 +148,7 @@ function saCondition(character: CharacterDetail): string {
 /**
  * 将 Character 转化为 wiki 文本形式
  */
-function generateCharacterWikiText(character: CharacterDetail, onlyTemplate: boolean = false): string  {
+function generateCharacterWikiText(character: CharacterDetail, onlyTemplate: boolean = false): string {
     const fileName = `Card ${character.id} 0.png`;
     const iconFileName = `Icon ${character.id} 0.png`;
     const name = character.name;
@@ -80,8 +158,8 @@ function generateCharacterWikiText(character: CharacterDetail, onlyTemplate: boo
         .chineseName;
     const rarity = character.rarity[4];
 
-    const fileNameAwaken =  rarity === '4' ? `|觉醒后图片=Card ${character.id} 1.png` : '';
-    const iconFileNameAwaken = rarity === '4'? `|觉醒后图标=Icon ${character.id} 1.png`: '';
+    const fileNameAwaken = rarity === '4' ? `|觉醒后图片=Card ${character.id} 1.png` : '';
+    const iconFileNameAwaken = rarity === '4' ? `|觉醒后图标=Icon ${character.id} 1.png` : '';
 
     const attribute = attribute2wiki[character.attribute];
     const sense = character.sense.descriptionsChinese.join('<br/>');
@@ -137,6 +215,9 @@ function generateCharacterWikiText(character: CharacterDetail, onlyTemplate: boo
         displayTime = '2023/7/26';
     }
 
+    // sense 效果分类
+    const {type, extraType} = getSenseType(character);
+
     const wikiText = `{{卡面信息
 |图片=${fileName}
 ${fileNameAwaken}
@@ -147,6 +228,8 @@ ${iconFileNameAwaken}
 |星级=${rarity}
 |属性=${attribute}
 |技能效果=${sense}
+|技能类型=${type}
+|追加技能类型=${extraType}
 |光=${lightType}
 |CT=${coolTime}
 |Star Act=${saDescription}

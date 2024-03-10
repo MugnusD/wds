@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import cf from './clinetFactory';
 import FormData from "form-data";
-import {AxiosInstance} from "axios";
+import axios, {AxiosInstance} from "axios";
 
 interface EditOptions {
     section?: number;
@@ -94,21 +94,27 @@ export default class WikiClient {
             });
             return `edit ${pageTitle} successfully`;
         } catch (e) {
-            console.log(e);
+            return `edit ${pageTitle} unsuccessfully`;
         }
     }
 
-    public async uploadFile(fileName: string, localFilePath: string, ignoreWarning: boolean = false): Promise<string> {
+    public async uploadFile(fileName: string, filePath: string, ignoreWarning: boolean = false, remoteFile: boolean = false): Promise<string> {
         try {
             const token = await this.initialToken();
-            const fileStream = fs.createReadStream(localFilePath);
             const formData = new FormData();
+
+            if (remoteFile) {
+                const response = await axios.get(filePath, { responseType: 'stream' });
+                formData.append('file', response.data);
+            } else {
+                const fileStream = fs.createReadStream(filePath);
+                formData.append('file', fileStream);
+            }
 
             formData.append('action', 'upload');
             formData.append('filename', fileName);
             formData.append('token', token);
             formData.append('text', '自动上传');
-            formData.append('file', fileStream);
             formData.append('format', 'json');
 
             if (ignoreWarning) {
@@ -122,9 +128,9 @@ export default class WikiClient {
                         ...formData.getHeaders(),
                     }
                 });
-            return response.data;
+            return `上传文件 ${fileName} 成功`;
         } catch (e) {
-            return e;
+            return `上传文件 ${fileName} 失败`;
         }
     }
 
@@ -157,6 +163,22 @@ export default class WikiClient {
             });
             const response = await this.client.get(this.url + '?' + params.toString());
             return response.data.query.allpages.map(_ => _.title);
+        } catch (e) {
+            return e;
+        }
+    }
+
+    public async getWantedFileTitles() {
+        try {
+            const params = new URLSearchParams({
+                action: 'query',
+                list: 'querypage',
+                qppage: 'Wantedfiles',
+                format: 'json',
+            });
+            const response = await this.client.get(this.url + '?' + params.toString());
+            const result = response.data.query.querypage.results.map(_ => _.title);
+            return result;
         } catch (e) {
             return e;
         }

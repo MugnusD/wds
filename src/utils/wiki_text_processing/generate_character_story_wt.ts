@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import {characterBaseInfoArray} from "../../definitions/character_base_info";
-import {CharacterDetail} from "../../definitions/CharacterDetails";
+import {characterBaseInfoArray} from "../../domain/characterBaseInfo";
+import {CharacterDetail} from "../../domain/characterDetails";
 
 function generateCharacterStoryText(characterInfo: CharacterDetail): string {
     const firstStoryId = characterInfo.episodes.find(_ => _.episodeOrder === 'First').id;
@@ -68,6 +68,11 @@ function getStoryText(id) {
             let speaker;
             if (chara) {
                 speaker = chara.styledName.replace('{name}', line.speakerName);
+            } else if(line.speakerName.includes('・')) {
+                speaker = line.speakerName;
+                characterBaseInfoArray.forEach(characterBaseInfo => {
+                    speaker = speaker.replace(characterBaseInfo.firstName, characterBaseInfo.styledName.replace('{name}', characterBaseInfo.firstName));
+                });
             } else {
                 speaker = '<span style="color: gray;font-weight: bold;">{name}</span>'.replace('{name}', line.speakerName);
             }

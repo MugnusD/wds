@@ -1,5 +1,5 @@
 interface DataProvider {
-    fetchData(): Promise<any[]>;
+    fetchData(key: string): Promise<any[]>;
 }
 
 export {DataProvider};

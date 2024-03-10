@@ -3,6 +3,7 @@ import {RemoteDataProvider} from "../../../../src/utils/data_provider/remote_dat
 describe('RemoteDataProvider test', () => {
     it('download', async () => {
         const dataProvider = new RemoteDataProvider();
-        await dataProvider.downloadToLocalCache();
-    })
+        const result = await dataProvider.downloadToLocalCache();
+        console.log(result);
+    },60000)
 })

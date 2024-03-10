@@ -5,7 +5,7 @@ const sessData = '6b7b18e8%2C1721491941%2C2fbe1%2A11CjAf0tEwI5uvWxy3rQERNXmuVL2Z
 describe('WikiClient test', () => {
     const wc = new WikiClient(sessData);
 
-    it('should edit a whole new page successfully',  async () => {
+    it('should edit a whole new page successfully', async () => {
         const result = await wc.editPage('用户:39886146/EditTest', '编辑测试');
         console.log(result);
     });
@@ -17,7 +17,7 @@ describe('WikiClient test', () => {
         }).then(console.log);
     });
 
-    it('should upload a pic', () =>  {
+    it('should upload a pic', () => {
         wc.uploadFile('Icon_110010_0.png', 'E:\\html_code\\src\\icons\\110010_0.png', true).then(console.log);
     })
 
@@ -39,4 +39,18 @@ describe('WikiClient test', () => {
         console.log(result);
     }, 60000)
 
+    it('should upload a local image', async () => {
+        const result = await wc.uploadFile('Icon_140880_0.png', 'E:\\html_code\\wds\\src\\cache\\140880_0.png');
+        console.log(result);
+    }, 600000);
+
+    it('should upload a remote image', async () => {
+        const result = await wc.uploadFile('Icon_140880_0.png', 'https://sirius.3-3.dev/asset/character-thumbnail/140880_0.png', false, true);
+        console.log(result);
+    }, 600000);
+
+    it('test getWantedPageList', async () => {
+        const result = await wc.getWantedFileTitles();
+        console.log(result);
+    }, 600000);
 })

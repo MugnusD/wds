@@ -1,7 +1,7 @@
 const LocalProcessorProvider = require('../data_provider/local_data_provider');
 const RemoteProcessorProvider = require('../data_provider/remote_data_provider');
 const WikiClient = require('../http/wikiClient.js');
-const WikiTextGenerator = require('../wiki_text_processing/character_wiki_generator');
+const generateCharacterStoryText = require("../wiki_text_processing/character_methods/story_wikitext");
 
 class WikiUploader {
     constructor(useRemoteData) {
@@ -40,7 +40,7 @@ class WikiUploader {
     async uploadCharacterStory(id) {
         const characterInfos = await this.characterInfosPromise;
         const characterInfo = characterInfos.find(_ => _.id === id);
-        return await this.wc.editPage(characterInfo.name, WikiTextGenerator.getStoryText(characterInfo), {
+        return await this.wc.editPage(characterInfo.name, generateCharacterStoryText(characterInfo), {
             section: 4,
             nocreate: true,
         })
@@ -56,7 +56,7 @@ class WikiUploader {
     async uploadAllCharacterStory() {
         const characterInfos = await this.characterInfosPromise;
         characterInfos.forEach(characterInfo => {
-            this.wc.editPage(characterInfo.name, WikiTextGenerator.getStoryText(characterInfo), {
+            this.wc.editPage(characterInfo.name, generateCharacterStoryText(characterInfo), {
                 section: 4,
                 nocreate: true,
             })
