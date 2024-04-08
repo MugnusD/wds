@@ -1,6 +1,4 @@
-import {characterBaseInfoArray} from "../../domain/characterBaseInfo";
-import fs from 'fs';
-import {CharacterDetail} from "../../domain/characterDetails";
+import {characterBaseInfoArray} from "../characterBaseInfo";
 
 // 角色属性
 const attribute2wiki = {
@@ -73,8 +71,8 @@ function getSenseType(characterDetail: CharacterDetail): SenseType {
         'Special': true,
     };
 
-    let type = '',
-        extraType = '';
+    let type: string,
+        extraType: string;
 
     for(const [typeName, condition] of Object.entries(typeMap)) {
         if (condition) {
@@ -92,58 +90,7 @@ function getSenseType(characterDetail: CharacterDetail): SenseType {
     }
 
     return {type, extraType};
-
-    // let type = '',
-    //     extraType = '';
-    // const senseTypesArray: string[] = characterDetail.sense.effectTypes;
-    // // P 卡
-    // if(characterDetail.sense.acquirableGauge !== 0) {
-    //     type = 'Principle';
-    // } else if(senseTypesArray.includes('LifeHealing')) {
-    //     // 奶卡
-    //     type = 'Life';
-    // } else if(senseTypesArray.length === 0 && characterDetail.sense.type !== 'None') {
-    //     // 分卡
-    //     type = 'Score';
-    // } else if(senseTypesArray.includes('StarActScoreUp')) {
-    //     // SA 增幅
-    //     type = 'SAAmplification';
-    // } else if(senseTypesArray.includes('SenseScoreUp') && !senseTypesArray.includes('SenseAlternative')) {
-    //     // SS 增幅
-    //     type = 'SSAmplification';
-    // } else {
-    //     type = 'Special';
-    // }
-    //
-    // if(senseTypesArray.includes('PrincipalGaugeGain')) {
-    //     extraType = 'Principle';
-    // } else if (senseTypesArray.includes('ScoreUpByHighLife') || senseTypesArray.includes('ScoreUpByLowLife')) {
-    //     extraType = 'LifeScore';
-    // } else {
-    //     extraType = 'None';
-    // }
-    //
-    // return {
-    //     type: type,
-    //     extraType: extraType,
-    // };
 }
-
-// const initialTime = new Date('2022-12-31T15:00:00.000Z').getTime();
-//
-// /**
-//  * 解释 ISO 日期字符串，然后转化为诸如 2000.1.1 的字符串形式。如果是 2022-12-31T15:00:00.000Z 则转化为开服日期。
-//  */
-// function displayDateConvert(startDate: Date): string {
-//     if (startDate.getTime() === initialTime) {
-//         return "2023.07.26";
-//     } else {
-//         const year = startDate.getFullYear().toString();
-//         const month = (startDate.getMonth() + 1).toString().padStart(2, '0');
-//         const day = (startDate.getDate()).toString().padStart(2, '0');
-//         return `${year}.${month}.${day}`;
-//     }
-// }
 
 /**
  * 将 Character 转化为 wiki 文本形式

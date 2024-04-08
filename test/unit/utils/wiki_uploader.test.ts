@@ -1,12 +1,8 @@
+// noinspection DuplicatedCode
 
-// const sessData = '6b7b18e8%2C1721491941%2C2fbe1%2A11CjAf0tEwI5uvWxy3rQERNXmuVL2ZkUkL1Eo7wxPycgo-qsSRE19_WV7tD-lfyidPAoISVk9BODE5VmE1TjIxTkpIaWJQeTdqYkk4SEEwRUZ3eHc0d3ItM3ItOURmdnlNb3BaZGRpSlJNRElSY1lFX1NyVVp1b25sWVhOMVVVX19tSDRndm5WN2tBIIEC';
-// const wu = new WikiUploader(sessData);
-// wu.uploadCharacterStory(130250).then(console.log);
-
-import {WikiUploader} from "../../../src/utils/wiki_uploader";
-import WikiClient from "../../../src/utils/http/wikiClient";
+import {WikiUploader} from "../../../src/utils/wikiUploader";
+import WikiClient from "../../../src/servers/wikiClient";
 const sessData = '6b7b18e8%2C1721491941%2C2fbe1%2A11CjAf0tEwI5uvWxy3rQERNXmuVL2ZkUkL1Eo7wxPycgo-qsSRE19_WV7tD-lfyidPAoISVk9BODE5VmE1TjIxTkpIaWJQeTdqYkk4SEEwRUZ3eHc0d3ItM3ItOURmdnlNb3BaZGRpSlJNRElSY1lFX1NyVVp1b25sWVhOMVVVX19tSDRndm5WN2tBIIEC';
-import  axios  from 'axios';
 
 describe('WikiUploader Test', () => {
     const wikiClient = new WikiClient(sessData);
@@ -67,3 +63,4 @@ describe('WikiUploader Test', () => {
         console.log(result);
     }, 600000);
 })
+

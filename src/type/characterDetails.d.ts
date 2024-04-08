@@ -62,7 +62,7 @@ interface CharacterStatusPreset {
     episode?: CharacterEpisodeStatus;
     bloom?: number;
 }
-interface CharacterStatusDetail {
+declare interface CharacterStatusDetail {
     preset: CharacterStatusPreset;
     status: {
         vocal: number;
@@ -71,4 +71,3 @@ interface CharacterStatusDetail {
     };
 }
 
-export {CharacterDetail};

@@ -1,7 +1,5 @@
-import {PosterDetail} from "../../domain/posterDetails";
 import {JSDOM} from 'jsdom';
-import {posterLeaderAbilityTypeMap, posterNormalAbilityTypeMap} from '../../domain/posterFilterpRecord';
-import {type} from "os";
+import {posterLeaderAbilityTypeMap, posterNormalAbilityTypeMap} from './posterAbilityTypeMap';
 import {descriptionToType} from "./descriptionToType";
 
 function convertUnityToHtml(unityString: string): string {
@@ -25,10 +23,15 @@ function generatePosterWikiText(poster: PosterDetail): string {
     const posterImageFileName = `Poster ${poster.id} 0.png`;
     const posterName = poster.name;
     const rarity = poster.rarity;
-    const appearanceCharacter = poster.appearanceCharacterBasesChinese
-        .reduce(((previousValue, currentValue) => {
-            return previousValue + ',' + currentValue;
-        }));
+
+    // 有些海报不存在出场角色，疑似 KMS 忘记填了
+    const appearanceCharacter =
+              poster.appearanceCharacterBasesChinese.length !== 0 ?
+                  poster.appearanceCharacterBasesChinese
+                      .reduce(((previousValue, currentValue) => {
+                          return previousValue + ',' + currentValue;
+                      })) :
+                  '';
 
     const leaderAbilities = poster.abilities.filter(_ => _.type === 'Leader');
     let leaderAbilityText: string;

@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import {characterBaseInfoArray} from "../../domain/characterBaseInfo";
-import {CharacterDetail} from "../../domain/characterDetails";
+import {characterBaseInfoArray} from "../characterBaseInfo";
 
 function generateCharacterStoryText(characterInfo: CharacterDetail): string {
     const firstStoryId = characterInfo.episodes.find(_ => _.episodeOrder === 'First').id;
@@ -23,7 +22,7 @@ function generateCharacterStoryText(characterInfo: CharacterDetail): string {
  * @param {number} id
  * @returns {string}
  */
-function getStoryText(id) {
+function getStoryText(id: number): string {
     const dir = 'E:\\html_code\\src\\story';
     const storyData = fs.readFileSync(path.join(dir, id + '.json'), 'utf-8');
     const storyLines = JSON.parse(storyData);

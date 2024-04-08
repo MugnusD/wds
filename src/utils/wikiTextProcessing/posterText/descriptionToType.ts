@@ -1,4 +1,4 @@
-import {TypeMap} from "../../domain/posterFilterpRecord";
+import {TypeMap} from "./posterAbilityTypeMap";
 
 export function descriptionToType(description: string, map: TypeMap): string {
     for(let [typeName, typeRegex] of Object.entries(map)) {

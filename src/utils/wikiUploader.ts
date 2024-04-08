@@ -1,21 +1,11 @@
-import {CharacterDetail} from "../domain/characterDetails";
-import WikiClient from "./http/wikiClient";
-import {DataProvider} from "./data_provider/data_provider";
-import {RemoteDataProvider} from "./data_provider/remote_data_provider";
-import {LocalDataProvider} from "./data_provider/local_data_provider";
-import fs, {Stats} from "fs";
-import {generateCharacterWikiText} from "./wiki_text_processing/generate_character_wt";
-import {characterBaseInfoArray} from "../domain/characterBaseInfo";
-import {generateCharacterStoryText} from "./wiki_text_processing/generate_character_story_wt";
-import {PosterDetail} from "../domain/posterDetails";
-import {generatePosterWikiText} from "./wiki_text_processing/generate_poster_wt";
-import {produce} from "immer";
+import WikiClient from "../servers/wikiClient";
+import fs from "fs";
+import {generateCharacterWikiText} from "./wikiTextProcessing/characterText/generateCharacterWikiText";
+import {characterBaseInfoArray} from "./wikiTextProcessing/characterBaseInfo";
+import {generateCharacterStoryText} from "./wikiTextProcessing/characterText/generateCharacterStoryWt";
 
-interface ImageUploaderInfo {
-    uploadFileName: string;
-    id: number;
-    localPath: string;
-}
+import {generatePosterWikiText} from "./wikiTextProcessing/posterText/generatePosterWikiText";
+import {CharacterService, PosterService} from "sirius-calculator";
 
 type GameItemType = 'Character' | `Poster`;
 
@@ -29,27 +19,23 @@ class WikiUploader {
     private readonly posterDetailsPromise: Promise<PosterDetail[]>;
     private readonly wc: WikiClient;
 
-    constructor(wc: WikiClient, useRemoteData: boolean = true) {
-        const {characterDetailsPromise, posterDetailsPromise} = this.createDataPromise(useRemoteData);
+    constructor(wc: WikiClient) {
+        const {characterDetailsPromise, posterDetailsPromise} = this.createDataPromise();
         this.characterDetailsPromise = characterDetailsPromise;
         this.posterDetailsPromise = posterDetailsPromise;
 
         this.wc = wc;
     }
 
-    private createDataPromise(useRemoteData: boolean): {
+    private createDataPromise(): {
         characterDetailsPromise: Promise<CharacterDetail[]>,
         posterDetailsPromise: Promise<PosterDetail[]>
     } {
-        let dataProvider: DataProvider;
-        if (useRemoteData) {
-            dataProvider = new RemoteDataProvider();
-        } else {
-            dataProvider = new LocalDataProvider();
-        }
+        const characterService = new CharacterService();
+        const posterService = new PosterService();
 
         const currentTime: number = Date.now();
-        const characterDetailsPromise = dataProvider.fetchData('character')
+        const characterDetailsPromise = characterService.getAllCharacterDetails()
             .then(characterDetails => {
                 characterDetails = characterDetails.filter(characterDetail => {
                     // 筛选没有实装的卡
@@ -74,46 +60,8 @@ class WikiUploader {
 
                 return characterDetails;
             });
-        // // 初步处理程序，1 星卡添加前缀、筛选没有实装的卡
-        // .then(characterDetails => {
-        //     return characterDetails
-        //         // 一星卡处理
-        //         .map(characterDetail => {
-        //             if (characterDetail.id > 114514) {
-        //                 return characterDetail;
-        //             } else {
-        //                 const chineseName = characterBaseInfoArray.find(characterInfo =>
-        //                     characterInfo.name === characterDetail.characterBase).chineseName;
-        //                 characterDetail.name = characterDetail.name + `（${chineseName}）`;
-        //                 return characterDetail;
-        //             }
-        //         })
-        //         // 筛选没有实装的卡
-        //         .filter(characterDetail => {
-        //             const displayTime = new Date(characterDetail.displayStartAt).getTime();
-        //             return displayTime < currentTime;
-        //         })
-        //         // 将全角空格换位半角
-        //         .map(characterDetail => {
-        //             if (characterDetail.name.includes('　')) {
-        //                 characterDetail.name = characterDetail.name.replace('　', ' ');
-        //                 return characterDetail;
-        //             } else {
-        //                 return characterDetail;
-        //             }
-        //         })
-        //         // 将 # 换为全角
-        //         .map(characterDetail => {
-        //             if (characterDetail.name.includes('#')) {
-        //                 characterDetail.name = characterDetail.name.replace('#', '＃');
-        //                 return characterDetail;
-        //             } else {
-        //                 return characterDetail;
-        //             }
-        //         });
-        // });
 
-        const posterDetailsPromise = dataProvider.fetchData('poster')
+        const posterDetailsPromise = posterService.getAllPosterDetails()
             .then(posterDetails => {
                 // 筛选没有实装的海报
                 posterDetails = posterDetails.filter(posterDetail => {
@@ -132,33 +80,6 @@ class WikiUploader {
                 return posterDetails;
             });
 
-        // .then(posterDetails => {
-        //     return posterDetails
-        //         // 筛选没有实装的
-        //         .filter(posterDetail => {
-        //             const displayTime = new Date(posterDetail.displayStartAt).getTime();
-        //             return displayTime < currentTime;
-        //         })
-        //         // 将全角空格换位半角
-        //         .map(posterDetail => {
-        //             if (posterDetail.name.includes('　')) {
-        //                 posterDetail.name = posterDetail.name.replace('　', ' ');
-        //                 return posterDetail;
-        //             } else {
-        //                 return posterDetail;
-        //             }
-        //         })
-        //         // 将 # 换为全角
-        //         .map(posterDetail => {
-        //             if (posterDetail.name.includes('#')) {
-        //                 posterDetail.name = posterDetail.name.replace('#', '＃');
-        //                 return posterDetail;
-        //             } else {
-        //                 return posterDetail;
-        //             }
-        //         });
-        // });
-
         return {
             characterDetailsPromise,
             posterDetailsPromise
@@ -167,8 +88,6 @@ class WikiUploader {
 
     /**
      * 创建指定角色（id）的页面
-     * @param id
-     * @param createonly
      */
     public async createCharacterPage(id: number, createonly: boolean = true): Promise<string> {
         const characterDetails: CharacterDetail[] = await this.characterDetailsPromise;
@@ -178,12 +97,11 @@ class WikiUploader {
         const result = await this.wc.editPage(characterDetail.name, wikiText, {
             createonly: createonly,
         });
-        return '新建页面成功' + result;
+        return '新建页面成功 ' + result;
     }
 
     /**
      * 上传指定角色（id）的故事
-     * @param id 角色卡面 id
      */
     public async uploadCharacterStory(id: number): Promise<string> {
         const characterDetails: CharacterDetail[] = await this.characterDetailsPromise;
@@ -203,9 +121,9 @@ class WikiUploader {
         const allTitleArray: string[] = await this.wc.getPageTitles();
 
         // Wiki 会自动首字母大写，需要
-        for (let i = 0; i < allTitleArray.length; i++) {
-            allTitleArray[i] = allTitleArray[i].toLowerCase();
-        }
+        allTitleArray.forEach((title, index, array) => {
+            array[index] = title.toLowerCase();
+        });
         const characterDetails: CharacterDetail[] = await this.characterDetailsPromise;
         const posterDetails: PosterDetail[] = await this.posterDetailsPromise;
 
@@ -232,14 +150,6 @@ class WikiUploader {
         return gameItems;
     }
 
-    public async getUnuploadedCharacterIDs() {
-        const characterDetails: CharacterDetail[] = await this.characterDetailsPromise;
-        const allTitlesArray = await this.wc.getPageTitles();
-        return characterDetails
-            .filter(characterDetail => !(allTitlesArray.includes(characterDetail.name)))
-            .map(_ => _.id);
-    }
-
     public async createPosterPage(id: number, createonly: boolean = true) {
         const posterDetails = await this.posterDetailsPromise;
         const posterDetail = posterDetails.find(_ => _.id === id);
@@ -254,9 +164,9 @@ class WikiUploader {
     public async createAllPosterPage(creatonly: boolean = true) {
         const posterDetails = await this.posterDetailsPromise;
         for (const posterDetail of posterDetails) {
-            // 暂时
-            if (posterDetail.id === 220410) continue;
-            if (posterDetail.id === 230190) continue;
+            // // 暂时
+            // if (posterDetail.id === 220410) continue;
+            // if (posterDetail.id === 230190) continue;
 
             const result = await this.createPosterPage(posterDetail.id, creatonly);
             console.log(result);
@@ -288,7 +198,7 @@ class WikiUploader {
         } else if (type === 'Poster') {
             const posterDetails: PosterDetail[] = await this.posterDetailsPromise;
             const posterDetail: PosterDetail = posterDetails.find(_ => _.id === id);
-            await this.wc.uploadFile(`Post_${id}`, url + `poster/${id}.png`, true, true);
+            await this.wc.uploadFile(`Poster ${id} 0`, url + `poster/${id}.png`, true, true);
             return posterDetail.name + " 海报图片上传完毕";
         }
     }

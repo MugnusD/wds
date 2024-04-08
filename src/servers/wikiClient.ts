@@ -29,7 +29,7 @@ export default class WikiClient {
     /**
      * 返回一个 CSRFToken 的期约，用于任何 API 操作。
      */
-    async initialToken(): Promise<string> {
+    async getCsrfToken(): Promise<string> {
         try {
             const response = await this.client.get(this.url + '?action=query&meta=tokens&format=json', {
                 headers: {
@@ -44,17 +44,28 @@ export default class WikiClient {
         }
     }
 
+    async checkCsrfToken(): Promise<boolean> {
+        try {
+            const csrfToken = await this.getCsrfToken();
+            if (csrfToken === '+\\') return false;
+        } catch (e) {
+            return false;
+        }
+
+        return true;
+    }
+
     public async editPage(pageTitle: string, text: string, options: EditOptions = {}): Promise<string> {
         const {
-            section = 0,
-            nocreate = false,
-            createonly = false,
-            summary = '自动生成',
-            appendtext = '',
-        } = options;
+                  section    = 0,
+                  nocreate   = false,
+                  createonly = false,
+                  summary    = '自动生成',
+                  appendtext = '',
+              } = options;
 
         try {
-            const token = await this.initialToken();
+            const token = await this.getCsrfToken();
             const params = new URLSearchParams();
 
             params.append('action', 'edit');
@@ -100,11 +111,11 @@ export default class WikiClient {
 
     public async uploadFile(fileName: string, filePath: string, ignoreWarning: boolean = false, remoteFile: boolean = false): Promise<string> {
         try {
-            const token = await this.initialToken();
+            const token = await this.getCsrfToken();
             const formData = new FormData();
 
             if (remoteFile) {
-                const response = await axios.get(filePath, { responseType: 'stream' });
+                const response = await axios.get(filePath, {responseType: 'stream'});
                 formData.append('file', response.data);
             } else {
                 const fileStream = fs.createReadStream(filePath);

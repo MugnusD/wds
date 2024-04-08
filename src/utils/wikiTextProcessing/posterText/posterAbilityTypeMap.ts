@@ -25,9 +25,13 @@ export const posterNormalAbilityTypeMap: TypeMap = {
 
     lightUp: /Sense所给予的「光」给予数量增加/,
     lightGain: /公演开始时，给予.*个/,
-    gaugeUp: /Sense中的Principle Gauge获得量提升/,
-    gaugeGain: /公演开始时，获得.*点Principle Gauge/,
+    gaugeUp: /Sense中的Principal Gauge获得量提升/,
+    gaugeGain: /公演开始时，获得.*点Principal Gauge/,
     lifeUp: /Sense发动之后，回复.*点血量/,
     lifeGain: /公演开始时，提升.*点血量/,
+    ctDown: /CT/,
+
+    // 未匹配返回，必须保持这个在最后
+    special: /.*/,
 }
 

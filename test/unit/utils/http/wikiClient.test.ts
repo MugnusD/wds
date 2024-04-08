@@ -1,9 +1,17 @@
-import WikiClient from "../../../../src/utils/http/wikiClient";
+import WikiClient from "../../../../src/servers/wikiClient";
 
 const sessData = '6b7b18e8%2C1721491941%2C2fbe1%2A11CjAf0tEwI5uvWxy3rQERNXmuVL2ZkUkL1Eo7wxPycgo-qsSRE19_WV7tD-lfyidPAoISVk9BODE5VmE1TjIxTkpIaWJQeTdqYkk4SEEwRUZ3eHc0d3ItM3ItOURmdnlNb3BaZGRpSlJNRElSY1lFX1NyVVp1b25sWVhOMVVVX19tSDRndm5WN2tBIIEC';
 
 describe('WikiClient test', () => {
     const wc = new WikiClient(sessData);
+
+    it('test invalid sessData token', async () => {
+        const invalidSessData = "abcd";
+        const invalidClient = new WikiClient(invalidSessData);
+
+        const result = await invalidClient.getCsrfToken();
+        expect(result).toBe('+\\');
+    })
 
     it('should edit a whole new page successfully', async () => {
         const result = await wc.editPage('用户:39886146/EditTest', '编辑测试');

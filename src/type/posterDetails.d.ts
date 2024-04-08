@@ -10,6 +10,7 @@ interface PosterDetail {
     event: string;
     gacha: string;
     type: GachaType;
+    stories: PosterStory[];
 }
 interface PosterAbilityDetail {
     name: string;
@@ -31,4 +32,11 @@ declare enum GachaType {
     FREE = "Free"
 }
 
-export {PosterDetail};
+declare interface PosterStory {
+    id: number;
+    posterMasterId: number;
+    episodeType: string;
+    description: string;
+    order: number;
+    characterBaseMasterId?: number;
+}
