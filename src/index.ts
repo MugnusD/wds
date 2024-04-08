@@ -7,7 +7,6 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-
 async function initializeWikiClient(): Promise<WikiClient> {
     return new Promise((resolve) => {
         rl.question('Please input your SESSDATA: ', async (input) => {
