@@ -9373,7 +9373,7 @@
     "displayStartAt": "2024-03-31T08:00:00.000Z",
     "abilities": [
       {
-        "name": "トロイメライと悪夢",
+        "name": "トロイメライと悪魔",
         "description": "劇団電姫に所属するアクターの演技力が13.6~40%上昇",
         "descriptionChinese": "剧团电姬的演员的演技力提升13.6~40%",
         "effectDetails": [
@@ -9619,6 +9619,94 @@
       }
     ],
     "event": "#指先がつむぐ暗黒",
+    "gacha": "无",
+    "type": "None",
+    "stories": []
+  },
+  {
+    "id": 220430,
+    "name": "Bloom Time-Lapse",
+    "rarity": "SR",
+    "pronounceName": "Bloom Time-Lapse",
+    "appearanceCharacterBases": [
+      "鳳ここな"
+    ],
+    "appearanceCharacterBasesChinese": [
+      "凤心菜"
+    ],
+    "displayStartAt": "2024-04-10T08:00:00.000Z",
+    "abilities": [
+      {
+        "name": "Bloom Time-Lapse",
+        "description": "シリウスに所属するアクターの演技力が13.6~40％上昇",
+        "descriptionChinese": "天狼星的演员的演技力提升13.6~40%",
+        "effectDetails": [
+          [
+            13.6,
+            16,
+            18.4,
+            20.8,
+            23.2,
+            25.6,
+            28,
+            30.4,
+            32.8,
+            35.2,
+            37.6,
+            40
+          ]
+        ],
+        "type": "Leader",
+        "releaseLevelAt": 0
+      },
+      {
+        "name": "演技力アップ",
+        "description": "自身の演技力が6~17％上昇　◆発動条件：シリウスに所属するアクターが装備",
+        "descriptionChinese": "自身的演技力提升6~17%　◆发动条件：由天狼星的演员装备",
+        "effectDetails": [
+          [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        ],
+        "type": "Normal",
+        "releaseLevelAt": 0
+      },
+      {
+        "name": "P.ゲージ獲得量アップ",
+        "description": "センスによるP.ゲージの獲得量が48~136%UP　◆発動条件：シリウスに所属するアクターが装備",
+        "descriptionChinese": "Sense中的Principal Gauge获得量提升48~136%　◆发动条件：由天狼星的演员装备",
+        "effectDetails": [
+          [
+            48,
+            56,
+            64,
+            72,
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136
+          ]
+        ],
+        "type": "Normal",
+        "releaseLevelAt": 7
+      }
+    ],
+    "event": "Bloom Time-Lapse",
     "gacha": "无",
     "type": "None",
     "stories": []

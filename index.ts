@@ -1,5 +1,5 @@
-import {WikiUploader} from "./utils/wikiUploader";
-import WikiClient from "./servers/wikiClient";
+import {WikiUploader} from "./src/utils/wikiUploader";
+import WikiClient from "./src/servers/wikiClient";
 import * as readline from 'readline';
 
 const rl = readline.createInterface({

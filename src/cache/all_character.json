@@ -13177,6 +13177,156 @@
     ]
   },
   {
+    "id": 130480,
+    "name": "別に心配なんか……",
+    "rarity": "Rare3",
+    "attribute": "Cute",
+    "status": [
+      {
+        "preset": {
+          "level": 1,
+          "awakening": false,
+          "episode": "None",
+          "bloom": 0
+        },
+        "status": {
+          "vocal": 20,
+          "expression": 22,
+          "concentration": 24
+        }
+      },
+      {
+        "preset": {
+          "level": 130,
+          "awakening": true,
+          "episode": "Second",
+          "bloom": 5
+        },
+        "status": {
+          "vocal": 6857,
+          "expression": 7415,
+          "concentration": 8133
+        }
+      }
+    ],
+    "characterBase": "カトリナ・グリーベル",
+    "starAct": {
+      "description": "総演技力の4~6倍のスコアを獲得",
+      "descriptionChinese": "获得总演技力4~6倍的分数",
+      "conditions": [
+        {
+          "type": "Alternative",
+          "typeChinese": "任意系",
+          "origin": 0,
+          "bloom": 0
+        },
+        {
+          "type": "Support",
+          "typeChinese": "支援系",
+          "origin": 1,
+          "bloom": 1
+        },
+        {
+          "type": "Control",
+          "typeChinese": "支配系",
+          "origin": 0,
+          "bloom": 0
+        },
+        {
+          "type": "Amplification",
+          "typeChinese": "增幅系",
+          "origin": 3,
+          "bloom": 2
+        },
+        {
+          "type": "Special",
+          "typeChinese": "特殊系",
+          "origin": 1,
+          "bloom": 1
+        }
+      ]
+    },
+    "sense": {
+      "descriptions": [
+        "4.9~6.5倍のスコアを獲得"
+      ],
+      "descriptionsChinese": [
+        "获得自身演技力4.9~6.5倍的分数"
+      ],
+      "type": "Amplification",
+      "lightCount": 1,
+      "acquirableGauge": 0,
+      "coolTime": {
+        "origin": 50,
+        "bloom": 50
+      },
+      "effectTypes": []
+    },
+    "bloomBonuses": [
+      {
+        "phase": 1,
+        "descriptions": [
+          "演技力2％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升2%"
+        ]
+      },
+      {
+        "phase": 2,
+        "descriptions": [
+          "演技力2％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升2%"
+        ]
+      },
+      {
+        "phase": 3,
+        "descriptions": [
+          "演技力2％UP",
+          "スターアクト発動に必要な増幅の光の個数が1個減少"
+        ],
+        "descriptionsChinese": [
+          "演技力上升2%",
+          "Star Act发动所需要的增幅系光个数减1"
+        ]
+      },
+      {
+        "phase": 4,
+        "descriptions": [
+          "演技力2％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升2%"
+        ]
+      },
+      {
+        "phase": 5,
+        "descriptions": [
+          "演技力4％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升4%"
+        ]
+      }
+    ],
+    "displayStartAt": "2024-04-10T08:00:00.000Z",
+    "event": "Bloom Time-Lapse",
+    "gacha": "无",
+    "type": "None",
+    "episodes": [
+      {
+        "id": 130481,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 130482,
+        "episodeOrder": "Second"
+      }
+    ]
+  },
+  {
     "id": 130560,
     "name": "フラワー・テンペスト",
     "rarity": "Rare3",
@@ -23474,6 +23624,324 @@
       },
       {
         "id": 140692,
+        "episodeOrder": "Second"
+      }
+    ]
+  },
+  {
+    "id": 140720,
+    "name": "絵本から飛び出せば",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "status": [
+      {
+        "preset": {
+          "level": 1,
+          "awakening": false,
+          "episode": "None",
+          "bloom": 0
+        },
+        "status": {
+          "vocal": 28,
+          "expression": 34,
+          "concentration": 23
+        }
+      },
+      {
+        "preset": {
+          "level": 130,
+          "awakening": true,
+          "episode": "Second",
+          "bloom": 5
+        },
+        "status": {
+          "vocal": 10705,
+          "expression": 13085,
+          "concentration": 9058
+        }
+      }
+    ],
+    "characterBase": "鳳ここな",
+    "starAct": {
+      "description": "総演技力の9.7~14.7倍のスコアを獲得",
+      "descriptionChinese": "获得总演技力9.7~14.7倍的分数",
+      "conditions": [
+        {
+          "type": "Alternative",
+          "typeChinese": "任意系",
+          "origin": 0,
+          "bloom": 0
+        },
+        {
+          "type": "Support",
+          "typeChinese": "支援系",
+          "origin": 4,
+          "bloom": 3
+        },
+        {
+          "type": "Control",
+          "typeChinese": "支配系",
+          "origin": 1,
+          "bloom": 1
+        },
+        {
+          "type": "Amplification",
+          "typeChinese": "增幅系",
+          "origin": 1,
+          "bloom": 1
+        },
+        {
+          "type": "Special",
+          "typeChinese": "特殊系",
+          "origin": 1,
+          "bloom": 1
+        }
+      ]
+    },
+    "sense": {
+      "descriptions": [
+        "1.5~3.1倍のスコアを獲得",
+        "80のプリンシパルゲージを獲得",
+        "ライフが多いほどここなのスコア獲得量UP（最大＋100％）"
+      ],
+      "descriptionsChinese": [
+        "获得自身演技力1.5~3.1倍的分数",
+        "获得80点Principal Gauge",
+        "血量越多，凤心菜的分数获得量越高（最大+100％）"
+      ],
+      "type": "Support",
+      "lightCount": 1,
+      "acquirableGauge": 80,
+      "coolTime": {
+        "origin": 30,
+        "bloom": 25
+      },
+      "effectTypes": [
+        "ScoreUpByHighLife"
+      ]
+    },
+    "bloomBonuses": [
+      {
+        "phase": 1,
+        "descriptions": [
+          "演技力6％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%"
+        ]
+      },
+      {
+        "phase": 2,
+        "descriptions": [
+          "演技力6％UP",
+          "センスのCTが5秒減少"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%",
+          "Sense的CT缩短5秒"
+        ]
+      },
+      {
+        "phase": 3,
+        "descriptions": [
+          "演技力6％UP",
+          "スターアクト発動に必要な支援の光の個数が1個減少"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%",
+          "Star Act发动所需要的支援系光个数减1"
+        ]
+      },
+      {
+        "phase": 4,
+        "descriptions": [
+          "演技力6％UP",
+          "初期ライフが100上昇"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%",
+          "初始血量上升100"
+        ]
+      },
+      {
+        "phase": 5,
+        "descriptions": [
+          "演技力6％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%"
+        ]
+      }
+    ],
+    "displayStartAt": "2024-04-10T08:00:00.000Z",
+    "event": "Bloom Time-Lapse",
+    "gacha": "Bloom Time-Lapseガチャ",
+    "type": "Normal",
+    "episodes": [
+      {
+        "id": 140721,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140722,
+        "episodeOrder": "Second"
+      }
+    ]
+  },
+  {
+    "id": 140730,
+    "name": "思い出のカルテリーノ",
+    "rarity": "Rare4",
+    "attribute": "Cute",
+    "status": [
+      {
+        "preset": {
+          "level": 1,
+          "awakening": false,
+          "episode": "None",
+          "bloom": 0
+        },
+        "status": {
+          "vocal": 24,
+          "expression": 28,
+          "concentration": 33
+        }
+      },
+      {
+        "preset": {
+          "level": 130,
+          "awakening": true,
+          "episode": "Second",
+          "bloom": 5
+        },
+        "status": {
+          "vocal": 9241,
+          "expression": 10888,
+          "concentration": 12627
+        }
+      }
+    ],
+    "characterBase": "柳場ぱんだ",
+    "starAct": {
+      "description": "総演技力の9.7~14.7倍のスコアを獲得",
+      "descriptionChinese": "获得总演技力9.7~14.7倍的分数",
+      "conditions": [
+        {
+          "type": "Alternative",
+          "typeChinese": "任意系",
+          "origin": 0,
+          "bloom": 0
+        },
+        {
+          "type": "Support",
+          "typeChinese": "支援系",
+          "origin": 1,
+          "bloom": 1
+        },
+        {
+          "type": "Control",
+          "typeChinese": "支配系",
+          "origin": 1,
+          "bloom": 1
+        },
+        {
+          "type": "Amplification",
+          "typeChinese": "增幅系",
+          "origin": 4,
+          "bloom": 3
+        },
+        {
+          "type": "Special",
+          "typeChinese": "特殊系",
+          "origin": 1,
+          "bloom": 1
+        }
+      ]
+    },
+    "sense": {
+      "descriptions": [
+        "7.4~10.2倍のスコアを獲得",
+        "センス発動直後、自身の集中力の3.6~6倍のスコアを獲得                                        "
+      ],
+      "descriptionsChinese": [
+        "获得自身演技力7.4~10.2倍的分数",
+        "Sense发动后，获得自身集中力3.6~6倍的分数"
+      ],
+      "type": "Amplification",
+      "lightCount": 1,
+      "acquirableGauge": 0,
+      "coolTime": {
+        "origin": 60,
+        "bloom": 55
+      },
+      "effectTypes": [
+        "ScoreGainOnConcentration"
+      ]
+    },
+    "bloomBonuses": [
+      {
+        "phase": 1,
+        "descriptions": [
+          "演技力6％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%"
+        ]
+      },
+      {
+        "phase": 2,
+        "descriptions": [
+          "演技力6％UP",
+          "センスのCTが5秒減少"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%",
+          "Sense的CT缩短5秒"
+        ]
+      },
+      {
+        "phase": 3,
+        "descriptions": [
+          "演技力6％UP",
+          "スターアクト発動に必要な増幅の光の個数が1個減少"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%",
+          "Star Act发动所需要的增幅系光个数减1"
+        ]
+      },
+      {
+        "phase": 4,
+        "descriptions": [
+          "演技力6％UP",
+          "初期プリンシパルゲージが50上昇"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%",
+          "初始Principal Gauge上升50"
+        ]
+      },
+      {
+        "phase": 5,
+        "descriptions": [
+          "演技力6％UP"
+        ],
+        "descriptionsChinese": [
+          "演技力上升6%"
+        ]
+      }
+    ],
+    "displayStartAt": "2024-04-10T08:00:00.000Z",
+    "event": "Bloom Time-Lapse",
+    "gacha": "Bloom Time-Lapseガチャ",
+    "type": "Normal",
+    "episodes": [
+      {
+        "id": 140731,
+        "episodeOrder": "First"
+      },
+      {
+        "id": 140732,
         "episodeOrder": "Second"
       }
     ]

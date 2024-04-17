@@ -6,6 +6,8 @@ import {generateCharacterStoryText} from "./wikiTextProcessing/characterText/gen
 
 import {generatePosterWikiText} from "./wikiTextProcessing/posterText/generatePosterWikiText";
 import {CharacterService, PosterService} from "sirius-calculator";
+import path from "path";
+import axios from "axios";
 
 type GameItemType = 'Character' | `Poster`;
 
@@ -20,7 +22,10 @@ class WikiUploader {
     private readonly wc: WikiClient;
 
     constructor(wc: WikiClient) {
-        const {characterDetailsPromise, posterDetailsPromise} = this.createDataPromise();
+        const {
+                  characterDetailsPromise,
+                  posterDetailsPromise
+              } = this.createDataPromise();
         this.characterDetailsPromise = characterDetailsPromise;
         this.posterDetailsPromise = posterDetailsPromise;
 
@@ -63,11 +68,13 @@ class WikiUploader {
 
         const posterDetailsPromise = posterService.getAllPosterDetails()
             .then(posterDetails => {
-                // 筛选没有实装的海报
-                posterDetails = posterDetails.filter(posterDetail => {
+                // 筛选没有实装的海报 & 没有技能的废海报
+                posterDetails = posterDetails
+                    .filter(posterDetail => {
                     const displayTime = new Date(posterDetail.displayStartAt).getTime();
                     return displayTime < currentTime;
-                });
+                })
+                    .filter(posterDetail => posterDetail.abilities.length !== 0);
 
                 posterDetails.forEach(posterDetail => {
                     // 将全角空格换位半角
@@ -164,10 +171,6 @@ class WikiUploader {
     public async createAllPosterPage(creatonly: boolean = true) {
         const posterDetails = await this.posterDetailsPromise;
         for (const posterDetail of posterDetails) {
-            // // 暂时
-            // if (posterDetail.id === 220410) continue;
-            // if (posterDetail.id === 230190) continue;
-
             const result = await this.createPosterPage(posterDetail.id, creatonly);
             console.log(result);
         }
@@ -181,7 +184,10 @@ class WikiUploader {
      * @param gameItem
      */
     public async uploadImages(gameItem: GameItem) {
-        const {id, type} = gameItem;
+        const {
+                  id,
+                  type
+              } = gameItem;
         const url = 'https://sirius.3-3.dev/asset/';
         if (type === 'Character') {
             const characterDetails: CharacterDetail[] = await this.characterDetailsPromise;
@@ -201,6 +207,62 @@ class WikiUploader {
             await this.wc.uploadFile(`Poster ${id} 0`, url + `poster/${id}.png`, true, true);
             return posterDetail.name + " 海报图片上传完毕";
         }
+    }
+
+    /**
+     * 下载图片资源，暂用（考虑移除）
+     * @param id
+     * @param rarity
+     */
+    public async downloadCharacterIcon(id: number, rarity: string): Promise<void> {
+        const url = 'https://sirius.3-3.dev/asset/';
+
+        let imageUrl = url + `character-thumbnail/${id}_0.png`;
+        let localFilePath = path.join(__dirname, `../cache/icons/${id}_0.png`);
+
+        await axios({
+            method: "get",
+            url: imageUrl,
+            responseType: "stream"
+        }).then(function (response) {
+            response.data.pipe(fs.createWriteStream(localFilePath));
+        });
+
+        if (rarity === 'Rare4') {
+            let imageUrl = url + `character-thumbnail/${id}_1.png`;
+            let localFilePath = path.join(__dirname, `../cache/icons/${id}_1.png`);
+
+            await axios({
+                method: "get",
+                url: imageUrl,
+                responseType: "stream"
+            }).then(function (response) {
+                response.data.pipe(fs.createWriteStream(localFilePath));
+            });
+        }
+
+        console.log(`${id} downloading completed`);
+    };
+
+    /**
+     * 下载图片资源，暂用（考虑移除）
+     * @param id
+     */
+    public async downloadPosterIcon(id: number): Promise<void> {
+        const url = 'https://sirius.3-3.dev/asset/';
+
+        const imageUrl = url + `poster-thumbnail/${id}.png`;
+        const localFilePath = path.join(__dirname, `../cache/icons/${id}.png`);
+
+        await axios({
+            method: 'get',
+            url: imageUrl,
+            responseType: 'stream',
+        }).then(response => {
+            response.data.pipe(fs.createWriteStream(localFilePath))
+        });
+
+        console.log(`${id} downloading completed`);
     }
 
     /**
@@ -227,11 +289,15 @@ class WikiUploader {
             }
         }
 
-        return '上传完毕';
+        return 'Uploading completed';
     }
 
-    public async updateCharacterTemplate(): Promise<string> {
-        const characterDetails: CharacterDetail[] = await this.characterDetailsPromise;
+    public async updateCharacterTemplate()
+        :
+        Promise<string> {
+        const characterDetails
+                  :
+                  CharacterDetail[] = await this.characterDetailsPromise;
         for (const characterDetail of characterDetails) {
             const content: string = await this.wc.getPageContent(characterDetail.name);
             if (!content) continue;
@@ -248,7 +314,7 @@ class WikiUploader {
                 console.log('模板更新: ' + result);
             }
         }
-        return '更新完成';
+        return 'Updating completed';
     }
 
     public async downloadDetails() {
@@ -261,7 +327,7 @@ class WikiUploader {
             .then(result => {
                 fs.writeFileSync(__dirname + '/../cache/all_poster.json', JSON.stringify(result, null, 2));
             })
-        return '写入完成';
+        return 'Writing to cache completed';
     }
 }
 
