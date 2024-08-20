@@ -9,27 +9,16 @@ interface PosterDetail {
     abilities: PosterAbilityDetail[];
     event: string;
     gacha: string;
-    type: GachaType;
+    type: CharacterOrPosterType;
     stories: PosterStory[];
 }
-interface PosterAbilityDetail {
+declare interface PosterAbilityDetail {
     name: string;
     description: string;
     descriptionChinese: string;
     effectDetails: number[][];
     type: string;
     releaseLevelAt: number;
-}
-declare enum GachaType {
-    NONE = "None",
-    NORMAL = "Normal",
-    TIME_LIMITED = "TimeLimited",
-    FESTIVAL_LIMITED = "FestivalLimited",
-    CLUB_LIMITED = "ClubLimited",
-    LIMITED_REOPEN = "LimitedReopen",
-    PICKUP = "Pickup",
-    SELECT_PICKUP = "SelectPickup",
-    FREE = "Free"
 }
 
 declare interface PosterStory {
@@ -39,4 +28,15 @@ declare interface PosterStory {
     description: string;
     order: number;
     characterBaseMasterId?: number;
+}
+
+declare enum CharacterOrPosterType {
+    NONE = "None",
+    INIT = "Init",
+    STORY_REWARD = "StoryReward",
+    EVENT_EXCHANGE = "EventExchange",
+    NORMAL = "Normal",
+    TIME_LIMITED = "TimeLimited",
+    FESTIVAL_LIMITED = "FestivalLimited",
+    CLUB_LIMITED = "ClubLimited"
 }

@@ -1,23 +1,7 @@
-import {JSDOM} from 'jsdom';
 import {posterLeaderAbilityTypeMap, posterNormalAbilityTypeMap} from './posterAbilityTypeMap';
-import {descriptionToType} from "./descriptionToType";
-
-function convertUnityToHtml(unityString: string): string {
-    const regex = /<color=(#[0-9A-F]{6})>(.*?)<\/color>/gi;
-    // return unityString.replace(regex, '<span style="color: $1">$2</span>');
-    const document = new JSDOM().window.document;
-    const span = document.createElement('span');
-
-    unityString = unityString.replace(regex, (match, color, text) => {
-        span.textContent = text;
-        span.style.color = color;
-        return span.outerHTML;
-    });
-
-    unityString = unityString.replace('◆', '<br />◆');
-
-    return unityString;
-}
+import {descriptionToType} from "../descriptionToType";
+import {characterBaseInfoArray} from "../characterBaseInfo";
+import convertUnityDescriptionToHtml from "../unityToHtml/convertUnityDescriptionToHtml";
 
 function generatePosterWikiText(poster: PosterDetail): string {
     const posterImageFileName = `Poster ${poster.id} 0.png`;
@@ -43,7 +27,7 @@ function generatePosterWikiText(poster: PosterDetail): string {
 
         // 技能描述
         leaderAbilityText = `|队长技能=` + leaderAbility.name + ':<br />'
-            + convertUnityToHtml(leaderAbility.descriptionChinese);
+            + convertUnityDescriptionToHtml(leaderAbility.descriptionChinese);
 
         // 技能类型
         leaderAbilityType = descriptionToType(leaderAbility.descriptionChinese, posterLeaderAbilityTypeMap);
@@ -55,7 +39,7 @@ function generatePosterWikiText(poster: PosterDetail): string {
             // 技能描述
             let index = leaderAbilities.indexOf(leaderAbility) + 1;
             const leaderAbilityText = `|队长技能` + index.toString() + '=' + leaderAbility.name + ':<br />'
-                + convertUnityToHtml(leaderAbility.descriptionChinese);
+                + convertUnityDescriptionToHtml(leaderAbility.descriptionChinese);
             leaderAbilityTextArray.push(leaderAbilityText);
 
             // 技能类型
@@ -63,7 +47,7 @@ function generatePosterWikiText(poster: PosterDetail): string {
         }
 
         leaderAbilityText = `|队长技能数=${leaderAbilities.length}\n` + leaderAbilityTextArray.join('\n');
-        leaderAbilityType = leaderAbilityTypes.join(',')
+        leaderAbilityType = leaderAbilityTypes.join(',');
     }
 
 
@@ -76,7 +60,7 @@ function generatePosterWikiText(poster: PosterDetail): string {
     let i = 1;
     for (let normalAbility of normalAbilities) {
         const normalAbilityText = `|技能` + i.toString() + '=' + normalAbility.name + ':<br />'
-            + convertUnityToHtml(normalAbility.descriptionChinese)
+            + convertUnityDescriptionToHtml(normalAbility.descriptionChinese)
             + (normalAbility.releaseLevelAt === 0 ? '' : `<br />（技能于${normalAbility.releaseLevelAt}级解锁）`);
         normalAbilityTexts.push(normalAbilityText);
         i++;
@@ -93,7 +77,30 @@ function generatePosterWikiText(poster: PosterDetail): string {
         displayTime = '2023/7/26';
     }
 
-    return `{{CSS|Infobox}}
+    // Story
+    let info: PosterStory,
+        ch1: PosterStory,
+        ch2: PosterStory,
+        ch3: PosterStory,
+        ch4: PosterStory,
+        after: PosterStory[],
+        afterStory: string;
+
+    if (poster.stories.length !== 0) {
+        [info, ch1, ch2, ch3, ch4, ...after] = poster.stories;
+        afterStory = after.reduce((prev, posterStory, currentIndex) => {
+            let line = '';
+            const character = characterBaseInfoArray.find(_ => _.id === posterStory.characterBaseMasterId);
+
+            line += character.styledName.replace(/{name}/, character.chineseName);
+            line += '<br />';
+            line += posterStory.description.replace(/\/n/, '<br />');
+
+            return prev + (currentIndex !== 0 ? '<br /><br />': '') + line;
+        }, '');
+    }
+
+    const infoBox = `{{CSS|Infobox}}
 {{海报信息
 |图片=${posterImageFileName}
 |海报名称=${posterName}
@@ -107,7 +114,19 @@ ${normalAbilityTexts.join('\n')}
 |技能效果类型=${normalAbilityTypes.join(',')}
 |隶属活动=${event}
 |登场时间=${displayTime}
-}}`;
+}}
+` ;
+
+    const story = poster.stories.length !== 0 ? `{{海报剧情
+|情报=${info.description.replace(/\/n/g, '<br />')}
+|第一幕=${ch1.description.replace(/\/n/g, '<br />')}
+|第二幕=${ch2.description.replace(/\/n/g, '<br />')}
+|第三幕=${ch3.description.replace(/\/n/g, '<br />')}
+|第四幕=${ch4.description.replace(/\/n/g, '<br />')}
+|后日谈=${afterStory}
+}}` : ''
+
+    return infoBox + story;
 }
 
 export {generatePosterWikiText};

@@ -1,4 +1,4 @@
-export type TypeMap = Record<string, RegExp>;
+import {TypeMap} from "../descriptionToType";
 
 export const posterLeaderAbilityTypeMap: TypeMap = {
     Sirius: /天狼星/,

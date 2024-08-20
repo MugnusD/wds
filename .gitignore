@@ -4,3 +4,4 @@ node_modules/
 sessData.txt
 test/
 src/cache
+cache_asset

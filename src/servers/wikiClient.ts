@@ -103,6 +103,7 @@ export default class WikiClient {
                     'Cookie': `SESSDATA=${this.sessData}`,
                 },
             });
+            console.log(response.data);
             return `edit ${pageTitle} successfully`;
         } catch (e) {
             return `edit ${pageTitle} unsuccessfully`;
@@ -139,6 +140,7 @@ export default class WikiClient {
                         ...formData.getHeaders(),
                     }
                 });
+
             return `上传文件 ${fileName} 成功`;
         } catch (e) {
             return `上传文件 ${fileName} 失败`;
@@ -186,6 +188,7 @@ export default class WikiClient {
                 list: 'querypage',
                 qppage: 'Wantedfiles',
                 format: 'json',
+                qplimit: '50',
             });
             const response = await this.client.get(this.url + '?' + params.toString());
             const result = response.data.query.querypage.results.map(_ => _.title);

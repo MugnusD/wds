@@ -1,19 +1,20 @@
 import {characterBaseInfoArray} from "../characterBaseInfo";
+import {generateCharacterStoryText} from "./generateCharacterStoryWt";
 
 // 角色属性
 const attribute2wiki = {
     Cute: 1, Cool: 2, Colorful: 3, Cheerful: 4,
-}
+};
 
 // 光
 const type2Wiki = {
     Support: "支援系", Amplification: "增幅系", Special: "特殊系", Control: "支配系",
-}
+};
 
 // 颜色
 const type2Color = {
     Support: "绿", Control: "红", Amplification: "黄", Special: "蓝",
-}
+};
 
 interface SenseType {
     type: string,
@@ -61,7 +62,7 @@ function getSenseType(characterDetail: CharacterDetail): SenseType {
         // 如果存在生命获取，则为生命恢复类
         'Life': senseTypesArray.includes('LifeHealing'),
         // 如果不存在分支效果（仅分数）、且不是 いろは 的无效果，或者如果仅存在一个分支效果、且为额外 P 条，则为分数类
-        'Score': (senseTypesArray.length === 0 && characterDetail.sense.type !== 'None')
+        'Score': ((senseTypesArray.length === 0 && characterDetail.sense.type !== 'None') || (senseTypesArray.includes('ScoreGainOnConcentration') || senseTypesArray.includes('ScoreGainOnExpression') || senseTypesArray.includes('ScoreGainOnVocal')))
             || (senseTypesArray.length === 1 && senseTypesArray.includes('PrincipalGaugeGain')),
         // 如果存在 SA Up
         'SAAmplification': senseTypesArray.includes('StarActScoreUp'),
@@ -74,17 +75,19 @@ function getSenseType(characterDetail: CharacterDetail): SenseType {
     let type: string,
         extraType: string;
 
-    for(const [typeName, condition] of Object.entries(typeMap)) {
+    for (const [typeName, condition] of Object.entries(typeMap)) {
         if (condition) {
             type = typeName;
             break;
         }
     }
 
-    if(senseTypesArray.includes('PrincipalGaugeGain')) {
+    if (senseTypesArray.includes('PrincipalGaugeGain')) {
         extraType = 'Principal';
     } else if (senseTypesArray.includes('ScoreUpByHighLife') || senseTypesArray.includes('ScoreUpByLowLife')) {
         extraType = 'LifeScore';
+    } else if (senseTypesArray.includes('ScoreGainOnConcentration') || senseTypesArray.includes('ScoreGainOnExpression') || senseTypesArray.includes('ScoreGainOnVocal')) {
+        extraType = 'ExtraScore';
     } else {
         extraType = 'None';
     }
@@ -95,7 +98,7 @@ function getSenseType(characterDetail: CharacterDetail): SenseType {
 /**
  * 将 Character 转化为 wiki 文本形式
  */
-function generateCharacterWikiText(character: CharacterDetail, onlyTemplate: boolean = false): string {
+async function generateCharacterWikiText(character: CharacterDetail): Promise<string> {
     const fileName = `Card ${character.id} 0.png`;
     const iconFileName = `Icon ${character.id} 0.png`;
     const name = character.name;
@@ -109,8 +112,9 @@ function generateCharacterWikiText(character: CharacterDetail, onlyTemplate: boo
     const iconFileNameAwaken = rarity === '4' ? `|觉醒后图标=Icon ${character.id} 1.png` : '';
 
     const attribute = attribute2wiki[character.attribute];
-    const sense = character.sense.descriptionsChinese.join('<br/>');
+    const sense = character.sense.descriptionsChinese.join('<br />');
     const lightType = type2Wiki[character.sense.type] ?? '无';
+    const lightCount = character.sense.lightCount;
 
     const coolTimeInfo = character.sense.coolTime;
     const coolTimeOrigin = coolTimeInfo.origin;
@@ -121,7 +125,7 @@ function generateCharacterWikiText(character: CharacterDetail, onlyTemplate: boo
             coolTimeOrigin.toString() + '/' + coolTimeBloom.toString();
     // const coolTime = character.sense.coolTime.origin.toString() + "/" + character.sense.coolTime.bloom.toString();
     const condition = saCondition(character);
-    const saDescription = character.starAct.descriptionChinese;
+    const saDescription = character.starAct.descriptionsChinese.join('<br />');
 
     const status = character.status.find(it => it.preset.level === 1);
     const vocal = status.status.vocal;
@@ -137,25 +141,25 @@ function generateCharacterWikiText(character: CharacterDetail, onlyTemplate: boo
 
     const [phase1, phase2, phase3, phase4, _phase5] = character.bloomBonuses
         .map(it => {
-            return it.descriptionsChinese.join("<br/>");
-        })
+            return it.descriptionsChinese.join("<br />");
+        });
     let film = '';
     switch (rarity) {
         case '1':
-            film = '<br/>摄影胶卷【月】';
+            film = '<br />摄影胶卷【月】';
             break;
         case '2':
-            film = '<br/>摄影胶卷【风】';
+            film = '<br />摄影胶卷【风】';
             break;
         case '3':
-            film = '<br/>摄影胶卷【花】';
+            film = '<br />摄影胶卷【花】';
             break;
         case '4':
-            film = `<br/>SP摄影胶卷【${charaName}】`;
+            film = `<br />SP摄影胶卷【${charaName}】`;
             break;
     }
     const phase5 = _phase5 + film;
-    // const phase5 = _phase5 + (rarity === '4' ? `<br/>SP摄影胶卷【${charaName}】` : '');
+    // const phase5 = _phase5 + (rarity === '4' ? `<br />SP摄影胶卷【${charaName}】` : '');
     const event = character.event;
     let displayTime: string = new Date(character.displayStartAt).toLocaleDateString('zh-CN');
     if (displayTime === '2022/12/31') {
@@ -178,6 +182,7 @@ ${iconFileNameAwaken}
 |技能类型=${type}
 |追加技能类型=${extraType}
 |光=${lightType}
+|光数=${lightCount}
 |CT=${coolTime}
 |Star Act=${saDescription}
 ${condition}
@@ -196,21 +201,22 @@ ${condition}
 |五花效果=${phase5}
 |隶属活动=${event}
 |登场时间=${displayTime}
-}}`
+}}`;
 
-    if (onlyTemplate) {
-        return wikiText;
-    } else {
-        // 如果是 1 星卡，特殊处理
-        const displayTitle = character.id < 114514 ? `{{DISPLAYTITLE:${character.name}}}\n` : '';
-        return displayTitle + wikiText + `
+    // Story
+    const story = await generateCharacterStoryText(character);
+
+    // 如果是 1 星卡，特殊处理
+    const displayTitle = character.id < 114514 ? `{{DISPLAYTITLE:${character.name}}}\n` : '';
+    return displayTitle + wikiText + `
 ==卡面信息==
 ===卡面相关===
 ===卡面简评===
 ===卡面故事===
+${story}
 {{角色索引}}
 [[分类:卡面]]`;
-    }
+
 }
 
 export {generateCharacterWikiText};
