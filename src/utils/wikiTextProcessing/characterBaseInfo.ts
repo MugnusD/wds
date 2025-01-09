@@ -153,6 +153,48 @@ const characterBaseInfoArray: CharacterBaseInfoType[] = [
         firstName: "叶羽",
         chineseName: "本巢叶羽",
         styledName: '<span style="color: #FF92B1;font-weight: bold;text-shadow: 1px 1px 0 #888">{name}</span>'
+    },
+    {
+        id: 901,
+        name: "高海千歌",
+        firstName: "千歌",
+        chineseName: "高海千歌",
+        styledName: '<span style="color: #FF92B1;font-weight: bold;text-shadow: 1px 1px 0 #888">{name}</span>',
+    },
+    {
+        id: 902,
+        name: "桜内梨子",
+        firstName: "梨子",
+        chineseName: "樱内梨子",
+        styledName: '<span style="color: #FF92B1;font-weight: bold;text-shadow: 1px 1px 0 #888">{name}</span>',
+    },
+    {
+        id: 901,
+        name: "高海千歌",
+        firstName: "千歌",
+        chineseName: "高海千歌",
+        styledName: '<span style="color: #FF92B1;font-weight: bold;text-shadow: 1px 1px 0 #888">{name}</span>',
+    },
+    {
+        id: 904,
+        name: "黒澤ダイヤ",
+        firstName: "ダイヤ",
+        chineseName: "黑泽黛雅",
+        styledName: '<span style="color: #FF92B1;font-weight: bold;text-shadow: 1px 1px 0 #888">{name}</span>',
+    },
+    {
+        id: 906,
+        name: "津島善子",
+        firstName: "善子",
+        chineseName: "津島善子",
+        styledName: '<span style="color: #FF92B1;font-weight: bold;text-shadow: 1px 1px 0 #888">{name}</span>',
+    },
+    {
+        id: 901,
+        name: "黒澤ルビィ",
+        firstName: "ルビィ",
+        chineseName: "黑泽露比",
+        styledName: '<span style="color: #FF92B1;font-weight: bold;text-shadow: 1px 1px 0 #888">{name}</span>',
     }
 ];
 

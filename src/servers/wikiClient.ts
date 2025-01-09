@@ -20,7 +20,7 @@ export default class WikiClient {
 
     // tokenPromise 是一个期约，用于获取 CSRFToken，任何方法都应该是异步的，使用 await 来解包这个 token。
 
-    constructor(sessData, url = 'https://wiki.biligame.com/worlddaistar/api.php') {
+    constructor(sessData: string, url = 'https://wiki.biligame.com/worlddaistar/api.php') {
         this.client = cf();
         this.sessData = sessData;
         this.url = url;
